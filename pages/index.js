@@ -404,7 +404,7 @@ export default function Home() {
         Mes accompagnements
       </h2>
       <div className="pt-20 pb-20 grid grid-flow-col gap-16 justify-center">
-        <div className="max-w-sm rounded overflow-hidden shadow-lg">
+        <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
           <div className="w-full mx-auto flex justify-center">
             <img
               className="w-32 h-32"
@@ -412,7 +412,7 @@ export default function Home() {
               alt="Sunset in the mountains"
             />
           </div>
-          <div className="px-6 py-4 flex flex-col justify-center">
+          <div className="px-8 py-6 flex flex-col justify-center">
             <div className="font-bold text-xl mb-2 flex justify-center">
               Mes services périnat&apos;
             </div>
@@ -434,7 +434,7 @@ export default function Home() {
             </span>
           </div> */}
         </div>
-        <div className="max-w-sm rounded overflow-hidden shadow-lg">
+        <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
           <div className="w-full mx-auto flex justify-center">
             <img
               className="w-32 h-32"
@@ -442,7 +442,7 @@ export default function Home() {
               alt="Sunset in the mountains"
             />
           </div>
-          <div className="px-6 py-4 flex flex-col justify-center">
+          <div className="px-8 py-6 flex flex-col justify-center">
             <div className="font-bold text-xl mb-2 flex justify-center">
               Mes services Doula
             </div>
@@ -464,7 +464,7 @@ export default function Home() {
             </span>
           </div> */}
         </div>
-        <div className="max-w-sm rounded overflow-hidden shadow-lg">
+        <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
           <div className="w-full mx-auto flex justify-center">
             <img
               className="w-32 h-32"
@@ -472,7 +472,7 @@ export default function Home() {
               alt="Sunset in the mountains"
             />
           </div>
-          <div className="px-6 py-4 flex flex-col justify-center">
+          <div className="px-8 py-6 flex flex-col justify-center">
             <div className="font-bold text-xl mb-2 flex justify-center">
               Service Ohmamacare
             </div>
@@ -496,7 +496,7 @@ export default function Home() {
         </div>
       </div>
 
-      <h3 className="mt-24 text-4xl text-center font font-extrabold tracking-tight text-gray-900">
+      <h3 className="mt-12 text-4xl text-center font font-extrabold tracking-tight text-gray-900">
         Mon approche
       </h3>
 
