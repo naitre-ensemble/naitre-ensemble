@@ -400,6 +400,8 @@ export default function Home() {
         </div>
       </div>
 
+
+      <h2 className="mt-24 text-4xl text-center font font-extrabold tracking-tight text-gray-900">Mes accompagnements</h2>
       <div className="pt-20 pb-20 grid grid-flow-col gap-16 justify-center">
         <div class="max-w-sm rounded overflow-hidden shadow-lg">
           <div className="w-full mx-auto flex justify-center">
@@ -438,7 +440,7 @@ export default function Home() {
           />
           </div>
           <div class="px-6 py-4 flex flex-col justify-center">
-            <div class="font-bold text-xl mb-2 flex justify-center">Mes services périnat'</div>
+            <div class="font-bold text-xl mb-2 flex justify-center">Mes services Doula</div>
             <p class="text-gray-700 text-justify">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
@@ -466,7 +468,7 @@ export default function Home() {
           />
           </div>
           <div class="px-6 py-4 flex flex-col justify-center">
-            <div class="font-bold text-xl mb-2 flex justify-center">Mes services périnat'</div>
+            <div class="font-bold text-xl mb-2 flex justify-center">Service Ohmamacare</div>
             <p class="text-gray-700 text-justify">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
