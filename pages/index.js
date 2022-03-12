@@ -320,10 +320,10 @@ export default function Home() {
                 Bienvenue chez naitre ensemble
               </h1>
               <p className="mt-4 text-xl text-gray-500">
-                J&apos;accompagne les femmes et les couples qui veulent vivre une
-                grossesse, un accouchement et un post partum entourés d&apos;une
-                personne ressource, qui leur apportera douceur et confiance
-                durant ce moment de vie totalement bouleversant.
+                J&apos;accompagne les femmes et les couples qui veulent vivre
+                une grossesse, un accouchement et un post partum entourés
+                d&apos;une personne ressource, qui leur apportera douceur et
+                confiance durant ce moment de vie totalement bouleversant.
               </p>
             </div>
             <div>
@@ -504,6 +504,18 @@ export default function Home() {
         Texte sur ma philosophie, mes valeurs, mon approche
       </p>
 
+      <div className="flex justify-center">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/mDBbDCvlL8E"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
       <h4 className="mt-24 text-4xl text-center font font-extrabold tracking-tight text-gray-900">
         Et si on apprenait à se connaitre ?
       </h4>
@@ -569,10 +581,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div
-          className="text-center text-gray-700 p-4"
-        >
-          © 2022 Copyright:{' '}
+        <div className="text-center text-gray-700 p-4">
+          © 2022 Copyright:{" "}
           <a className="text-gray-800" href="https://tailwind-elements.com/">
             Naitre ensemble
           </a>
