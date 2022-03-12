@@ -3,14 +3,14 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
+    <div className="relative">
       <Head>
         <title>Naitre ensemble</title>
         <meta name="description" content="Naitre ensemble" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="relative bg-white w-full">
+      <div className="fixed top-0 bg-white w-full z-50">
         <div className="w-full ">
           <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1 pl-4">
