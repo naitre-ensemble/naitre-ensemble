@@ -79,7 +79,8 @@ export default function Navbar() {
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                       >
                         <svg
-                          className="flex-shrink-0 h-6 w-6 text-indigo-600"
+                          style={{color: '#995b37'}}
+                          className="flex-shrink-0 h-6 w-6"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
                           viewBox="0 0 24 24"
@@ -109,7 +110,8 @@ export default function Navbar() {
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                       >
                         <svg
-                          className="flex-shrink-0 h-6 w-6 text-indigo-600"
+                          style={{color: '#995b37'}}
+                          className="flex-shrink-0 h-6 w-6"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
                           viewBox="0 0 24 24"
@@ -139,7 +141,8 @@ export default function Navbar() {
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                       >
                         <svg
-                          className="flex-shrink-0 h-6 w-6 text-indigo-600"
+                          style={{color: '#995b37'}}
+                          className="flex-shrink-0 h-6 w-6"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
                           viewBox="0 0 24 24"
@@ -170,7 +173,8 @@ export default function Navbar() {
                           className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
                         >
                           <svg
-                            className="flex-shrink-0 h-6 w-6 text-gray-400"
+                            style={{color: '#995b37'}}
+                            className="flex-shrink-0 h-6 w-6"
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"
                             viewBox="0 0 24 24"
@@ -226,7 +230,8 @@ export default function Navbar() {
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                       >
                         <svg
-                          className="flex-shrink-0 h-6 w-6 text-indigo-600"
+                          style={{color: '#995b37'}}
+                          className="flex-shrink-0 h-6 w-6"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
                           viewBox="0 0 24 24"
@@ -256,7 +261,8 @@ export default function Navbar() {
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                       >
                         <svg
-                          className="flex-shrink-0 h-6 w-6 text-indigo-600"
+                          style={{color: '#995b37'}}
+                          className="flex-shrink-0 h-6 w-6"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
                           viewBox="0 0 24 24"
