@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import React, { useState } from "react";
+import Link from 'next/link';
 
 export default function Navbar() {
   const [menuOneIsOpen, setMenuOneIsOpen] = useState(false);
@@ -11,14 +12,14 @@ export default function Navbar() {
       <div className="w-full ">
         <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1 pl-4">
-            <a href="/">
+            <Link href="/">
               <span className="sr-only">Naitre ensemble</span>
               <img
                 className="h-12 w-auto"
                 src="/img/logo-text.png"
                 alt="Naitre ensemble"
               />
-            </a>
+            </Link>
           </div>
           <div className="-mr-2 -my-2 md:hidden">
             <button
@@ -301,10 +302,10 @@ export default function Navbar() {
               Bon cadeau{" "}
             </a>
 
-            <a href="/contact" className="text-base font-medium text-white">
+            <Link href="/contact" className="text-base font-medium text-white">
               {" "}
               Contact{" "}
-            </a>
+            </Link>
           </nav>
           <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0"></div>
         </div>
