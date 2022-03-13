@@ -12,7 +12,7 @@ export default function Navbar() {
     <div className="fixed top-0 w-full z-50" style={{ background: "#995b37" }}>
       <div className="w-full">
         {displayMobileMenu ? (
-          <div className="absolute z-50 bg-white w-full h-screen">
+          <div className="absolute top-0 z-50 bg-white w-full h-screen">
             <div
               style={{ color: "#906c61" }}
               onClick={() => setDisplayMobileMenu(false)}
