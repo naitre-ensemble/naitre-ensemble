@@ -339,8 +339,7 @@ export default function Home() {
         </div>
 
         <div className="text-center text-white p-4">
-          © 2022 Copyright:{" "}
-            Naitre ensemble
+          © Naitre ensemble
         </div>
       </footer>
     </div>
