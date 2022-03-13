@@ -130,7 +130,7 @@ export default function Home() {
         Mes accompagnements
       </h2>
       <div className="pt-20 pb-20 grid lg:grid-flow-col gap-16 justify-center">
-        <div className="max-w-sm rounded overflow-hidden shadow-lg p-6 cursor-pointer">
+        <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
           <div className="w-full mx-auto flex justify-center">
             <img
               className="w-full h-[225px] rounded-lg"
@@ -163,8 +163,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
-
-          <div className="max-w-sm rounded overflow-hidden shadow-lg p-6 cursor-pointer">
+          <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
             <div className="w-full mx-auto flex justify-center">
               <img
                 className="w-full h-[225px] rounded-lg"
@@ -197,7 +196,7 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="max-w-sm rounded overflow-hidden shadow-lg p-6 cursor-pointer">
+          <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
             <div className="w-full mx-auto flex justify-center">
               <img
                 className="w-full h-[225px] rounded-lg"
