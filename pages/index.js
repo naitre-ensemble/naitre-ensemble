@@ -33,7 +33,7 @@ export default function Home() {
                 />
               </div>
               <div className="lg:hidden text-center flex justify-center">
-              <img
+                <img
                   className="h-auto w-[250px]"
                   src="/img/logo.png"
                   alt="Naitre ensemble"
@@ -130,28 +130,29 @@ export default function Home() {
         Mes accompagnements
       </h2>
       <div className="pt-20 pb-20 grid lg:grid-flow-col gap-16 justify-center">
-        <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
-          <div className="w-full mx-auto flex justify-center">
-            <img
-              className="w-full h-62 rounded-lg"
-              src="/img/12.jpeg"
-              alt="Sunset in the mountains"
-            />
-          </div>
-          <div className="px-8 py-6 flex flex-col justify-center">
-            <div
-              style={{ color: "#906c61" }}
-              className="font-bold text-xl mb-2 flex justify-center"
-            >
-              Mes services périnat&apos;
+        <Link href="/services-perinat">
+          <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
+            <div className="w-full mx-auto flex justify-center">
+              <img
+                className="w-full h-62 rounded-lg"
+                src="/img/12.jpeg"
+                alt="Sunset in the mountains"
+              />
             </div>
-            <p style={{ color: "#aa8073" }} className="text-justify pt-6">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatibus quia, nulla! Maiores et perferendis eaque,
-              exercitationem praesentium nihil.
-            </p>
-          </div>
-          {/* <div className="px-6 pt-4 pb-2">
+            <div className="px-8 py-6 flex flex-col justify-center">
+              <div
+                style={{ color: "#906c61" }}
+                className="font-bold text-xl mb-2 flex justify-center"
+              >
+                Mes services périnat&apos;
+              </div>
+              <p style={{ color: "#aa8073" }} className="text-justify pt-6">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatibus quia, nulla! Maiores et perferendis eaque,
+                exercitationem praesentium nihil.
+              </p>
+            </div>
+            {/* <div className="px-6 pt-4 pb-2">
             <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
               #photography
             </span>
@@ -162,29 +163,31 @@ export default function Home() {
               #winter
             </span>
           </div> */}
-        </div>
-        <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
-          <div className="w-full mx-auto flex justify-center">
-            <img
-              className="w-full h-62 rounded-lg"
-              src="/img/13.jpeg"
-              alt="Sunset in the mountains"
-            />
           </div>
-          <div className="px-8 py-6 flex flex-col justify-center">
-            <div
-              style={{ color: "#906c61" }}
-              className="font-bold text-xl mb-2 flex justify-center"
-            >
-              Mes services Doula
+        </Link>
+        <Link href="/services-doula">
+          <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
+            <div className="w-full mx-auto flex justify-center">
+              <img
+                className="w-full h-62 rounded-lg"
+                src="/img/13.jpeg"
+                alt="Sunset in the mountains"
+              />
             </div>
-            <p style={{ color: "#aa8073" }} className="text-justify pt-6">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatibus quia, nulla! Maiores et perferendis eaque,
-              exercitationem praesentium nihil.
-            </p>
-          </div>
-          {/* <div className="px-6 pt-4 pb-2">
+            <div className="px-8 py-6 flex flex-col justify-center">
+              <div
+                style={{ color: "#906c61" }}
+                className="font-bold text-xl mb-2 flex justify-center"
+              >
+                Mes services Doula
+              </div>
+              <p style={{ color: "#aa8073" }} className="text-justify pt-6">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatibus quia, nulla! Maiores et perferendis eaque,
+                exercitationem praesentium nihil.
+              </p>
+            </div>
+            {/* <div className="px-6 pt-4 pb-2">
             <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
               #photography
             </span>
@@ -195,29 +198,31 @@ export default function Home() {
               #winter
             </span>
           </div> */}
-        </div>
-        <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
-          <div className="w-full mx-auto flex justify-center">
-            <img
-              className="w-full h-62 rounded-lg"
-              src="/img/14.jpeg"
-              alt="Sunset in the mountains"
-            />
           </div>
-          <div className="px-8 py-6 flex flex-col justify-center">
-            <div
-              style={{ color: "#906c61" }}
-              className="font-bold text-xl mb-2 flex justify-center"
-            >
-              Service Ohmamacare
+        </Link>
+        <Link href="/service-ohmamacare">
+          <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
+            <div className="w-full mx-auto flex justify-center">
+              <img
+                className="w-full h-62 rounded-lg"
+                src="/img/14.jpeg"
+                alt="Sunset in the mountains"
+              />
             </div>
-            <p style={{ color: "#aa8073" }} className="text-justify pt-6">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatibus quia, nulla! Maiores et perferendis eaque,
-              exercitationem praesentium nihil.
-            </p>
-          </div>
-          {/* <div className="px-6 pt-4 pb-2">
+            <div className="px-8 py-6 flex flex-col justify-center">
+              <div
+                style={{ color: "#906c61" }}
+                className="font-bold text-xl mb-2 flex justify-center"
+              >
+                Service Ohmamacare
+              </div>
+              <p style={{ color: "#aa8073" }} className="text-justify pt-6">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatibus quia, nulla! Maiores et perferendis eaque,
+                exercitationem praesentium nihil.
+              </p>
+            </div>
+            {/* <div className="px-6 pt-4 pb-2">
             <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
               #photography
             </span>
@@ -228,7 +233,8 @@ export default function Home() {
               #winter
             </span>
           </div> */}
-        </div>
+          </div>
+        </Link>
       </div>
 
       <h3
