@@ -316,7 +316,7 @@ export default function Home() {
       </div>
 
       <div className="relative bg-white overflow-hidden">
-        <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
+        <div className="pt-28 pb-80 lg:pt-40 lg:pb-48">
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
             <div className="sm:max-w-lg">
               <h1 className="text-4xl font font-extrabold tracking-tight text-gray-900 sm:text-6xl">
@@ -406,7 +406,7 @@ export default function Home() {
       <h2 className="mt-24 text-4xl text-center font font-extrabold tracking-tight text-gray-900">
         Mes accompagnements
       </h2>
-      <div className="pt-20 pb-20 grid grid-flow-col gap-16 justify-center">
+      <div className="pt-20 pb-20 grid lg:grid-flow-col gap-16 justify-center">
         <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
           <div className="w-full mx-auto flex justify-center">
             <img
@@ -509,7 +509,7 @@ export default function Home() {
 
       <div className="flex justify-center">
         <iframe
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/mDBbDCvlL8E"
           title="YouTube video player"
