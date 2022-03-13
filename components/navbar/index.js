@@ -11,9 +11,6 @@ export default function Navbar() {
   return (
     <div className="fixed top-0 w-full z-50" style={{ background: "#995b37" }}>
       <div className="w-full">
-      {displayMobileMenu ? (
-        <p>toto</p>
-      ) : null }
         {displayMobileMenu ? (
           <div className="absolute top-0 z-50 bg-white w-full h-screen">
             <div
@@ -221,7 +218,6 @@ export default function Navbar() {
               type="button"
               className="rounded-md mr-6 p-2 inline-flex items-center justify-center text-white focus:outline-none"
               onClick={() => setDisplayMobileMenu(!displayMobileMenu)}
-              onTouchStart={() => setDisplayMobileMenu(!displayMobileMenu)}
             >
               <span className="sr-only">Open menu</span>
               <svg
