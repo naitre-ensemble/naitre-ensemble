@@ -122,7 +122,7 @@ export default function Home() {
         <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
           <div className="w-full mx-auto flex justify-center">
             <img
-              className="w-auto h-32 rounded-lg"
+              className="w-full h-62 rounded-lg"
               src="/img/12.jpeg"
               alt="Sunset in the mountains"
             />
@@ -155,7 +155,7 @@ export default function Home() {
         <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
           <div className="w-full mx-auto flex justify-center">
             <img
-              className="w-auto h-32 rounded-lg"
+              className="w-full h-62 rounded-lg"
               src="/img/13.jpeg"
               alt="Sunset in the mountains"
             />
@@ -188,7 +188,7 @@ export default function Home() {
         <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
           <div className="w-full mx-auto flex justify-center">
             <img
-              className="w-auto h-32 rounded-lg"
+              className="w-full h-62 rounded-lg"
               src="/img/14.jpeg"
               alt="Sunset in the mountains"
             />
@@ -235,7 +235,7 @@ export default function Home() {
       </p>
 
       <div className="flex justify-center pb-20">
-        <iframe
+        {/* <iframe
           width="400"
           height="315"
           src="https://www.youtube.com/embed/mDBbDCvlL8E"
@@ -243,7 +243,7 @@ export default function Home() {
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
-        ></iframe>
+        ></iframe> */}
       </div>
 
       <footer
