@@ -1,9 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 export default function Home() {
-
   const [menuOneIsOpen, setMenuOneIsOpen] = useState(false);
   const [menuTwoIsOpen, setMenuTwoIsOpen] = useState(false);
 
@@ -15,13 +14,20 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="fixed top-0 w-full z-50" style={{background: '#cab7a6'}}>
+      <div
+        className="fixed top-0 w-full z-50"
+        style={{ background: "#cab7a6" }}
+      >
         <div className="w-full ">
           <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1 pl-4">
               <a href="/">
                 <span className="sr-only">Naitre ensemble</span>
-                <img className="h-8 w-auto" src="/img/logo-text.png" alt="Naitre ensemble" />
+                <img
+                  className="h-8 w-auto"
+                  src="/img/logo-text.png"
+                  alt="Naitre ensemble"
+                />
               </a>
             </div>
             <div className="-mr-2 -my-2 md:hidden">
@@ -74,107 +80,16 @@ export default function Home() {
                     />
                   </svg>
                 </button>
-                { menuOneIsOpen ? <div className="absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
-                  <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                    <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                      <a
-                        href="#"
-                        className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
-                      >
-                        <svg
-                          className="flex-shrink-0 h-6 w-6 text-indigo-600"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          aria-hidden="true"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
-                          />
-                        </svg>
-                        <div className="ml-4">
-                          <p className="text-base font-medium text-gray-900">
-                            Mes services périnat
-                          </p>
-                          <p className="mt-1 text-sm text-gray-500">
-                            Get a better understanding of where your traffic is
-                            coming from.
-                          </p>
-                        </div>
-                      </a>
-
-                      <a
-                        href="#"
-                        className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
-                      >
-                        <svg
-                          className="flex-shrink-0 h-6 w-6 text-indigo-600"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          aria-hidden="true"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
-                          />
-                        </svg>
-                        <div className="ml-4">
-                          <p className="text-base font-medium text-gray-900">
-                            Mes services Doula
-                          </p>
-                          <p className="mt-1 text-sm text-gray-500">
-                            Speak directly to your customers in a more
-                            meaningful way.
-                          </p>
-                        </div>
-                      </a>
-
-                      <a
-                        href="#"
-                        className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
-                      >
-                        <svg
-                          className="flex-shrink-0 h-6 w-6 text-indigo-600"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          aria-hidden="true"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
-                          />
-                        </svg>
-                        <div className="ml-4">
-                          <p className="text-base font-medium text-gray-900">
-                            Service Ohmamacare
-                          </p>
-                          <p className="mt-1 text-sm text-gray-500">
-                            Your customers&#039; data will be safe and secure.
-                          </p>
-                        </div>
-                      </a>
-                    </div>
-                    <div className="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
-
-                      <div className="flow-root">
+                {menuOneIsOpen ? (
+                  <div className="absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
+                    <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
+                      <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                         <a
                           href="#"
-                          className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
+                          className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                         >
                           <svg
-                            className="flex-shrink-0 h-6 w-6 text-gray-400"
+                            className="flex-shrink-0 h-6 w-6 text-indigo-600"
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"
                             viewBox="0 0 24 24"
@@ -185,28 +100,120 @@ export default function Home() {
                               strokeLinecap="round"
                               strokeLinejoin="round"
                               strokeWidth="2"
-                              d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                              d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
                             />
                           </svg>
-                          <span className="ml-3">Contact</span>
+                          <div className="ml-4">
+                            <p className="text-base font-medium text-gray-900">
+                              Mes services périnat
+                            </p>
+                            <p className="mt-1 text-sm text-gray-500">
+                              Get a better understanding of where your traffic
+                              is coming from.
+                            </p>
+                          </div>
                         </a>
+
+                        <a
+                          href="#"
+                          className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
+                        >
+                          <svg
+                            className="flex-shrink-0 h-6 w-6 text-indigo-600"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="2"
+                              d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
+                            />
+                          </svg>
+                          <div className="ml-4">
+                            <p className="text-base font-medium text-gray-900">
+                              Mes services Doula
+                            </p>
+                            <p className="mt-1 text-sm text-gray-500">
+                              Speak directly to your customers in a more
+                              meaningful way.
+                            </p>
+                          </div>
+                        </a>
+
+                        <a
+                          href="#"
+                          className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
+                        >
+                          <svg
+                            className="flex-shrink-0 h-6 w-6 text-indigo-600"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="2"
+                              d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                            />
+                          </svg>
+                          <div className="ml-4">
+                            <p className="text-base font-medium text-gray-900">
+                              Service Ohmamacare
+                            </p>
+                            <p className="mt-1 text-sm text-gray-500">
+                              Your customers&#039; data will be safe and secure.
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                      <div className="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
+                        <div className="flow-root">
+                          <a
+                            href="#"
+                            className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
+                          >
+                            <svg
+                              className="flex-shrink-0 h-6 w-6 text-gray-400"
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                              aria-hidden="true"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth="2"
+                                d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                              />
+                            </svg>
+                            <span className="ml-3">Contact</span>
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div> : null }
+                ) : null}
               </div>
               <div className="relative">
-              <button
+                <button
                   type="button"
                   className="text-white group rounded-md inline-flex items-center text-base font-medium focus:outline-none select-none"
                   aria-expanded="false"
                   onClick={() => {
                     setMenuOneIsOpen(false);
-                    setMenuTwoIsOpen(!menuTwoIsOpen)
+                    setMenuTwoIsOpen(!menuTwoIsOpen);
                   }}
                 >
                   <span>Pour les structures</span>
-                <svg
+                  <svg
                     className="text-white ml-2 h-5 w-5"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -219,93 +226,86 @@ export default function Home() {
                       clipRule="evenodd"
                     />
                   </svg>
-              </button>
-              { menuTwoIsOpen ? <div className="absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
-                  <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                    <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                      <a
-                        href="#"
-                        className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
-                      >
-                        <svg
-                          className="flex-shrink-0 h-6 w-6 text-indigo-600"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          aria-hidden="true"
+                </button>
+                {menuTwoIsOpen ? (
+                  <div className="absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
+                    <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
+                      <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+                        <a
+                          href="#"
+                          className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                         >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
-                          />
-                        </svg>
-                        <div className="ml-4">
-                          <p className="text-base font-medium text-gray-900">
-                            Ateliers parents enfants
-                          </p>
-                          <p className="mt-1 text-sm text-gray-500">
-                            Get a better understanding of where your traffic is
-                            coming from.
-                          </p>
-                        </div>
-                      </a>
+                          <svg
+                            className="flex-shrink-0 h-6 w-6 text-indigo-600"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="2"
+                              d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
+                            />
+                          </svg>
+                          <div className="ml-4">
+                            <p className="text-base font-medium text-gray-900">
+                              Ateliers parents enfants
+                            </p>
+                            <p className="mt-1 text-sm text-gray-500">
+                              Get a better understanding of where your traffic
+                              is coming from.
+                            </p>
+                          </div>
+                        </a>
 
-                      <a
-                        href="#"
-                        className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
-                      >
-                        <svg
-                          className="flex-shrink-0 h-6 w-6 text-indigo-600"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          aria-hidden="true"
+                        <a
+                          href="#"
+                          className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                         >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
-                          />
-                        </svg>
-                        <div className="ml-4">
-                          <p className="text-base font-medium text-gray-900">
-                            Sensibilitations pro
-                          </p>
-                          <p className="mt-1 text-sm text-gray-500">
-                            Speak directly to your customers in a more
-                            meaningful way.
-                          </p>
-                        </div>
-                      </a>
+                          <svg
+                            className="flex-shrink-0 h-6 w-6 text-indigo-600"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="2"
+                              d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
+                            />
+                          </svg>
+                          <div className="ml-4">
+                            <p className="text-base font-medium text-gray-900">
+                              Sensibilitations pro
+                            </p>
+                            <p className="mt-1 text-sm text-gray-500">
+                              Speak directly to your customers in a more
+                              meaningful way.
+                            </p>
+                          </div>
+                        </a>
+                      </div>
                     </div>
                   </div>
-                </div> : null }
+                ) : null}
               </div>
-              <a
-                href="#"
-                className="text-base font-medium text-white"
-              >
+              <a href="#" className="text-base font-medium text-white">
                 {" "}
                 Votre parole{" "}
               </a>
 
-              <a
-                href="#"
-                className="text-base font-medium text-white"
-              >
+              <a href="#" className="text-base font-medium text-white">
                 {" "}
                 Bon cadeau{" "}
               </a>
 
-              <a
-                href="#"
-                className="text-base font-medium text-white"
-              >
+              <a href="#" className="text-base font-medium text-white">
                 {" "}
                 Contact{" "}
               </a>
@@ -319,8 +319,8 @@ export default function Home() {
         <div className="pt-28 pb-80 lg:pt-40 lg:pb-48">
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
             <div className="sm:max-w-lg">
-              <h1 className="text-4xl font font-extrabold tracking-tight text-gray-900 sm:text-6xl">
-                Bienvenue chez naitre ensemble
+              <h1 className="text-4xl font font-extrabold tracking-tight sm:text-6xl">
+                Bienvenue chez Naître Ensemble
               </h1>
               <p className="mt-4 text-xl text-gray-500">
                 J&apos;accompagne les femmes et les couples qui veulent vivre
@@ -527,10 +527,17 @@ export default function Home() {
         Retrouvez moi sur Instagram et Facebook pour suivre mon quotidien
       </p>
 
-      <footer style={{background: '#cab7a6'}} className="text-center text-white border-t border-t-gray-200">
+      <footer
+        style={{ background: "#cab7a6" }}
+        className="text-center text-white border-t border-t-gray-200"
+      >
         <div className="container mx-auto pt-9">
           <div className="flex w-full justify-center mb-9">
-            <a href="https://www.facebook.com/naitreensemble.fr" target="_blank" className="mr-9 text-white">
+            <a
+              href="https://www.facebook.com/naitreensemble.fr"
+              target="_blank"
+              className="mr-9 text-white"
+            >
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -547,7 +554,11 @@ export default function Home() {
                 ></path>
               </svg>
             </a>
-            <a href="https://www.instagram.com/naitreensemble/?hl=fr" target="_blank" className="mr-9 text-white">
+            <a
+              href="https://www.instagram.com/naitreensemble/?hl=fr"
+              target="_blank"
+              className="mr-9 text-white"
+            >
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -564,7 +575,11 @@ export default function Home() {
                 ></path>
               </svg>
             </a>
-            <a href="https://www.linkedin.com/in/leslie-r-753257126/" target="_blank" className="mr-9 text-white">
+            <a
+              href="https://www.linkedin.com/in/leslie-r-753257126/"
+              target="_blank"
+              className="mr-9 text-white"
+            >
               <svg
                 aria-hidden="true"
                 focusable="false"
