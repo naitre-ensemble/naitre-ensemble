@@ -13,7 +13,7 @@ export default function Contact() {
       </Head>
       <Navbar />
 
-      <form className="w-full max-w-lg mx-auto lg:pt-36 p-4 lg:p-0">
+      <form className="w-full max-w-lg mx-auto pt-36 lg:pt-36 p-4 lg:p-0">
         <div className="flex flex-wrap -mx-3 mb-6">
           <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
             <label
