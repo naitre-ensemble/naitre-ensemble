@@ -217,8 +217,8 @@ export default function Navbar() {
             <button
               type="button"
               className="rounded-md mr-6 p-2 inline-flex items-center justify-center text-white focus:outline-none"
-              aria-expanded="false"
               onClick={() => setDisplayMobileMenu(!displayMobileMenu)}
+              onTouchStart={() => setDisplayMobileMenu(!displayMobileMenu)}
             >
               <span className="sr-only">Open menu</span>
               <svg
