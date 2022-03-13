@@ -530,7 +530,7 @@ export default function Home() {
       <footer className="text-center text-white border-t border-t-gray-200">
         <div className="container mx-auto pt-9">
           <div className="flex w-full justify-center mb-9">
-            <a href="#!" className="mr-9 text-gray-800">
+            <a href="https://www.facebook.com/leslie.richard.58" className="mr-9 text-gray-800">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -547,7 +547,7 @@ export default function Home() {
                 ></path>
               </svg>
             </a>
-            <a href="#!" className="mr-9 text-gray-800">
+            <a href="https://www.instagram.com/leslie_ri/?hl=fr" className="mr-9 text-gray-800">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -564,7 +564,7 @@ export default function Home() {
                 ></path>
               </svg>
             </a>
-            <a href="#!" className="mr-9 text-gray-800">
+            <a href="https://www.linkedin.com/in/leslie-r-753257126/" className="mr-9 text-gray-800">
               <svg
                 aria-hidden="true"
                 focusable="false"
