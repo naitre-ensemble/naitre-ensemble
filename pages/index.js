@@ -32,6 +32,13 @@ export default function Home() {
                   alt="Naitre ensemble"
                 />
               </div>
+              <div className="lg:hidden text-center flex justify-center">
+              <img
+                  className="h-auto w-[250px]"
+                  src="/img/logo.png"
+                  alt="Naitre ensemble"
+                />
+              </div>
               <p
                 style={{ color: "#aa8073" }}
                 className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0"
