@@ -15,30 +15,30 @@ export default function Home() {
       <Navbar />
 
       <div className="relative bg-white overflow-hidden">
-        <div className="pt-28 pb-80 lg:pt-40 lg:pb-48">
+        <div className="pt-40 pb-0 lg:pt-40 lg:pb-48">
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
             <div className="sm:max-w-lg">
               <div className="flex">
                 <h1
                   style={{ color: "#906c61" }}
-                  className="text-4xl font font-extrabold tracking-tight sm:text-6xl"
+                  className="pb-4 lg:pb-0 text-center text-4xl font font-extrabold tracking-tight sm:text-6xl lg:text-left"
                 >
                   Bienvenue chez Naître Ensemble
                 </h1>
                 <img
-                  className="h-auto w-[250px]"
+                  className="h-auto w-[250px] hidden lg:block"
                   src="/img/logo.png"
                   alt="Naitre ensemble"
                 />
               </div>
-              <p style={{ color: "#aa8073" }} className="mt-4 text-xl">
+              <p style={{ color: "#aa8073" }} className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0">
                 J&apos;accompagne les femmes et les couples qui veulent vivre
                 une grossesse, un accouchement et un post partum entourés
                 d&apos;une personne ressource, qui leur apportera douceur et
                 confiance durant ce moment de vie totalement bouleversant.
               </p>
             </div>
-            <div>
+            <div className="hidden lg:block">
               <div className="mt-10">
                 <div
                   aria-hidden="true"
