@@ -5,69 +5,68 @@ import Navbar from "../components/navbar";
 import Link from "next/link";
 
 export default function Contact() {
-
   const services = [
     {
-      title: 'Rituel bain sensoriel',
-      background: '/img/12.jpeg',
-      url: '/services-perinat'
+      title: "Rituel bain sensoriel",
+      background: "/img/12.jpeg",
+      url: "/services-perinat",
     },
     {
-      title: 'Rituel bain sensoriel',
-      background: '/img/12.jpeg',
-      url: '/services-perinat'
+      title: "Rituel bain sensoriel",
+      background: "/img/12.jpeg",
+      url: "/services-perinat",
     },
     {
-      title: 'Rituel bain sensoriel',
-      background: '/img/12.jpeg',
-      url: '/services-perinat'
+      title: "Rituel bain sensoriel",
+      background: "/img/12.jpeg",
+      url: "/services-perinat",
     },
     {
-      title: 'Rituel bain sensoriel',
-      background: '/img/12.jpeg',
-      url: '/services-perinat'
+      title: "Rituel bain sensoriel",
+      background: "/img/12.jpeg",
+      url: "/services-perinat",
     },
     {
-      title: 'Rituel bain sensoriel',
-      background: '/img/12.jpeg',
-      url: '/services-perinat'
+      title: "Rituel bain sensoriel",
+      background: "/img/12.jpeg",
+      url: "/services-perinat",
     },
     {
-      title: 'Rituel bain sensoriel',
-      background: '/img/12.jpeg',
-      url: '/services-perinat'
+      title: "Rituel bain sensoriel",
+      background: "/img/12.jpeg",
+      url: "/services-perinat",
     },
     {
-      title: 'Rituel bain sensoriel',
-      background: '/img/12.jpeg',
-      url: '/services-perinat'
+      title: "Rituel bain sensoriel",
+      background: "/img/12.jpeg",
+      url: "/services-perinat",
     },
     {
-      title: 'Rituel bain sensoriel',
-      background: '/img/12.jpeg',
-      url: '/services-perinat'
+      title: "Rituel bain sensoriel",
+      background: "/img/12.jpeg",
+      url: "/services-perinat",
     },
     {
-      title: 'Rituel bain sensoriel',
-      background: '/img/12.jpeg',
-      url: '/services-perinat'
+      title: "Rituel bain sensoriel",
+      background: "/img/12.jpeg",
+      url: "/services-perinat",
     },
     {
-      title: 'Rituel bain sensoriel',
-      background: '/img/12.jpeg',
-      url: '/services-perinat'
+      title: "Rituel bain sensoriel",
+      background: "/img/12.jpeg",
+      url: "/services-perinat",
     },
     {
-      title: 'Rituel bain sensoriel',
-      background: '/img/12.jpeg',
-      url: '/services-perinat'
+      title: "Rituel bain sensoriel",
+      background: "/img/12.jpeg",
+      url: "/services-perinat",
     },
     {
-      title: 'Rituel bain sensoriel',
-      background: '/img/12.jpeg',
-      url: '/services-perinat'
-    } 
-  ]
+      title: "Rituel bain sensoriel",
+      background: "/img/12.jpeg",
+      url: "/services-perinat",
+    },
+  ];
 
   return (
     <div className="relative">
@@ -87,29 +86,29 @@ export default function Contact() {
         </h1>
 
         <div className="pt-20 pb-20 grid lg:grid-cols-6 gap-2 justify-center">
-        {
-          services.map((service) => {
-            return         <Link href={service.url}>
-            <div className="max-w-sm rounded overflow-hidden shadow-lg p-3 cursor-pointer">
-              <div className="w-full mx-auto flex justify-center">
-                <img
-                  className="w-full h-auto rounded-lg"
-                  src={service.background}
-                />
-              </div>
-              <div className="px-8 py-6 flex flex-col justify-center">
-                <div
-                  style={{ color: "#906c61" }}
-                  className="font-bold text-xl flex justify-center"
-                >
-                  {service.title}
+          {services.map((service) => {
+            return (
+              <Link href={service.url}>
+                <div className="max-w-sm rounded overflow-hidden shadow-lg p-3 cursor-pointer">
+                  <div className="w-full mx-auto flex justify-center">
+                    <img
+                      className="w-full h-auto rounded-lg"
+                      src={service.background}
+                    />
+                  </div>
+                  <div className="px-8 py-6 flex flex-col justify-center">
+                    <div
+                      style={{ color: "#906c61" }}
+                      className="font-bold text-xl flex justify-center"
+                    >
+                      {service.title}
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-          </Link>
-          })
-        }
-      </div>
+              </Link>
+            );
+          })}
+        </div>
       </div>
     </div>
   );

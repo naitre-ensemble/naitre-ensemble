@@ -134,7 +134,7 @@ export default function Home() {
           <div className="max-w-sm rounded overflow-hidden shadow-lg p-6 cursor-pointer">
             <div className="w-full mx-auto flex justify-center">
               <img
-                className="w-full h-62 rounded-lg"
+                className="w-full h-[225px] rounded-lg"
                 src="/img/12.jpeg"
                 alt="Sunset in the mountains"
               />
@@ -152,24 +152,22 @@ export default function Home() {
                 exercitationem praesentium nihil.
               </p>
             </div>
-            {/* <div className="px-6 pt-4 pb-2">
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              #photography
-            </span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              #travel
-            </span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              #winter
-            </span>
-          </div> */}
+            <div className="flex justify-center">
+              <button
+                style={{ background: "#995b37" }}
+                className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
+                type="button"
+              >
+                Découvrir les services
+              </button>
+            </div>
           </div>
         </Link>
         <Link href="/services-doula">
           <div className="max-w-sm rounded overflow-hidden shadow-lg p-6 cursor-pointer">
             <div className="w-full mx-auto flex justify-center">
               <img
-                className="w-full h-62 rounded-lg"
+                className="w-full h-[225px] rounded-lg"
                 src="/img/13.jpeg"
                 alt="Sunset in the mountains"
               />
@@ -187,24 +185,22 @@ export default function Home() {
                 exercitationem praesentium nihil.
               </p>
             </div>
-            {/* <div className="px-6 pt-4 pb-2">
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              #photography
-            </span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              #travel
-            </span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              #winter
-            </span>
-          </div> */}
+            <div className="flex justify-center">
+              <button
+                style={{ background: "#995b37" }}
+                className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
+                type="button"
+              >
+                Découvrir les services
+              </button>
+            </div>
           </div>
         </Link>
         <Link href="/services-ohmamacare">
           <div className="max-w-sm rounded overflow-hidden shadow-lg p-6 cursor-pointer">
             <div className="w-full mx-auto flex justify-center">
               <img
-                className="w-full h-62 rounded-lg"
+                className="w-full h-[225px] rounded-lg"
                 src="/img/14.jpeg"
                 alt="Sunset in the mountains"
               />
@@ -222,17 +218,15 @@ export default function Home() {
                 exercitationem praesentium nihil.
               </p>
             </div>
-            {/* <div className="px-6 pt-4 pb-2">
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              #photography
-            </span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              #travel
-            </span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              #winter
-            </span>
-          </div> */}
+            <div className="flex justify-center">
+              <button
+                style={{ background: "#995b37" }}
+                className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
+                type="button"
+              >
+                Découvrir les services
+              </button>
+            </div>
           </div>
         </Link>
       </div>
@@ -338,9 +332,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="text-center text-white p-4">
-          © Naitre ensemble
-        </div>
+        <div className="text-center text-white p-4">© Naitre ensemble</div>
       </footer>
     </div>
   );
