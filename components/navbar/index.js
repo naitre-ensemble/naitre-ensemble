@@ -221,67 +221,65 @@ export default function Navbar() {
                 <div className="absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
                   <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                     <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                      <a
-                        href="#"
-                        className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
-                      >
-                        <svg
-                          style={{ color: "#995b37" }}
-                          className="flex-shrink-0 h-6 w-6"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          aria-hidden="true"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
-                          />
-                        </svg>
-                        <div className="ml-4">
-                          <p className="text-base font-medium text-gray-900">
-                            Ateliers parents enfants
-                          </p>
-                          <p className="mt-1 text-sm text-gray-500">
-                            Get a better understanding of where your traffic is
-                            coming from.
-                          </p>
+                      <Link href="/ateliers-parents-enfants">
+                        <div className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 cursor-pointer">
+                          <svg
+                            style={{ color: "#995b37" }}
+                            className="flex-shrink-0 h-6 w-6"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="2"
+                              d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
+                            />
+                          </svg>
+                          <div className="ml-4">
+                            <p className="text-base font-medium text-gray-900">
+                              Ateliers parents enfants
+                            </p>
+                            <p className="mt-1 text-sm text-gray-500">
+                              Get a better understanding of where your traffic
+                              is coming from.
+                            </p>
+                          </div>
                         </div>
-                      </a>
+                      </Link>
 
-                      <a
-                        href="#"
-                        className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
-                      >
-                        <svg
-                          style={{ color: "#995b37" }}
-                          className="flex-shrink-0 h-6 w-6"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          aria-hidden="true"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
-                          />
-                        </svg>
-                        <div className="ml-4">
-                          <p className="text-base font-medium text-gray-900">
-                            Sensibilitations pro
-                          </p>
-                          <p className="mt-1 text-sm text-gray-500">
-                            Speak directly to your customers in a more
-                            meaningful way.
-                          </p>
+                      <Link href="/sensibilisation-pro">
+                        <div className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 cursor-pointer">
+                          <svg
+                            style={{ color: "#995b37" }}
+                            className="flex-shrink-0 h-6 w-6"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="2"
+                              d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
+                            />
+                          </svg>
+                          <div className="ml-4">
+                            <p className="text-base font-medium text-gray-900">
+                              Sensibilitations pro
+                            </p>
+                            <p className="mt-1 text-sm text-gray-500">
+                              Speak directly to your customers in a more
+                              meaningful way.
+                            </p>
+                          </div>
                         </div>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
