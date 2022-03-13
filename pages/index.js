@@ -130,29 +130,29 @@ export default function Home() {
         Mes accompagnements
       </h2>
       <div className="pt-20 pb-20 grid lg:grid-flow-col gap-16 justify-center">
-        <Link href="/services-perinat">
-          <div className="max-w-sm rounded overflow-hidden shadow-lg p-6 cursor-pointer">
-            <div className="w-full mx-auto flex justify-center">
-              <img
-                className="w-full h-[225px] rounded-lg"
-                src="/img/12.jpeg"
-                alt="Sunset in the mountains"
-              />
+        <div className="max-w-sm rounded overflow-hidden shadow-lg p-6 cursor-pointer">
+          <div className="w-full mx-auto flex justify-center">
+            <img
+              className="w-full h-[225px] rounded-lg"
+              src="/img/12.jpeg"
+              alt="Sunset in the mountains"
+            />
+          </div>
+          <div className="px-8 py-6 flex flex-col justify-center">
+            <div
+              style={{ color: "#906c61" }}
+              className="font-bold text-xl mb-2 flex justify-center"
+            >
+              Mes services périnat&apos;
             </div>
-            <div className="px-8 py-6 flex flex-col justify-center">
-              <div
-                style={{ color: "#906c61" }}
-                className="font-bold text-xl mb-2 flex justify-center"
-              >
-                Mes services périnat&apos;
-              </div>
-              <p style={{ color: "#aa8073" }} className="text-justify pt-6">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.
-              </p>
-            </div>
-            <div className="flex justify-center">
+            <p style={{ color: "#aa8073" }} className="text-justify pt-6">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, nulla! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+          </div>
+          <div className="flex justify-center">
+            <Link href="/services-perinat">
               <button
                 style={{ background: "#995b37" }}
                 className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
@@ -160,10 +160,10 @@ export default function Home() {
               >
                 Découvrir les services
               </button>
-            </div>
+            </Link>
           </div>
-        </Link>
-        <Link href="/services-doula">
+        </div>
+
           <div className="max-w-sm rounded overflow-hidden shadow-lg p-6 cursor-pointer">
             <div className="w-full mx-auto flex justify-center">
               <img
@@ -186,6 +186,7 @@ export default function Home() {
               </p>
             </div>
             <div className="flex justify-center">
+            <Link href="/services-doula">
               <button
                 style={{ background: "#995b37" }}
                 className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
@@ -193,10 +194,9 @@ export default function Home() {
               >
                 Découvrir les services
               </button>
+              </Link>
             </div>
           </div>
-        </Link>
-        <Link href="/services-ohmamacare">
           <div className="max-w-sm rounded overflow-hidden shadow-lg p-6 cursor-pointer">
             <div className="w-full mx-auto flex justify-center">
               <img
@@ -219,6 +219,7 @@ export default function Home() {
               </p>
             </div>
             <div className="flex justify-center">
+            <Link href="/services-ohmamacare">
               <button
                 style={{ background: "#995b37" }}
                 className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
@@ -226,9 +227,9 @@ export default function Home() {
               >
                 Découvrir les services
               </button>
+              </Link>
             </div>
           </div>
-        </Link>
       </div>
 
       <h3
