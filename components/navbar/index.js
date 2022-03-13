@@ -220,7 +220,7 @@ export default function Navbar() {
               onClick={() => {
                 setTimeout(() => {
                   setDisplayMobileMenu(!displayMobileMenu);
-                }, 500);
+                }, 250);
               }}
             >
               <span className="sr-only">Open menu</span>

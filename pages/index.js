@@ -267,7 +267,7 @@ export default function Home() {
         style={{ background: "#995b37" }}
         className="text-center text-white border-t border-t-gray-200"
       >
-        <div className="container mx-auto pt-9">
+        <div className="pt-9">
           <div className="flex w-full justify-center mb-9">
             <a
               href="https://www.facebook.com/naitreensemble.fr"
@@ -340,9 +340,7 @@ export default function Home() {
 
         <div className="text-center text-white p-4">
           © 2022 Copyright:{" "}
-          <a className="text-white" href="https://tailwind-elements.com/">
             Naitre ensemble
-          </a>
         </div>
       </footer>
     </div>
