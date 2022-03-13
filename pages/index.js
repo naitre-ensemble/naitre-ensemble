@@ -15,19 +15,19 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="fixed top-0 bg-white w-full z-50">
+      <div className="fixed top-0 w-full z-50" style={{background: '#cab7a6'}}>
         <div className="w-full ">
           <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1 pl-4">
               <a href="/">
                 <span className="sr-only">Naitre ensemble</span>
-                <img className="h-12 w-auto" src="/img/logo-text.png" alt="" />
+                <img className="h-8 w-auto" src="/img/logo-text.png" alt="Naitre ensemble" />
               </a>
             </div>
             <div className="-mr-2 -my-2 md:hidden">
               <button
                 type="button"
-                className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none"
                 aria-expanded="false"
               >
                 <span className="sr-only">Open menu</span>
@@ -52,7 +52,7 @@ export default function Home() {
               <div className="relative">
                 <button
                   type="button"
-                  className="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none select-none"
+                  className="text-white group rounded-md inline-flex items-center text-base font-medium focus:outline-none select-none"
                   aria-expanded="false"
                   onClick={() => {
                     setMenuOneIsOpen(!menuOneIsOpen);
@@ -61,7 +61,7 @@ export default function Home() {
                 >
                   <span>Pour les familles</span>
                   <svg
-                    className="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500"
+                    className="text-white ml-2 h-5 w-5"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
@@ -198,7 +198,7 @@ export default function Home() {
               <div className="relative">
               <button
                   type="button"
-                  className="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none select-none"
+                  className="text-white group rounded-md inline-flex items-center text-base font-medium focus:outline-none select-none"
                   aria-expanded="false"
                   onClick={() => {
                     setMenuOneIsOpen(false);
@@ -207,7 +207,7 @@ export default function Home() {
                 >
                   <span>Pour les structures</span>
                 <svg
-                    className="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500"
+                    className="text-white ml-2 h-5 w-5"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
@@ -288,7 +288,7 @@ export default function Home() {
               </div>
               <a
                 href="#"
-                className="text-base font-medium text-gray-500 hover:text-gray-900"
+                className="text-base font-medium text-white"
               >
                 {" "}
                 Votre parole{" "}
@@ -296,7 +296,7 @@ export default function Home() {
 
               <a
                 href="#"
-                className="text-base font-medium text-gray-500 hover:text-gray-900"
+                className="text-base font-medium text-white"
               >
                 {" "}
                 Bon cadeau{" "}
@@ -304,7 +304,7 @@ export default function Home() {
 
               <a
                 href="#"
-                className="text-base font-medium text-gray-500 hover:text-gray-900"
+                className="text-base font-medium text-white"
               >
                 {" "}
                 Contact{" "}
@@ -335,42 +335,19 @@ export default function Home() {
                   aria-hidden="true"
                   className="pointer-events-none lg:absolute lg:inset-y-0 lg:max-w-7xl lg:mx-auto lg:w-full"
                 >
-                  <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
+                  <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-[350px] lg:-translate-y-1/2 lg:translate-x-8">
                     <div className="flex items-center space-x-6 lg:space-x-8">
                       <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                         <div className="w-44 h-64 rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100">
                           <img
-                            src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-01.jpg"
+                            src="/img/10.jpeg"
                             alt=""
                             className="w-full h-full object-center object-cover"
                           />
                         </div>
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <img
-                            src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-02.jpg"
-                            alt=""
-                            className="w-full h-full object-center object-cover"
-                          />
-                        </div>
-                      </div>
-                      <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
-                        <div className="w-44 h-64 rounded-lg overflow-hidden">
-                          <img
-                            src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-03.jpg"
-                            alt=""
-                            className="w-full h-full object-center object-cover"
-                          />
-                        </div>
-                        <div className="w-44 h-64 rounded-lg overflow-hidden">
-                          <img
-                            src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-04.jpg"
-                            alt=""
-                            className="w-full h-full object-center object-cover"
-                          />
-                        </div>
-                        <div className="w-44 h-64 rounded-lg overflow-hidden">
-                          <img
-                            src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-05.jpg"
+                            src="/img/09.jpeg"
                             alt=""
                             className="w-full h-full object-center object-cover"
                           />
@@ -379,14 +356,37 @@ export default function Home() {
                       <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <img
-                            src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-06.jpg"
+                            src="/img/04.jpeg"
                             alt=""
                             className="w-full h-full object-center object-cover"
                           />
                         </div>
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <img
-                            src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-07.jpg"
+                            src="/img/11.jpeg"
+                            alt=""
+                            className="w-full h-full object-center object-cover"
+                          />
+                        </div>
+                        <div className="w-44 h-64 rounded-lg overflow-hidden">
+                          <img
+                            src="/img/06.jpeg"
+                            alt=""
+                            className="w-full h-full object-center object-cover"
+                          />
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
+                        <div className="w-44 h-64 rounded-lg overflow-hidden">
+                          <img
+                            src="/img/07.jpeg"
+                            alt=""
+                            className="w-full h-full object-center object-cover"
+                          />
+                        </div>
+                        <div className="w-44 h-64 rounded-lg overflow-hidden">
+                          <img
+                            src="/img/08.jpeg"
                             alt=""
                             className="w-full h-full object-center object-cover"
                           />
