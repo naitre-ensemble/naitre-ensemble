@@ -200,7 +200,7 @@ export default function Home() {
           </div> */}
           </div>
         </Link>
-        <Link href="/service-ohmamacare">
+        <Link href="/services-ohmamacare">
           <div className="max-w-sm rounded overflow-hidden shadow-lg p-6 cursor-pointer">
             <div className="w-full mx-auto flex justify-center">
               <img
