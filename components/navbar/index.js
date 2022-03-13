@@ -11,6 +11,9 @@ export default function Navbar() {
   return (
     <div className="fixed top-0 w-full z-50" style={{ background: "#995b37" }}>
       <div className="w-full">
+      {displayMobileMenu ? (
+        <p>toto</p>
+      ) : null }
         {displayMobileMenu ? (
           <div className="absolute top-0 z-50 bg-white w-full h-screen">
             <div
@@ -20,9 +23,9 @@ export default function Navbar() {
             >
               X
             </div>
-            <div class="flex justify-center mt-16">
-              <ul class="bg-white border border-gray-200 w-full text-gray-900">
-                <li class="px-6 py-2 border-b border-gray-200 w-full rounded-t-lg">
+            <div className="flex justify-center mt-16">
+              <ul className="bg-white border border-gray-200 w-full text-gray-900">
+                <li className="px-6 py-2 border-b border-gray-200 w-full rounded-t-lg">
                   <Link href="/services-perinat">
                     <div className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 cursor-pointer">
                       <svg
@@ -53,7 +56,7 @@ export default function Navbar() {
                     </div>
                   </Link>
                 </li>
-                <li class="px-6 py-2 border-b border-gray-200 w-full">
+                <li className="px-6 py-2 border-b border-gray-200 w-full">
                   <Link href="/services-doula">
                     <div className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 cursor-pointer">
                       <svg
@@ -84,7 +87,7 @@ export default function Navbar() {
                     </div>
                   </Link>
                 </li>
-                <li class="px-6 py-2 border-b border-gray-200 w-full">
+                <li className="px-6 py-2 border-b border-gray-200 w-full">
                   <Link href="/services-ohmamacare">
                     <div className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 cursor-pointer">
                       <svg
@@ -114,7 +117,7 @@ export default function Navbar() {
                     </div>
                   </Link>
                 </li>
-                <li class="px-6 py-2 border-b border-gray-200 w-full">
+                <li className="px-6 py-2 border-b border-gray-200 w-full">
                   <Link href="/ateliers-parents-enfants">
                     <div className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 cursor-pointer">
                       <svg
@@ -145,7 +148,7 @@ export default function Navbar() {
                     </div>
                   </Link>
                 </li>
-                <li class="px-6 py-2 w-full rounded-b-lg">
+                <li className="px-6 py-2 w-full rounded-b-lg">
                   <Link href="/sensibilisation-pro">
                     <div className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 cursor-pointer">
                       <svg
@@ -176,7 +179,7 @@ export default function Navbar() {
                     </div>
                   </Link>
                 </li>
-                <li class="px-6 py-2 w-full rounded-b-lg">
+                <li className="px-6 py-2 w-full rounded-b-lg">
                 <Link href="/contact">
                           <div className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100 cursor-pointer">
                             <svg
