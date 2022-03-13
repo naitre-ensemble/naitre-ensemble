@@ -21,6 +21,6 @@ a {
   font-size: 1em;
 }
 
-h2, h3, p {
+h2, h3, p, div {
   font-family: 'Courgette', cursive;
 }

@@ -319,10 +319,17 @@ export default function Home() {
         <div className="pt-28 pb-80 lg:pt-40 lg:pb-48">
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
             <div className="sm:max-w-lg">
+              <div className="flex">
               <h1 style={{color: '#906c61'}} className="text-4xl font font-extrabold tracking-tight sm:text-6xl">
                 Bienvenue chez Naître Ensemble
               </h1>
-              <p className="mt-4 text-xl text-gray-500">
+              <img
+                  className="h-auto w-[250px]"
+                  src="/img/logo.png"
+                  alt="Naitre ensemble"
+                />
+              </div>
+              <p style={{color: '#aa8073'}} className="mt-4 text-xl">
                 J&apos;accompagne les femmes et les couples qui veulent vivre
                 une grossesse, un accouchement et un post partum entourés
                 d&apos;une personne ressource, qui leur apportera douceur et
@@ -419,7 +426,7 @@ export default function Home() {
             <div style={{color: '#906c61'}} className="font-bold text-xl mb-2 flex justify-center">
               Mes services périnat&apos;
             </div>
-            <p className="text-gray-700 text-justify">
+            <p  style={{color: '#aa8073'}} className="text-justify pt-6">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
               exercitationem praesentium nihil.
@@ -449,7 +456,7 @@ export default function Home() {
             <div style={{color: '#906c61'}} className="font-bold text-xl mb-2 flex justify-center">
               Mes services Doula
             </div>
-            <p className="text-gray-700 text-justify">
+            <p  style={{color: '#aa8073'}} className="text-justify pt-6">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
               exercitationem praesentium nihil.
@@ -479,7 +486,7 @@ export default function Home() {
             <div style={{color: '#906c61'}} className="font-bold text-xl mb-2 flex justify-center">
               Service Ohmamacare
             </div>
-            <p className="text-gray-700 text-justify">
+            <p  style={{color: '#aa8073'}} className="text-justify pt-6">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
               exercitationem praesentium nihil.
@@ -503,7 +510,7 @@ export default function Home() {
         Mon approche
       </h3>
 
-      <p className="text-gray-700 pb-12 pt-12 text-center text-lg">
+      <p style={{color: '#aa8073'}} className="pb-12 pt-12 text-center text-lg">
         Texte sur ma philosophie, mes valeurs, mon approche
       </p>
 
