@@ -319,7 +319,7 @@ export default function Home() {
         <div className="pt-28 pb-80 lg:pt-40 lg:pb-48">
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
             <div className="sm:max-w-lg">
-              <h1 className="text-4xl font font-extrabold tracking-tight sm:text-6xl">
+              <h1 style={{color: '#906c61'}} className="text-4xl font font-extrabold tracking-tight sm:text-6xl">
                 Bienvenue chez Naître Ensemble
               </h1>
               <p className="mt-4 text-xl text-gray-500">
@@ -403,7 +403,7 @@ export default function Home() {
         </div>
       </div>
 
-      <h2 className="mt-24 text-4xl text-center font font-extrabold tracking-tight text-gray-900">
+      <h2 style={{color: '#906c61'}} className="mt-24 text-4xl text-center font font-extrabold tracking-tight text-gray-900">
         Mes accompagnements
       </h2>
       <div className="pt-20 pb-20 grid lg:grid-flow-col gap-16 justify-center">
@@ -416,7 +416,7 @@ export default function Home() {
             />
           </div>
           <div className="px-8 py-6 flex flex-col justify-center">
-            <div className="font-bold text-xl mb-2 flex justify-center">
+            <div style={{color: '#906c61'}} className="font-bold text-xl mb-2 flex justify-center">
               Mes services périnat&apos;
             </div>
             <p className="text-gray-700 text-justify">
@@ -446,7 +446,7 @@ export default function Home() {
             />
           </div>
           <div className="px-8 py-6 flex flex-col justify-center">
-            <div className="font-bold text-xl mb-2 flex justify-center">
+            <div style={{color: '#906c61'}} className="font-bold text-xl mb-2 flex justify-center">
               Mes services Doula
             </div>
             <p className="text-gray-700 text-justify">
@@ -476,7 +476,7 @@ export default function Home() {
             />
           </div>
           <div className="px-8 py-6 flex flex-col justify-center">
-            <div className="font-bold text-xl mb-2 flex justify-center">
+            <div style={{color: '#906c61'}} className="font-bold text-xl mb-2 flex justify-center">
               Service Ohmamacare
             </div>
             <p className="text-gray-700 text-justify">
@@ -499,15 +499,15 @@ export default function Home() {
         </div>
       </div>
 
-      <h3 className="mt-12 text-4xl text-center font font-extrabold tracking-tight text-gray-900">
+      <h3 style={{color: '#906c61'}} className="mt-12 text-4xl text-center font font-extrabold tracking-tight text-gray-900">
         Mon approche
       </h3>
 
-      <p className="text-gray-700 pb-12 pt-12 text-center">
+      <p className="text-gray-700 pb-12 pt-12 text-center text-lg">
         Texte sur ma philosophie, mes valeurs, mon approche
       </p>
 
-      <div className="flex justify-center">
+      <div className="flex justify-center pb-20">
         <iframe
           width="400"
           height="315"
@@ -518,14 +518,6 @@ export default function Home() {
           allowFullScreen
         ></iframe>
       </div>
-
-      <h4 className="mt-24 text-4xl text-center font font-extrabold tracking-tight text-gray-900">
-        Et si on apprenait à se connaitre ?
-      </h4>
-
-      <p className="text-gray-700 pb-12 pt-12 text-center">
-        Retrouvez moi sur Instagram et Facebook pour suivre mon quotidien
-      </p>
 
       <footer
         style={{ background: "#cab7a6" }}
