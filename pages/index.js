@@ -19,7 +19,7 @@ export default function Home() {
         <div className="w-full ">
           <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1 pl-4">
-              <a href="#">
+              <a href="/">
                 <span className="sr-only">Naitre ensemble</span>
                 <img className="h-12 w-auto" src="/img/logo-text.png" alt="" />
               </a>
