@@ -255,6 +255,7 @@ export default function Home() {
             <a
               href="https://www.facebook.com/naitreensemble.fr"
               target="_blank"
+              rel="noreferrer"
               className="mr-9 text-white"
             >
               <svg
@@ -276,6 +277,7 @@ export default function Home() {
             <a
               href="https://www.instagram.com/naitreensemble/?hl=fr"
               target="_blank"
+              rel="noreferrer"
               className="mr-9 text-white"
             >
               <svg
@@ -297,6 +299,7 @@ export default function Home() {
             <a
               href="https://www.linkedin.com/in/leslie-r-753257126/"
               target="_blank"
+              rel="noreferrer"
               className="mr-9 text-white"
             >
               <svg
