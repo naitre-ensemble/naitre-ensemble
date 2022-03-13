@@ -23,7 +23,7 @@ export default function Navbar() {
           <div className="-mr-2 -my-2 md:hidden">
             <button
               type="button"
-              className="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none"
+              className="rounded-md mr-6 p-2 inline-flex items-center justify-center text-white focus:outline-none"
               aria-expanded="false"
             >
               <span className="sr-only">Open menu</span>
@@ -79,7 +79,7 @@ export default function Navbar() {
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                       >
                         <svg
-                          style={{color: '#995b37'}}
+                          style={{ color: "#995b37" }}
                           className="flex-shrink-0 h-6 w-6"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -110,7 +110,7 @@ export default function Navbar() {
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                       >
                         <svg
-                          style={{color: '#995b37'}}
+                          style={{ color: "#995b37" }}
                           className="flex-shrink-0 h-6 w-6"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -141,7 +141,7 @@ export default function Navbar() {
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                       >
                         <svg
-                          style={{color: '#995b37'}}
+                          style={{ color: "#995b37" }}
                           className="flex-shrink-0 h-6 w-6"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -173,7 +173,7 @@ export default function Navbar() {
                           className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
                         >
                           <svg
-                            style={{color: '#995b37'}}
+                            style={{ color: "#995b37" }}
                             className="flex-shrink-0 h-6 w-6"
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"
@@ -230,7 +230,7 @@ export default function Navbar() {
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                       >
                         <svg
-                          style={{color: '#995b37'}}
+                          style={{ color: "#995b37" }}
                           className="flex-shrink-0 h-6 w-6"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -261,7 +261,7 @@ export default function Navbar() {
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                       >
                         <svg
-                          style={{color: '#995b37'}}
+                          style={{ color: "#995b37" }}
                           className="flex-shrink-0 h-6 w-6"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
