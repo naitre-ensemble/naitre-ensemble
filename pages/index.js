@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import React, { useState } from "react";
 import Navbar from "../components/navbar";
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -32,7 +32,10 @@ export default function Home() {
                   alt="Naitre ensemble"
                 />
               </div>
-              <p style={{ color: "#aa8073" }} className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0">
+              <p
+                style={{ color: "#aa8073" }}
+                className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0"
+              >
                 J&apos;accompagne les femmes et les couples qui veulent vivre
                 une grossesse, un accouchement et un post partum entourés
                 d&apos;une personne ressource, qui leur apportera douceur et
