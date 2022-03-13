@@ -19,7 +19,7 @@ export default function Contact() {
             <label
             style={{ color: "#aa8073" }} 
               className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-              for="grid-first-name"
+              htmlFor="grid-first-name"
             >
               Nom
             </label>
@@ -33,7 +33,7 @@ export default function Contact() {
             <label
             style={{ color: "#aa8073" }} 
               className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-              for="grid-last-name"
+              htmlFor="grid-last-name"
             >
               Prénom
             </label>
@@ -49,7 +49,7 @@ export default function Contact() {
             <label
             style={{ color: "#aa8073" }} 
               className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-              for="grid-password"
+              htmlFor="grid-password"
             >
               E-mail
             </label>
@@ -65,7 +65,7 @@ export default function Contact() {
             <label
             style={{ color: "#aa8073" }} 
               className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-              for="grid-password"
+              htmlFor="grid-password"
             >
               Téléphone
             </label>
@@ -81,7 +81,7 @@ export default function Contact() {
             <label
             style={{ color: "#aa8073" }} 
               className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-              for="grid-password"
+              htmlFor="grid-password"
             >
               Message
             </label>
