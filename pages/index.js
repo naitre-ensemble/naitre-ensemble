@@ -410,8 +410,8 @@ export default function Home() {
         <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
           <div className="w-full mx-auto flex justify-center">
             <img
-              className="w-32 h-32"
-              src="/img/logo.png"
+              className="w-auto h-32 rounded-lg"
+              src="/img/12.jpeg"
               alt="Sunset in the mountains"
             />
           </div>
@@ -440,8 +440,8 @@ export default function Home() {
         <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
           <div className="w-full mx-auto flex justify-center">
             <img
-              className="w-32 h-32"
-              src="/img/logo.png"
+              className="w-auto h-32 rounded-lg"
+              src="/img/13.jpeg"
               alt="Sunset in the mountains"
             />
           </div>
@@ -470,8 +470,8 @@ export default function Home() {
         <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
           <div className="w-full mx-auto flex justify-center">
             <img
-              className="w-32 h-32"
-              src="/img/logo.png"
+              className="w-auto h-32 rounded-lg"
+              src="/img/14.jpeg"
               alt="Sunset in the mountains"
             />
           </div>
@@ -527,10 +527,10 @@ export default function Home() {
         Retrouvez moi sur Instagram et Facebook pour suivre mon quotidien
       </p>
 
-      <footer className="text-center text-white border-t border-t-gray-200">
+      <footer style={{background: '#cab7a6'}} className="text-center text-white border-t border-t-gray-200">
         <div className="container mx-auto pt-9">
           <div className="flex w-full justify-center mb-9">
-            <a href="https://www.facebook.com/leslie.richard.58" className="mr-9 text-gray-800">
+            <a href="https://www.facebook.com/naitreensemble.fr" target="_blank" className="mr-9 text-white">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -547,7 +547,7 @@ export default function Home() {
                 ></path>
               </svg>
             </a>
-            <a href="https://www.instagram.com/leslie_ri/?hl=fr" className="mr-9 text-gray-800">
+            <a href="https://www.instagram.com/naitreensemble/?hl=fr" target="_blank" className="mr-9 text-white">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -564,7 +564,7 @@ export default function Home() {
                 ></path>
               </svg>
             </a>
-            <a href="https://www.linkedin.com/in/leslie-r-753257126/" className="mr-9 text-gray-800">
+            <a href="https://www.linkedin.com/in/leslie-r-753257126/" target="_blank" className="mr-9 text-white">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -584,9 +584,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="text-center text-gray-700 p-4">
+        <div className="text-center text-white p-4">
           © 2022 Copyright:{" "}
-          <a className="text-gray-800" href="https://tailwind-elements.com/">
+          <a className="text-white" href="https://tailwind-elements.com/">
             Naitre ensemble
           </a>
         </div>
