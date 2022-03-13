@@ -21,7 +21,7 @@ export default function Home() {
             <div className="flex justify-start lg:w-0 lg:flex-1 pl-4">
               <a href="#">
                 <span className="sr-only">Naitre ensemble</span>
-                <img className="h-8 w-auto" src="/img/logo.png" alt="" />
+                <img className="h-12 w-auto" src="/img/logo-text.png" alt="" />
               </a>
             </div>
             <div className="-mr-2 -my-2 md:hidden">
