@@ -158,7 +158,7 @@ export default function Home() {
 
       <h2
         style={{ color: "#bd897d" }}
-        className="mt-24 text-4xl text-center font font-normal tracking-tight text-gray-900"
+        className="mt-24 text-4xl text-center font-normal tracking-tight text-gray-900"
       >
         Mes accompagnements
       </h2>
@@ -174,7 +174,7 @@ export default function Home() {
           <div className="px-8 py-6 flex flex-col justify-center">
             <div
               style={{ color: "#bd897d" }}
-              className="font-bold text-lg mb-2 flex justify-center"
+              className="font-normal text-lg mb-2 flex justify-center"
             >
               Avant la naissance
             </div>
@@ -202,7 +202,7 @@ export default function Home() {
           <div className="px-8 py-6 flex flex-col justify-center">
             <div
               style={{ color: "#bd897d" }}
-              className="font-bold text-lg mb-2 flex justify-center"
+              className="font-normal text-lg mb-2 flex justify-center"
             >
               Accompagnement de Doula
             </div>
@@ -230,7 +230,7 @@ export default function Home() {
           <div className="px-8 py-6 flex flex-col justify-center">
             <div
               style={{ color: "#bd897d" }}
-              className="font-bold text-lg mb-2 flex justify-center"
+              className="font-normal text-lg mb-2 flex justify-center"
             >
               Après la naissance
             </div>
