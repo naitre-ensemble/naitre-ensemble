@@ -30,6 +30,10 @@ export default function Prestations() {
       image: "papa_coach.jpeg",
       title: "atelier papa/parent coach",
     },
+    {
+      image: "fete_future_mere.jpeg",
+      title: "Fête de la future mère",
+    },
   ];
 
   return (
@@ -60,13 +64,13 @@ export default function Prestations() {
             l'accompagnement sur mesure et l'écoute sont à votre disposition
             pour vivre une naissance respectée et une parentalitée éclairée.
           </p>
-          <div className="mt-12 mb-12 grid grid-cols-3 gap-6">
+          <div className="mt-12 mb-12 grid grid-cols-1 lg:grid-cols-3 gap-6">
             {dataset.map(({ image, title }) => {
               return (
                 <div className="flex flex-col justify-center items-center text-center cursor-pointer">
                   <img
                     className="inline object-cover w-32 h-32 mr-2 rounded-full"
-                    src={`/img/${image}`}
+                    src={`/img/prestations_avant_naissance/${image}`}
                   />
                   <p
                     style={{ color: "#aa8073" }}
