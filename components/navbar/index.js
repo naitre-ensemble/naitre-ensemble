@@ -24,32 +24,32 @@ export default function Navbar() {
             <div className="flex justify-center mt-16">
             <div className="relative flex flex-col justify-between w-full pl-12 pr-12">
               <Link href="/qui-suis-je">
-                <div className="mb-3 p-3 text-lg font-normal text-gray-500 cursor-pointer select-none hover:underline">
+                <div className="mb-3 p-3 text-lg font-normal text-gray-500 cursor-pointer select-none">
                   <span className="mr-9">Qui suis-je</span>
                 </div>
               </Link>
               <Link href="/prestations">
-                <div className="mb-3 p-3 text-lg font-normal text-gray-500 cursor-pointer select-none hover:underline">
+                <div className="mb-3 p-3 text-lg font-normal text-gray-500 cursor-pointer select-none">
                   <span className="mr-9">Mes prestations</span>
                 </div>
               </Link>
               <Link href="/forfaits">
-                <div className="mb-3 p-3 text-lg font-normal text-gray-500 cursor-pointer select-none hover:underline">
+                <div className="mb-3 p-3 text-lg font-normal text-gray-500 cursor-pointer select-none">
                   <span className="mr-9">Forfaits</span>
                 </div>
               </Link>
               <Link href="/structure">
-                <div className="mb-3 p-3 text-lg font-normal text-gray-500 cursor-pointer select-none hover:underline">
+                <div className="mb-3 p-3 text-lg font-normal text-gray-500 cursor-pointer select-none">
                   <span className="mr-9">Structures</span>
                 </div>
               </Link>
               <Link href="/structure">
-                <div className="mb-3 p-3 text-lg font-normal text-gray-500 cursor-pointer select-none hover:underline">
+                <div className="mb-3 p-3 text-lg font-normal text-gray-500 cursor-pointer select-none">
                   <span className="mr-9">Bon cadeau</span>
                 </div>
               </Link>
               <Link href="/contact">
-                <div className="mb-3 p-3 text-lg font-normal text-gray-500 cursor-pointer select-none hover:underline">
+                <div className="mb-3 p-3 text-lg font-normal text-gray-500 cursor-pointer select-none">
                   <span className="mr-9">Contact</span>
                 </div>
               </Link>
