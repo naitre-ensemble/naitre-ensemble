@@ -47,7 +47,10 @@ export default function Concept() {
             Naître Ensemble c’est une professionnelle passionnée qui vous
             accompagne et qui oeuvre pour :
           </p>
-          <ul className="pt-6 text-xl font-normal list-disc" style={{ color: "#aa8073" }}>
+          <ul
+            className="pt-6 text-xl font-normal list-disc"
+            style={{ color: "#aa8073" }}
+          >
             <li className="p-2">
               Remettre le bien-être de l'Enfant et son devenir au coeur de
               toutes les préoccupations
@@ -79,21 +82,22 @@ export default function Concept() {
             style={{ color: "#aa8073" }}
             className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
-          Un service sur mesure pour vous. 
+            Un service sur mesure pour vous.
           </p>
           <div className="flex items-center justify-center lg:justify-start mt-9 mb-12">
-                <img
-                  src="/img/ponctuation-mark-vector.png"
-                  alt=""
-                  className="h-8"
-                />
-                <p
-                  className="font-extralight text-xl pl-3"
-                  style={{ color: "#aa8073" }}
-                >
-                  Parce qu'il faut tout un village pour élever un enfant , et toute une communauté pour prendre soin d'un parent.
-                </p>
-              </div>
+            <img
+              src="/img/ponctuation-mark-vector.png"
+              alt=""
+              className="h-8"
+            />
+            <p
+              className="font-extralight text-xl pl-3"
+              style={{ color: "#aa8073" }}
+            >
+              Parce qu'il faut tout un village pour élever un enfant , et toute
+              une communauté pour prendre soin d'un parent.
+            </p>
+          </div>
         </div>
       </div>
     </div>
