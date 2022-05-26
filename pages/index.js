@@ -287,7 +287,7 @@ export default function Home() {
             </p>
             <p
               style={{ color: "#bd897d" }}
-              className="p-10 w-[450px] lg:w-[850px] text-justify font-light text-lg"
+              className="p-10 w-[350px] lg:w-[850px] text-justify font-light text-lg"
             >
               J&apos;ai eu la chance de vivre un massage femme enceinte et de
               rencontrer Leslie. Tout a été parfait du début à la fin. Je
@@ -316,7 +316,7 @@ export default function Home() {
             </p>
             <p
               style={{ color: "#bd897d" }}
-              className="p-10 w-[450px] lg:w-[850px]  text-justify font-light text-xl"
+              className="p-10 w-[350px] lg:w-[850px]  text-justify font-light text-xl"
             >
               Je n&apos;était pas prête à devenir maman. Leslie a su
               m&apos;accompagner tout au long de ma grossesse. Elle a été
@@ -345,7 +345,7 @@ export default function Home() {
             </p>
             <p
               style={{ color: "#bd897d" }}
-              className="p-10 w-[450px] lg:w-[850px] text-justify font-light text-xl"
+              className="p-10 w-[350px] lg:w-[850px] text-justify font-light text-xl"
             >
               N&apos;ayant pas pu créer de lien avec mon bébé durant la
               grossesse, c&apos;est grâce au bain sensoriel que j&apos;ai pu
@@ -364,7 +364,7 @@ export default function Home() {
       </div>
 
       <div
-        className="h-[300px] pt-10 flex flex-col items-center"
+        className="h-auto lg:h-[300px] pt-10 flex flex-col items-center"
         style={{ background: "#cda69e" }}
       >
         <h4 className="text-center">
@@ -378,9 +378,9 @@ export default function Home() {
             pour recevoir des offres exclusives, des nouveautés et des astuces
           </span>
         </h4>
-        <div className="mt-10 mb-4 flex">
+        <div className="mt-10 mb-6 flex">
           <input
-            className="appearance-none h-12 block lg:w-[500px] bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+            className="appearance-none h-12 block w-[200px] lg:w-[500px] bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
             id="grid-first-name"
             type="text"
             placeholder="leslie@gmail.com"
