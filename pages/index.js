@@ -286,7 +286,7 @@ export default function Home() {
             </p>
             <p
               style={{ color: "#bd897d" }}
-              className="p-10 w-[350px] lg:w-[850px] text-justify font-light text-lg"
+              className="p-10 w-[300px] lg:w-[850px] text-justify font-light text-lg"
             >
               J&apos;ai eu la chance de vivre un massage femme enceinte et de
               rencontrer Leslie. Tout a été parfait du début à la fin. Je
@@ -315,7 +315,7 @@ export default function Home() {
             </p>
             <p
               style={{ color: "#bd897d" }}
-              className="p-10 w-[350px] lg:w-[850px]  text-justify font-light text-xl"
+              className="p-10 w-[300px] lg:w-[850px]  text-justify font-light text-xl"
             >
               Je n&apos;était pas prête à devenir maman. Leslie a su
               m&apos;accompagner tout au long de ma grossesse. Elle a été
@@ -344,7 +344,7 @@ export default function Home() {
             </p>
             <p
               style={{ color: "#bd897d" }}
-              className="p-10 w-[350px] lg:w-[850px] text-justify font-light text-xl"
+              className="p-10 w-[300px] lg:w-[850px] text-justify font-light text-xl"
             >
               N&apos;ayant pas pu créer de lien avec mon bébé durant la
               grossesse, c&apos;est grâce au bain sensoriel que j&apos;ai pu
