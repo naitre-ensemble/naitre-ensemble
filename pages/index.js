@@ -42,15 +42,15 @@ export default function Home() {
               <div className="flex">
                 <h1
                   style={{ color: "#bd897d" }}
-                  className="pb-4 lg:pb-0 text-center text-4xl font-light tracking-tight sm:text-6xl lg:text-left"
+                  className="text-center text-4xl font-light tracking-tight sm:text-6xl lg:text-left"
                 >
                   Bienvenue chez Naître Ensemble
                 </h1>
               </div>
               <div className="lg:hidden text-center flex justify-center">
                 <img
-                  className="h-auto w-[250px]"
-                  src="/img/logo.png"
+                  className="h-auto w-[300px]"
+                  src="/img/logo-mobile.png"
                   alt="Naitre ensemble"
                 />
               </div>
@@ -68,7 +68,7 @@ export default function Home() {
                 <img
                   src="/img/ponctuation-mark-vector.png"
                   alt=""
-                  className="h-8"
+                  className="h-8 pl-4 lg:pl-0"
                 />
                 <p
                   className="font-extralight text-xl pl-3"
@@ -287,7 +287,7 @@ export default function Home() {
             </p>
             <p
               style={{ color: "#bd897d" }}
-              className="p-10 w-[850px] text-justify font-light text-lg"
+              className="p-10 w-[450px] lg:w-[850px] text-justify font-light text-lg"
             >
               J&apos;ai eu la chance de vivre un massage femme enceinte et de
               rencontrer Leslie. Tout a été parfait du début à la fin. Je
@@ -316,7 +316,7 @@ export default function Home() {
             </p>
             <p
               style={{ color: "#bd897d" }}
-              className="p-10 w-[850px] text-justify font-light text-xl"
+              className="p-10 w-[450px] lg:w-[850px]  text-justify font-light text-xl"
             >
               Je n&apos;était pas prête à devenir maman. Leslie a su
               m&apos;accompagner tout au long de ma grossesse. Elle a été
@@ -345,7 +345,7 @@ export default function Home() {
             </p>
             <p
               style={{ color: "#bd897d" }}
-              className="p-10 w-[850px] text-justify font-light text-xl"
+              className="p-10 w-[450px] lg:w-[850px] text-justify font-light text-xl"
             >
               N&apos;ayant pas pu créer de lien avec mon bébé durant la
               grossesse, c&apos;est grâce au bain sensoriel que j&apos;ai pu
@@ -368,19 +368,19 @@ export default function Home() {
         style={{ background: "#cda69e" }}
       >
         <h4 className="text-center">
-          <span className="text-2xl mb-1 block text-center italic font-normal text-gray-600">
+          <span className="text-lg lg:text-2xl mb-1 block text-center italic font-normal text-gray-600">
             Abonnez vous à
           </span>
-          <span className="text-4xl block text-center font-normal tracking-tight text-gray-600">
+          <span className="text-2xl lg:text-4xl block text-center font-normal tracking-tight text-gray-600">
             LA NEWSLETTER Naître Ensemble
           </span>
-          <span className="mt-2 text-2xl block text-center font-normal tracking-tight text-gray-600">
+          <span className="mt-2 text-lg lg:text-2xl block text-center font-normal tracking-tight text-gray-600">
             pour recevoir des offres exclusives, des nouveautés et des astuces
           </span>
         </h4>
         <div className="mt-10 mb-4 flex">
           <input
-            className="appearance-none h-12 block w-[500px] bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+            className="appearance-none h-12 block lg:w-[500px] bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
             id="grid-first-name"
             type="text"
             placeholder="leslie@gmail.com"

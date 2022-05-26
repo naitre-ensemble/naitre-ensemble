@@ -265,7 +265,7 @@ export default function Navbar() {
               </svg>
             </button>
           </div>
-          <nav className="w-full">
+          <nav className="hidden lg:flex w-full">
             <div className="relative flex justify-between w-full pl-12 pr-12">
               <Link href="/qui-suis-je">
                 <div className="-m-3 p-3 text-lg font-normal text-white cursor-pointer select-none hover:underline">
