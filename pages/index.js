@@ -262,8 +262,8 @@ export default function Home() {
           showDots={true}
           responsive={responsive}
           ssr={true} // means to render carousel on server-side.
-          infinite={true}
-          autoPlay={true}
+          infinite={false}
+          autoPlay={false}
           autoPlaySpeed={3000}
           keyBoardControl={true}
           customTransition="all .5"
@@ -275,56 +275,89 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center select-none">
             <h3
               style={{ color: "#bd897d" }}
-              className="text-4xl text-center font font-normal tracking-tight text-gray-900"
+              className="text-lg text-center font font-normal tracking-tight text-gray-900"
             >
-              Sarah
+              Massage femme enceinte
             </h3>{" "}
-            <p className="text-2xl mt-2 font-medium">Douceur</p>
+            <p
+              className="text-5xl mt-2 font-medium pt-3 uppercase"
+              style={{ color: "#bd897d" }}
+            >
+              Douceur
+            </p>
             <p
               style={{ color: "#bd897d" }}
-              className="p-10 w-[550px] text-justify font-light text-xl"
+              className="p-10 w-[850px] text-justify font-light text-lg"
             >
               J&apos;ai eu la chance de vivre un massage femme enceinte et de
               rencontrer Leslie. Tout a été parfait du début à la fin. Je
               recommande vivement si vous voulez vivre un moment hors du temps
               au côté d&apos;une femme solaire et d&apos;une douceur incroyable.
             </p>
+            <p
+              style={{ color: "#bd897d" }}
+              className="text-2xl text-center font font-normal tracking-tight text-gray-900"
+            >
+              Sarah
+            </p>{" "}
           </div>
           <div className="flex flex-col items-center justify-center select-none">
+          <h3
+              style={{ color: "#bd897d" }}
+              className="text-lg text-center font font-normal tracking-tight text-gray-900"
+            >
+              Accompagnement de Doula
+            </h3>{" "}
+            <p
+              className="text-5xl mt-2 font-medium pt-3 uppercase"
+              style={{ color: "#bd897d" }}
+            >
+              Confiance
+            </p>
+            <p
+              style={{ color: "#bd897d" }}
+              className="p-10 w-[850px] text-justify font-light text-xl"
+            >
+              Je n&apos;était pas prête à devenir maman. Leslie a su
+              m&apos;accompagner tout au long de ma grossesse. Elle a été
+              d&apos;un soutien sans faille alors quer j&apos;étais seule tout
+              en me laissant faire mes propres choix.
+            </p>
             <h3
               style={{ color: "#bd897d" }}
-              className="text-4xl text-center font font-normal tracking-tight text-gray-900"
+              className="text-2xl text-center font font-normal tracking-tight text-gray-900"
             >
               Sophie
             </h3>{" "}
-            <p className="text-2xl mt-2 font-medium">Confiance</p>
-            <p
-              style={{ color: "#bd897d" }}
-              className="p-10 w-[550px] text-justify font-light text-xl"
-            >
-              Je n&apos;était pas prête à devenir maman. Leslie a su m&apos;accompagner
-              tout au long de ma grossesse. Elle a été d&apos;un soutien sans faille
-              alors quer j&apos;étais seule tout en me laissant faire mes propres
-              choix.
-            </p>
           </div>
           <div className="flex flex-col items-center justify-center select-none">
+          <h3
+              style={{ color: "#bd897d" }}
+              className="text-lg text-center font font-normal tracking-tight text-gray-900"
+            >
+              Rituel du bain sensoriel®️
+            </h3>{" "}
+            <p
+              className="text-5xl mt-2 font-medium pt-3 uppercase"
+              style={{ color: "#bd897d" }}
+            >
+              Extraordinaire
+            </p>
+            <p
+              style={{ color: "#bd897d" }}
+              className="p-10 w-[850px] text-justify font-light text-xl"
+            >
+              N&apos;ayant pas pu créer de lien avec mon bébé durant la
+              grossesse, c&apos;est grâce au bain sensoriel que j&apos;ai pu
+              regarder mon bébé et apprendre à lui donner un bain tout en douceur. Je me
+              suis à cet instant senti papa pour la toute première fois.
+            </p>
             <h3
               style={{ color: "#bd897d" }}
-              className="text-4xl text-center font font-normal tracking-tight text-gray-900"
+              className="text-2xl text-center font font-normal tracking-tight text-gray-900"
             >
               François
             </h3>{" "}
-            <p className="text-2xl mt-2 font-medium">Interessant</p>
-            <p
-              style={{ color: "#bd897d" }}
-              className="p-10 w-[550px] text-justify font-light text-xl"
-            >
-              N&apos;ayant pas pu créer de lien avec mon bébé durant la grossesse,
-              c&apos;est grace au bain sensoriel que j&apos;ai pu regarder mon bébé pour
-              la première fois et le découvrir. Je me suis à cet instant senti
-              papa pour la toute première fois.
-            </p>
           </div>
         </Carousel>
       </div>
