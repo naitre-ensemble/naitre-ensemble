@@ -378,13 +378,20 @@ export default function Home() {
             pour recevoir des offres exclusives, des nouveautés et des astuces
           </span>
         </h4>
-        <div className="mt-10 mb-4">
-        <input
-          className="appearance-none block w-[500px] bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-          id="grid-first-name"
-          type="text"
-          placeholder="leslie@gmail.com"
-        />
+        <div className="mt-10 mb-4 flex">
+          <input
+            className="appearance-none h-12 block w-[500px] bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+            id="grid-first-name"
+            type="text"
+            placeholder="leslie@gmail.com"
+          />
+          <button
+            style={{ background: "#bd897d" }}
+            className="shadow h-12 ml-1 focus:shadow-outline focus:outline-none text-white font-bold px-4 rounded"
+            type="button"
+          >
+            S&apos;abonner
+          </button>
         </div>
       </div>
 
