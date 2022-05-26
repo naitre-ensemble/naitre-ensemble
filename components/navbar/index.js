@@ -48,7 +48,7 @@ export default function Navbar() {
                     <span className="mr-9">Structure</span>
                   </div>
                 </Link>
-                <Link href="/structure">
+                <Link href="/bon-cadeau">
                   <div className="mb-3 p-3 text-lg font-normal text-gray-500 cursor-pointer select-none">
                     <span className="mr-9">Bon cadeau</span>
                   </div>
@@ -127,7 +127,7 @@ export default function Navbar() {
                   <span className="mr-9">Structure</span>
                 </div>
               </Link>
-              <Link href="/structure">
+              <Link href="/bon-cadeau">
                 <div className="-m-3 p-3 text-lg font-normal text-white cursor-pointer select-none hover:underline">
                   <span className="mr-9">Bon cadeau</span>
                 </div>
