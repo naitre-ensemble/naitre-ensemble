@@ -1,6 +1,6 @@
 import React from "react";
 
-export default  function Footer() {
+export default function Footer() {
   return (
     <footer
       style={{ background: "#bd897d" }}
@@ -80,4 +80,4 @@ export default  function Footer() {
       <p className=" text-white p-4">© Naitre ensemble</p>
     </footer>
   );
-};
+}

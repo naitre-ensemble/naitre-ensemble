@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import React, { useState } from "react";
 import Navbar from "../components/navbar";
-import Footer from '../components/footer';
+import Footer from "../components/footer";
 
 export default function WhoIam() {
   return (
@@ -41,12 +41,12 @@ export default function WhoIam() {
               </p>
             </div>
             <div className="flex justify-center items-center">
-              <div className="rounded-full relative w-[300px]">
+              <div className="relative">
                 <img
                   src="/img/leslie.jpeg"
                   alt=""
                   style={{ borderRadius: "50%" }}
-                  className="border border-gray-100 shadow-sm"
+                  className="inline object-cover w-[300px] mr-2 rounded-full"
                 />
                 <div
                   className="absolute -bottom-12 -right-16 lg:-bottom-12 lg:-right-28 h-[200px] w-[200px] flex justify-center text-justify items-center p-4 rounded-full"

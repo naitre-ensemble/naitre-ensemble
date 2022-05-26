@@ -5,6 +5,33 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 
 export default function Prestations() {
+  const dataset = [
+    {
+      image: "massage_fertilite.jpeg",
+      title: "massage fertilité",
+    },
+    {
+      image: "massage_bien_etre_femme_enceinte.jpeg",
+      title: "massage bien-être de la femme enceinte",
+    },
+    {
+      image: "reflexologie_detente_femme_enceinte.png",
+      title: 'réflexologie "détente" de la femme enceinte',
+    },
+    {
+      image: "portage.png",
+      title: "atelier découverte du portage physiologique",
+    },
+    {
+      image: "allaitement.png",
+      title: "atelier découverte de l'allaitement",
+    },
+    {
+      image: "papa_coach.jpeg",
+      title: "atelier papa/parent coach",
+    },
+  ];
+
   return (
     <div className="relative">
       <Head>
@@ -22,9 +49,38 @@ export default function Prestations() {
           >
             Prestations
           </h1>
+
+          <p
+            style={{ color: "#aa8073" }}
+            className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
+          >
+            Découvrez l'ensemble de mes prestations qui ont été spécialement
+            choisies et conçues pour vous accompagner avant, pendant et après la
+            naissance de votre enfant. Chez Naître Ensemble, le bien être,
+            l'accompagnement sur mesure et l'écoute sont à votre disposition
+            pour vivre une naissance respectée et une parentalitée éclairée.
+          </p>
+          <div className="mt-12 mb-12 grid grid-cols-3 gap-6">
+            {dataset.map(({ image, title }) => {
+              return (
+                <div className="flex flex-col justify-center items-center text-center cursor-pointer">
+                  <img
+                    className="inline object-cover w-32 h-32 mr-2 rounded-full"
+                    src={`/img/${image}`}
+                  />
+                  <p
+                    style={{ color: "#aa8073" }}
+                    className="mt-4 text-xl p-4 text-justify lg:text-center lg:p-0 font-extralight"
+                  >
+                    {title}
+                  </p>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
