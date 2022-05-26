@@ -14,12 +14,14 @@ export default function Prestations() {
       <Navbar />
 
       <div className="w-full pt-36 lg:pt-36 p-4 lg:p-6">
-        <h1
-          style={{ color: "#906c61" }}
-          className="pb-4 lg:pb-0 text-center text-4xl font font-extrabold tracking-tight sm:text-4xl lg:text-left"
-        >
-          Prestations
-        </h1>
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
+          <h1
+            style={{ color: "#bd897d" }}
+            className="text-center text-4xl font-light tracking-tight sm:text-5xl lg:text-left"
+          >
+            Prestations
+          </h1>
+        </div>
       </div>
     </div>
   );
