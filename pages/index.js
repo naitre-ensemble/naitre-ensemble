@@ -5,6 +5,7 @@ import Navbar from "../components/navbar";
 import Link from "next/link";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import * as rdd from 'react-device-detect';
 
 const responsive = {
   desktop: {
@@ -26,7 +27,7 @@ const responsive = {
 
 export default function Home() {
 
-  const isMobile = navigator.userAgentData.mobile;
+  const isMobile = rdd.isMobile;
 
   return (
     <div className="relative">
