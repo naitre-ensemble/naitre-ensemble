@@ -22,38 +22,43 @@ export default function Navbar() {
               X
             </div>
             <div className="flex justify-center mt-16">
-            <div className="relative flex flex-col justify-between w-full pl-12 pr-12">
-              <Link href="/qui-suis-je">
-                <div className="mb-3 p-3 text-lg font-normal text-gray-500 cursor-pointer select-none">
-                  <span className="mr-9">Qui suis-je</span>
-                </div>
-              </Link>
-              <Link href="/prestations">
-                <div className="mb-3 p-3 text-lg font-normal text-gray-500 cursor-pointer select-none">
-                  <span className="mr-9">Mes prestations</span>
-                </div>
-              </Link>
-              <Link href="/forfaits">
-                <div className="mb-3 p-3 text-lg font-normal text-gray-500 cursor-pointer select-none">
-                  <span className="mr-9">Forfaits</span>
-                </div>
-              </Link>
-              <Link href="/structure">
-                <div className="mb-3 p-3 text-lg font-normal text-gray-500 cursor-pointer select-none">
-                  <span className="mr-9">Structures</span>
-                </div>
-              </Link>
-              <Link href="/structure">
-                <div className="mb-3 p-3 text-lg font-normal text-gray-500 cursor-pointer select-none">
-                  <span className="mr-9">Bon cadeau</span>
-                </div>
-              </Link>
-              <Link href="/contact">
-                <div className="mb-3 p-3 text-lg font-normal text-gray-500 cursor-pointer select-none">
-                  <span className="mr-9">Contact</span>
-                </div>
-              </Link>
-            </div>
+              <div className="relative flex flex-col justify-between w-full pl-12 pr-12">
+                <Link href="/concept">
+                  <div className="mb-3 p-3 text-lg font-normal text-gray-500 cursor-pointer select-none">
+                    <span className="mr-9">Concept</span>
+                  </div>
+                </Link>
+                <Link href="/qui-suis-je">
+                  <div className="mb-3 p-3 text-lg font-normal text-gray-500 cursor-pointer select-none">
+                    <span className="mr-9">Qui suis-je</span>
+                  </div>
+                </Link>
+                <Link href="/prestations">
+                  <div className="mb-3 p-3 text-lg font-normal text-gray-500 cursor-pointer select-none">
+                    <span className="mr-9">Mes prestations</span>
+                  </div>
+                </Link>
+                <Link href="/forfaits">
+                  <div className="mb-3 p-3 text-lg font-normal text-gray-500 cursor-pointer select-none">
+                    <span className="mr-9">Forfaits</span>
+                  </div>
+                </Link>
+                <Link href="/structure">
+                  <div className="mb-3 p-3 text-lg font-normal text-gray-500 cursor-pointer select-none">
+                    <span className="mr-9">Structure</span>
+                  </div>
+                </Link>
+                <Link href="/structure">
+                  <div className="mb-3 p-3 text-lg font-normal text-gray-500 cursor-pointer select-none">
+                    <span className="mr-9">Bon cadeau</span>
+                  </div>
+                </Link>
+                <Link href="/contact">
+                  <div className="mb-3 p-3 text-lg font-normal text-gray-500 cursor-pointer select-none">
+                    <span className="mr-9">Contact</span>
+                  </div>
+                </Link>
+              </div>
             </div>
           </div>
         ) : null}
@@ -96,7 +101,12 @@ export default function Navbar() {
             </button>
           </div>
           <nav className="hidden lg:flex w-full">
-            <div className="relative flex justify-between w-full pl-12 pr-12">
+            <div className="relative flex justify-between w-full">
+              <Link href="/concept">
+                <div className="-m-3 p-3 text-lg font-normal text-white cursor-pointer select-none hover:underline">
+                  <span className="mr-9">Concept</span>
+                </div>
+              </Link>
               <Link href="/qui-suis-je">
                 <div className="-m-3 p-3 text-lg font-normal text-white cursor-pointer select-none hover:underline">
                   <span className="mr-9">Qui suis-je</span>
@@ -114,7 +124,7 @@ export default function Navbar() {
               </Link>
               <Link href="/structure">
                 <div className="-m-3 p-3 text-lg font-normal text-white cursor-pointer select-none hover:underline">
-                  <span className="mr-9">Structures</span>
+                  <span className="mr-9">Structure</span>
                 </div>
               </Link>
               <Link href="/structure">
