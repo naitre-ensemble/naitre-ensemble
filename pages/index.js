@@ -3,6 +3,26 @@ import Image from "next/image";
 import React, { useState } from "react";
 import Navbar from "../components/navbar";
 import Link from "next/link";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+
+const responsive = {
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 1,
+    slidesToSlide: 1, // optional, default to 1.
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 1,
+    slidesToSlide: 1, // optional, default to 1.
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+    slidesToSlide: 1, // optional, default to 1.
+  },
+};
 
 export default function Home() {
   return (
@@ -21,16 +41,11 @@ export default function Home() {
             <div className="sm:max-w-lg">
               <div className="flex">
                 <h1
-                  style={{ color: "#906c61" }}
-                  className="pb-4 lg:pb-0 text-center text-4xl font font-extrabold tracking-tight sm:text-6xl lg:text-left"
+                  style={{ color: "#bd897d" }}
+                  className="pb-4 lg:pb-0 text-center text-4xl font-light tracking-tight sm:text-6xl lg:text-left"
                 >
                   Bienvenue chez Naître Ensemble
                 </h1>
-                <img
-                  className="h-auto w-[250px] hidden lg:block"
-                  src="/img/logo.png"
-                  alt="Naitre ensemble"
-                />
               </div>
               <div className="lg:hidden text-center flex justify-center">
                 <img
@@ -41,13 +56,28 @@ export default function Home() {
               </div>
               <p
                 style={{ color: "#aa8073" }}
-                className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0"
+                className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
               >
                 J&apos;accompagne les femmes et les couples qui veulent vivre
                 une grossesse, un accouchement et un post partum entourés
                 d&apos;une personne ressource, qui leur apportera douceur et
                 confiance durant ce moment de vie totalement bouleversant.
               </p>
+
+              <div className="flex items-center justify-center mt-9">
+                <img
+                  src="/img/ponctuation-mark-vector.png"
+                  alt=""
+                  className="h-8"
+                />
+                <p
+                  className="font-extralight text-xl pl-3"
+                  style={{ color: "#aa8073" }}
+                >
+                  Vivons ensemble une naissance respectée et une parentalité
+                  éclairée
+                </p>
+              </div>
             </div>
             <div className="hidden lg:block">
               <div className="mt-10">
@@ -55,7 +85,7 @@ export default function Home() {
                   aria-hidden="true"
                   className="pointer-events-none lg:absolute lg:inset-y-0 lg:max-w-7xl lg:mx-auto lg:w-full"
                 >
-                  <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-[350px] lg:-translate-y-1/2 lg:translate-x-8">
+                  <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-[350px] lg:-translate-y-[390px] lg:translate-x-8">
                     <div className="flex items-center space-x-6 lg:space-x-8">
                       <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                         <div className="w-44 h-64 rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100">
@@ -76,7 +106,7 @@ export default function Home() {
                       <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <img
-                            src="/img/04.jpeg"
+                            src="/img/06.jpeg"
                             alt=""
                             className="w-full h-full object-center object-cover"
                           />
@@ -90,7 +120,7 @@ export default function Home() {
                         </div>
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <img
-                            src="/img/06.jpeg"
+                            src="/img/15.png"
                             alt=""
                             className="w-full h-full object-center object-cover"
                           />
@@ -124,8 +154,8 @@ export default function Home() {
       </div>
 
       <h2
-        style={{ color: "#906c61" }}
-        className="mt-24 text-4xl text-center font font-extrabold tracking-tight text-gray-900"
+        style={{ color: "#bd897d" }}
+        className="mt-24 text-4xl text-center font font-normal tracking-tight text-gray-900"
       >
         Mes accompagnements
       </h2>
@@ -134,118 +164,89 @@ export default function Home() {
           <div className="w-full mx-auto flex justify-center">
             <img
               className="w-full h-[225px] rounded-lg"
-              src="/img/12.jpeg"
+              src="/img/16.png"
               alt="Sunset in the mountains"
             />
           </div>
           <div className="px-8 py-6 flex flex-col justify-center">
             <div
-              style={{ color: "#906c61" }}
-              className="font-bold text-xl mb-2 flex justify-center"
+              style={{ color: "#bd897d" }}
+              className="font-bold text-lg mb-2 flex justify-center"
             >
-              Mes services périnat&apos;
+              Avant la naissance
             </div>
-            <p style={{ color: "#aa8073" }} className="text-justify pt-6">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatibus quia, nulla! Maiores et perferendis eaque,
-              exercitationem praesentium nihil.
-            </p>
           </div>
           <div className="flex justify-center">
             <Link href="/services-perinat">
               <button
-                style={{ background: "#995b37" }}
+                style={{ background: "#bd897d" }}
                 className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
                 type="button"
               >
-                Découvrir mes services
+                En savoir plus
               </button>
             </Link>
           </div>
         </div>
-          <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
-            <div className="w-full mx-auto flex justify-center">
-              <img
-                className="w-full h-[225px] rounded-lg"
-                src="/img/13.jpeg"
-                alt="Sunset in the mountains"
-              />
+        <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
+          <div className="w-full mx-auto flex justify-center">
+            <img
+              className="w-full h-[225px] rounded-lg"
+              src="/img/13.jpeg"
+              alt="Sunset in the mountains"
+            />
+          </div>
+          <div className="px-8 py-6 flex flex-col justify-center">
+            <div
+              style={{ color: "#bd897d" }}
+              className="font-bold text-lg mb-2 flex justify-center"
+            >
+              Accompagnement de Doula
             </div>
-            <div className="px-8 py-6 flex flex-col justify-center">
-              <div
-                style={{ color: "#906c61" }}
-                className="font-bold text-xl mb-2 flex justify-center"
-              >
-                Mes services Doula
-              </div>
-              <p style={{ color: "#aa8073" }} className="text-justify pt-6">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.
-              </p>
-            </div>
-            <div className="flex justify-center">
+          </div>
+          <div className="flex justify-center">
             <Link href="/services-doula">
               <button
-                style={{ background: "#995b37" }}
+                style={{ background: "#bd897d" }}
                 className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
                 type="button"
               >
-                Découvrir mes services
+                En savoir plus
               </button>
-              </Link>
+            </Link>
+          </div>
+        </div>
+        <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
+          <div className="w-full mx-auto flex justify-center">
+            <img
+              className="w-full h-[225px] rounded-lg"
+              src="/img/14.jpeg"
+              alt="Sunset in the mountains"
+            />
+          </div>
+          <div className="px-8 py-6 flex flex-col justify-center">
+            <div
+              style={{ color: "#bd897d" }}
+              className="font-bold text-lg mb-2 flex justify-center"
+            >
+              Après la naissance
             </div>
           </div>
-          <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
-            <div className="w-full mx-auto flex justify-center">
-              <img
-                className="w-full h-[225px] rounded-lg"
-                src="/img/14.jpeg"
-                alt="Sunset in the mountains"
-              />
-            </div>
-            <div className="px-8 py-6 flex flex-col justify-center">
-              <div
-                style={{ color: "#906c61" }}
-                className="font-bold text-xl mb-2 flex justify-center"
-              >
-                Service Ohmamacare
-              </div>
-              <p style={{ color: "#aa8073" }} className="text-justify pt-6">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.
-              </p>
-            </div>
-            <div className="flex justify-center">
+          <div className="flex justify-center">
             <Link href="/services-ohmamacare">
               <button
-                style={{ background: "#995b37" }}
+                style={{ background: "#bd897d" }}
                 className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
                 type="button"
               >
-                Découvrir mes services
+                En savoir plus
               </button>
-              </Link>
-            </div>
+            </Link>
           </div>
+        </div>
       </div>
 
-      <h3
-        style={{ color: "#906c61" }}
-        className="mt-12 text-4xl text-center font font-extrabold tracking-tight text-gray-900"
-      >
-        Mon approche
-      </h3>
-
-      <p
-        style={{ color: "#aa8073" }}
-        className="pb-12 pt-12 text-center text-lg"
-      >
-        Texte sur ma philosophie, mes valeurs, mon approche
-      </p>
-
-      <div className="flex justify-center pb-20">
+      <div className="flex justify-center pb-20 h-[600px]">
         {/* <iframe
           width="400"
           height="315"
@@ -255,16 +256,87 @@ export default function Home() {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe> */}
+        <Carousel
+          swipeable={false}
+          draggable={false}
+          showDots={true}
+          responsive={responsive}
+          ssr={true} // means to render carousel on server-side.
+          infinite={true}
+          autoPlay={true}
+          autoPlaySpeed={3000}
+          keyBoardControl={true}
+          customTransition="all .5"
+          transitionDuration={500}
+          removeArrowOnDeviceType={["tablet", "mobile"]}
+          dotListClass="custom-dot-list-style"
+          containerClass="carousel-container"
+        >
+          <div className="flex flex-col items-center justify-center select-none">
+            <h3
+              style={{ color: "#bd897d" }}
+              className="text-4xl text-center font font-normal tracking-tight text-gray-900"
+            >
+              Sarah
+            </h3>{" "}
+            <p className="text-2xl mt-2 font-medium">Douceur</p>
+            <p
+              style={{ color: "#bd897d" }}
+              className="p-10 w-[550px] text-justify font-light text-xl"
+            >
+              J'ai eu la chance de vivre un massage femme enceinte et de
+              rencontrer Leslie. Tout a été parfait du début à la fin. Je
+              recommande vivement si vous voulez vivre un moment hors du temps
+              au côté d'une femme solaire et d'une douceur incroyable.
+            </p>
+          </div>
+          <div className="flex flex-col items-center justify-center select-none">
+            <h3
+              style={{ color: "#bd897d" }}
+              className="text-4xl text-center font font-normal tracking-tight text-gray-900"
+            >
+              Sophie
+            </h3>{" "}
+            <p className="text-2xl mt-2 font-medium">Confiance</p>
+            <p
+              style={{ color: "#bd897d" }}
+              className="p-10 w-[550px] text-justify font-light text-xl"
+            >
+              Je n'était pas prête à devenir maman. Leslie a su m'accompagner
+              tout au long de ma grossesse. Elle a été d'un soutien sans faille
+              alors quer j'étais seule tout en me laissant faire mes propres
+              choix.
+            </p>
+          </div>
+          <div className="flex flex-col items-center justify-center select-none">
+            <h3
+              style={{ color: "#bd897d" }}
+              className="text-4xl text-center font font-normal tracking-tight text-gray-900"
+            >
+              François
+            </h3>{" "}
+            <p className="text-2xl mt-2 font-medium">Interessant</p>
+            <p
+              style={{ color: "#bd897d" }}
+              className="p-10 w-[550px] text-justify font-light text-xl"
+            >
+              N'ayant pas pu créer de lien avec mon bébé durant la grossesse,
+              c'est grace au bain sensoriel que j'ai pu regarder mon bébé pour
+              la première fois et le découvrir. Je me suis à cet instant senti
+              papa pour la toute première fois.
+            </p>
+          </div>
+        </Carousel>
       </div>
 
       <footer
-        style={{ background: "#995b37" }}
+        style={{ background: "#bd897d" }}
         className="text-center text-white border-t border-t-gray-200"
       >
         <div className="pt-9">
           <div className="flex w-full justify-center mb-9">
             <a
-              href="https://www.facebook.com/naitreensemble.fr"
+              href="https://www.facebook.com/naitreensemble"
               target="_blank"
               rel="noreferrer"
               className="mr-9 text-white"

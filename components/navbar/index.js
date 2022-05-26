@@ -9,7 +9,7 @@ export default function Navbar() {
   const [displayMobileMenu, setDisplayMobileMenu] = useState(false);
 
   return (
-    <div className="fixed top-0 w-full z-50" style={{ background: "#995b37" }}>
+    <div className="fixed top-0 w-full z-50" style={{ background: "#bd897d" }}>
       <div className="w-full">
         {displayMobileMenu ? (
           <div className="absolute top-0 z-50 bg-white w-full h-screen">
@@ -22,6 +22,29 @@ export default function Navbar() {
             </div>
             <div className="flex justify-center mt-16">
               <ul className="bg-white border border-gray-200 w-full text-gray-900">
+                <li className="px-6 py-2 w-full rounded-b-lg">
+                  <Link href="/contact">
+                    <div className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100 cursor-pointer">
+                      <svg
+                        style={{ color: "#995b37" }}
+                        className="flex-shrink-0 h-6 w-6"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        aria-hidden="true"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                        />
+                      </svg>
+                      <span className="ml-3">Qui suis-je</span>
+                    </div>
+                  </Link>
+                </li>
                 <li className="px-6 py-2 border-b border-gray-200 w-full rounded-t-lg">
                   <Link href="/services-perinat">
                     <div className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 cursor-pointer">
@@ -203,12 +226,12 @@ export default function Navbar() {
             </div>
           </div>
         ) : null}
-        <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
-          <div className="flex justify-start lg:w-0 lg:flex-1 pl-4">
+        <div className="flex justify-between items-center border-b-2 border-gray-100 md:justify-start md:space-x-10">
+          <div className="flex justify-start pl-4">
             <Link href="/">
               <img
-                className="h-12 w-auto cursor-pointer"
-                src="/img/logo-text.png"
+                className="h-20 w-auto cursor-pointer"
+                src="/img/logo.png"
                 alt="Naitre ensemble"
               />
             </Link>
@@ -241,9 +264,39 @@ export default function Navbar() {
               </svg>
             </button>
           </div>
-          <nav className="hidden md:flex space-x-10">
-            <div className="relative">
-              <button
+          <nav className="w-full">
+            <div className="relative flex justify-start w-full">
+              <Link href="/qui-suis-je">
+                <div className="-m-3 p-3 text-sm font-normal text-white cursor-pointer select-none hover:underline">
+                  <span className="mr-9">Qui suis-je</span>
+                </div>
+              </Link>
+              <Link href="/prestations">
+                <div className="-m-3 p-3 text-sm  font-normal text-white cursor-pointer select-none hover:underline">
+                  <span className="mr-9">Mes prestations</span>
+                </div>
+              </Link>
+              <Link href="/forfaits">
+                <div className="-m-3 p-3 text-sm font-normal text-white cursor-pointer select-none hover:underline">
+                  <span className="mr-9">Forfaits</span>
+                </div>
+              </Link>
+              <Link href="/structure">
+                <div className="-m-3 p-3 text-sm font-normal text-white cursor-pointer select-none hover:underline">
+                  <span className="mr-9">Structures</span>
+                </div>
+              </Link>
+              <Link href="/structure">
+                <div className="-m-3 p-3 text-sm font-normal text-white cursor-pointer select-none hover:underline">
+                  <span className="mr-9">Bon cadeau</span>
+                </div>
+              </Link>
+              <Link href="/contact">
+                <div className="-m-3 p-3 text-sm font-normal text-white cursor-pointer select-none hover:underline">
+                  <span className="mr-9">Contact</span>
+                </div>
+              </Link>
+              {/* <button
                 type="button"
                 className="text-white group rounded-md inline-flex items-center text-base font-medium focus:outline-none select-none"
                 aria-expanded="false"
@@ -266,8 +319,8 @@ export default function Navbar() {
                     clipRule="evenodd"
                   />
                 </svg>
-              </button>
-              {menuOneIsOpen ? (
+              </button> */}
+              {/* {menuOneIsOpen ? (
                 <div className="absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
                   <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                     <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
@@ -387,9 +440,9 @@ export default function Navbar() {
                     </div>
                   </div>
                 </div>
-              ) : null}
+              ) : null} */}
             </div>
-            <div className="relative">
+            {/* <div className="relative">
               <button
                 type="button"
                 className="text-white group rounded-md inline-flex items-center text-base font-medium focus:outline-none select-none"
@@ -481,30 +534,30 @@ export default function Navbar() {
                   </div>
                 </div>
               ) : null}
-            </div>
-            <Link
+            </div> */}
+            {/* <Link
               href="/votre-parole"
               className="text-base font-medium text-white"
             >
               <span className="text-base font-medium text-white cursor-pointer">
                 Votre parole
               </span>
-            </Link>
+            </Link> */}
 
-            <Link
+            {/* <Link
               href="/bon-cadeau"
               className="text-base font-medium text-white"
             >
               <span className="text-base font-medium text-white cursor-pointer">
                 Bon cadeau
               </span>
-            </Link>
+            </Link> */}
 
-            <Link href="/contact">
+            {/* <Link href="/contact">
               <span className="text-base font-medium text-white cursor-pointer">
                 Contact
               </span>
-            </Link>
+            </Link> */}
           </nav>
           <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0"></div>
         </div>
