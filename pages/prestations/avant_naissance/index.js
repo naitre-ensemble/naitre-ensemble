@@ -3,36 +3,44 @@ import Image from "next/image";
 import React, { useState } from "react";
 import Navbar from "../../../components/navbar";
 import Footer from "../../../components/footer";
+import Link from "next/link";
 
 export default function Prestations() {
   const dataset = [
     {
       image: "massage_fertilite.jpeg",
       title: "massage fertilité",
+      url: "massage-fertilite",
     },
     {
       image: "massage_bien_etre_femme_enceinte.jpeg",
       title: "massage bien-être de la femme enceinte",
+      url: "massage-femme-enceinte",
     },
     {
       image: "reflexologie_detente_femme_enceinte.png",
       title: 'réflexologie "détente" de la femme enceinte',
+      url: "réflexologie-femme-enceinte",
     },
     {
       image: "portage.png",
       title: "atelier découverte du portage physiologique",
+      url: "decouverte-portage-physiologique",
     },
     {
       image: "allaitement.png",
       title: "atelier découverte de l'allaitement",
+      url: "decouverte-allaitement",
     },
     {
       image: "papa_coach.jpeg",
       title: "atelier papa/parent coach",
+      url: "parent-coach",
     },
     {
       image: "fete_future_mere.jpeg",
       title: "Fête de la future mère",
+      url: "fete-future-mere",
     },
   ];
 
@@ -65,20 +73,22 @@ export default function Prestations() {
             pour vivre une naissance respectée et une parentalitée éclairée.
           </p>
           <div className="mt-12 mb-12 grid grid-cols-1 lg:grid-cols-3 gap-6">
-            {dataset.map(({ image, title }) => {
+            {dataset.map(({ image, title, url }) => {
               return (
-                <div className="flex flex-col justify-center items-center text-center cursor-pointer">
-                  <img
-                    className="inline object-cover w-32 h-32 mr-2 rounded-full"
-                    src={`/img/prestations_avant_naissance/${image}`}
-                  />
-                  <p
-                    style={{ color: "#aa8073" }}
-                    className="mt-4 text-xl p-4 text-justify lg:text-center lg:p-0 font-extralight"
-                  >
-                    {title}
-                  </p>
-                </div>
+                <Link href={`/prestations/avant_naissance/${url}`}>
+                  <div className="flex flex-col justify-center items-center text-center cursor-pointer">
+                    <img
+                      className="inline object-cover w-32 h-32 mr-2 rounded-full"
+                      src={`/img/prestations_avant_naissance/${image}`}
+                    />
+                    <p
+                      style={{ color: "#aa8073" }}
+                      className="mt-4 text-xl p-4 text-justify lg:text-center lg:p-0 font-extralight"
+                    >
+                      {title}
+                    </p>
+                  </div>
+                </Link>
               );
             })}
           </div>

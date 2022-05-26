@@ -16,7 +16,7 @@ export default function Prestations() {
     },
     {
       image: "soin_ribozo.gif",
-      title: 'soin rituel rebozo',
+      title: "soin rituel rebozo",
     },
     {
       image: "massage_bebe.png",

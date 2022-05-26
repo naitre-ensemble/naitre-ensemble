@@ -16,7 +16,7 @@ export default function Prestations() {
     },
     {
       image: "accompagnement_doula.png",
-      title: 'accompagnement post partum',
+      title: "accompagnement post partum",
     },
     {
       image: "accompagnement_doula.png",
