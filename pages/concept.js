@@ -23,7 +23,7 @@ export default function Concept() {
           </h1>
           <p
             style={{ color: "#aa8073" }}
-            className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
+            className="mt-12 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
             Naître ensemble est un service d'accompagnement dédié à la
             périnatalité (de la préconception jusqu'aux premiers mois de bébé)
@@ -81,7 +81,7 @@ export default function Concept() {
           >
           Un service sur mesure pour vous. 
           </p>
-          <div className="flex items-center justify-center mt-9">
+          <div className="flex items-center justify-center lg:justify-start mt-9 mb-12">
                 <img
                   src="/img/ponctuation-mark-vector.png"
                   alt=""
