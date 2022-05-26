@@ -163,9 +163,9 @@ export default function Home() {
         <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
           <div className="w-full mx-auto flex justify-center">
             <img
-              className="w-full h-[225px] rounded-lg"
+              className="w-full rounded-lg"
               src="/img/16.png"
-              alt="Sunset in the mountains"
+              alt="Avant la naissance"
             />
           </div>
           <div className="px-8 py-6 flex flex-col justify-center">
@@ -191,9 +191,9 @@ export default function Home() {
         <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
           <div className="w-full mx-auto flex justify-center">
             <img
-              className="w-full h-[225px] rounded-lg"
-              src="/img/13.jpeg"
-              alt="Sunset in the mountains"
+              className="w-full rounded-lg"
+              src="/img/doula.png"
+              alt="Accompagnement de doula"
             />
           </div>
           <div className="px-8 py-6 flex flex-col justify-center">
@@ -219,9 +219,9 @@ export default function Home() {
         <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
           <div className="w-full mx-auto flex justify-center">
             <img
-              className="w-full h-[225px] rounded-lg"
-              src="/img/14.jpeg"
-              alt="Sunset in the mountains"
+              className="w-full rounded-lg"
+              src="/img/naissance.png"
+              alt="Après la naissance"
             />
           </div>
           <div className="px-8 py-6 flex flex-col justify-center">
@@ -280,7 +280,7 @@ export default function Home() {
               Massage femme enceinte
             </h3>{" "}
             <p
-              className="text-5xl mt-2 font-medium pt-3 uppercase"
+              className="text-3xl lg:text-5xl mt-2 font-medium pt-3 uppercase"
               style={{ color: "#bd897d" }}
             >
               Douceur
@@ -309,7 +309,7 @@ export default function Home() {
               Accompagnement de Doula
             </h3>{" "}
             <p
-              className="text-5xl mt-2 font-medium pt-3 uppercase"
+              className="text-3xl lg:text-5xl mt-2 font-medium pt-3 uppercase"
               style={{ color: "#bd897d" }}
             >
               Confiance
@@ -338,7 +338,7 @@ export default function Home() {
               Rituel du bain sensoriel®️
             </h3>{" "}
             <p
-              className="text-5xl mt-2 font-medium pt-3 uppercase"
+              className="text-3xl lg:text-5xl mt-2 font-medium pt-3 uppercase"
               style={{ color: "#bd897d" }}
             >
               Extraordinaire
