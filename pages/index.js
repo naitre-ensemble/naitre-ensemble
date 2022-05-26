@@ -284,10 +284,10 @@ export default function Home() {
               style={{ color: "#bd897d" }}
               className="p-10 w-[550px] text-justify font-light text-xl"
             >
-              J'ai eu la chance de vivre un massage femme enceinte et de
+              J&apos;ai eu la chance de vivre un massage femme enceinte et de
               rencontrer Leslie. Tout a été parfait du début à la fin. Je
               recommande vivement si vous voulez vivre un moment hors du temps
-              au côté d'une femme solaire et d'une douceur incroyable.
+              au côté d&apos;une femme solaire et d&apos;une douceur incroyable.
             </p>
           </div>
           <div className="flex flex-col items-center justify-center select-none">
@@ -302,9 +302,9 @@ export default function Home() {
               style={{ color: "#bd897d" }}
               className="p-10 w-[550px] text-justify font-light text-xl"
             >
-              Je n'était pas prête à devenir maman. Leslie a su m'accompagner
-              tout au long de ma grossesse. Elle a été d'un soutien sans faille
-              alors quer j'étais seule tout en me laissant faire mes propres
+              Je n&apos;était pas prête à devenir maman. Leslie a su m&apos;accompagner
+              tout au long de ma grossesse. Elle a été d&apos;un soutien sans faille
+              alors quer j&apos;étais seule tout en me laissant faire mes propres
               choix.
             </p>
           </div>
@@ -320,8 +320,8 @@ export default function Home() {
               style={{ color: "#bd897d" }}
               className="p-10 w-[550px] text-justify font-light text-xl"
             >
-              N'ayant pas pu créer de lien avec mon bébé durant la grossesse,
-              c'est grace au bain sensoriel que j'ai pu regarder mon bébé pour
+              N&apos;ayant pas pu créer de lien avec mon bébé durant la grossesse,
+              c&apos;est grace au bain sensoriel que j&apos;ai pu regarder mon bébé pour
               la première fois et le découvrir. Je me suis à cet instant senti
               papa pour la toute première fois.
             </p>
