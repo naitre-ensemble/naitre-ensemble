@@ -40,14 +40,20 @@ export default function WhoIam() {
               </p>
             </div>
             <div className="flex justify-center items-center">
-            <div className="rounded-full relative w-[300px]">
-              <img
-                src="/img/leslie.jpeg"
-                alt=""
-                style={{ borderRadius: '50%'}}
-                className="border border-gray-100 shadow-sm"
-              />
-            </div>
+              <div className="rounded-full relative w-[300px]">
+                <img
+                  src="/img/leslie.jpeg"
+                  alt=""
+                  style={{ borderRadius: "50%" }}
+                  className="border border-gray-100 shadow-sm"
+                />
+                <div className="absolute -bottom-12 -right-28 h-[200px] w-[200px] flex justify-center text-justify items-center p-4 rounded-full"              style={{ background: "#bd897d" }}>
+                  {/* <p className="text-white text-center">Membre Doula de France Partenaire Ohmamacare Ambassadrice du
+                  bain Sensoriel ®</p> */}
+                  <p className="text-white text-lg text-center">Ambassadrice du
+                  bain Sensoriel ®</p>
+                </div>
+              </div>
             </div>
           </div>
           <ul
