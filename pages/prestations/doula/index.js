@@ -58,7 +58,7 @@ export default function Prestations() {
                 <div className="flex flex-col justify-center items-center text-center cursor-pointer">
                   <img
                     className="inline object-cover w-32 h-32 mr-2 rounded-full"
-                    src={`/img/prestations_avant_naissance/${image}`}
+                    src={`/img/prestations_doula/${image}`}
                   />
                   <p
                     style={{ color: "#aa8073" }}
