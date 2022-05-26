@@ -66,7 +66,7 @@ export default function Navbar() {
                         <p className="text-base font-medium text-gray-900">
                           Mes services périnat
                         </p>
-                        <p className="mt-1 text-sm text-gray-500">
+                        <p className="mt-1 text-lg text-gray-500">
                           Get a better understanding of where your traffic is
                           coming from.
                         </p>
@@ -97,7 +97,7 @@ export default function Navbar() {
                         <p className="text-base font-medium text-gray-900">
                           Mes services Doula
                         </p>
-                        <p className="mt-1 text-sm text-gray-500">
+                        <p className="mt-1 text-lg text-gray-500">
                           Speak directly to your customers in a more meaningful
                           way.
                         </p>
@@ -128,7 +128,7 @@ export default function Navbar() {
                         <p className="text-base font-medium text-gray-900">
                           Service Ohmamacare
                         </p>
-                        <p className="mt-1 text-sm text-gray-500">
+                        <p className="mt-1 text-lg text-gray-500">
                           Your customers&#039; data will be safe and secure.
                         </p>
                       </div>
@@ -158,7 +158,7 @@ export default function Navbar() {
                         <p className="text-base font-medium text-gray-900">
                           Ateliers parents enfants
                         </p>
-                        <p className="mt-1 text-sm text-gray-500">
+                        <p className="mt-1 text-lg text-gray-500">
                           Get a better understanding of where your traffic is
                           coming from.
                         </p>
@@ -189,7 +189,7 @@ export default function Navbar() {
                         <p className="text-base font-medium text-gray-900">
                           Sensibilitations pro
                         </p>
-                        <p className="mt-1 text-sm text-gray-500">
+                        <p className="mt-1 text-lg text-gray-500">
                           Speak directly to your customers in a more meaningful
                           way.
                         </p>
@@ -263,34 +263,34 @@ export default function Navbar() {
             </button>
           </div>
           <nav className="w-full">
-            <div className="relative flex justify-start w-full">
+            <div className="relative flex justify-between w-full pl-12 pr-12">
               <Link href="/qui-suis-je">
-                <div className="-m-3 p-3 text-sm font-normal text-white cursor-pointer select-none hover:underline">
+                <div className="-m-3 p-3 text-lg font-normal text-white cursor-pointer select-none hover:underline">
                   <span className="mr-9">Qui suis-je</span>
                 </div>
               </Link>
               <Link href="/prestations">
-                <div className="-m-3 p-3 text-sm  font-normal text-white cursor-pointer select-none hover:underline">
+                <div className="-m-3 p-3 text-lg  font-normal text-white cursor-pointer select-none hover:underline">
                   <span className="mr-9">Mes prestations</span>
                 </div>
               </Link>
               <Link href="/forfaits">
-                <div className="-m-3 p-3 text-sm font-normal text-white cursor-pointer select-none hover:underline">
+                <div className="-m-3 p-3 text-lg font-normal text-white cursor-pointer select-none hover:underline">
                   <span className="mr-9">Forfaits</span>
                 </div>
               </Link>
               <Link href="/structure">
-                <div className="-m-3 p-3 text-sm font-normal text-white cursor-pointer select-none hover:underline">
+                <div className="-m-3 p-3 text-lg font-normal text-white cursor-pointer select-none hover:underline">
                   <span className="mr-9">Structures</span>
                 </div>
               </Link>
               <Link href="/structure">
-                <div className="-m-3 p-3 text-sm font-normal text-white cursor-pointer select-none hover:underline">
+                <div className="-m-3 p-3 text-lg font-normal text-white cursor-pointer select-none hover:underline">
                   <span className="mr-9">Bon cadeau</span>
                 </div>
               </Link>
               <Link href="/contact">
-                <div className="-m-3 p-3 text-sm font-normal text-white cursor-pointer select-none hover:underline">
+                <div className="-m-3 p-3 text-lg font-normal text-white cursor-pointer select-none hover:underline">
                   <span className="mr-9">Contact</span>
                 </div>
               </Link>
