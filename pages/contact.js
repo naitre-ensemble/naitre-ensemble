@@ -17,7 +17,7 @@ export default function Contact() {
         <div className="flex flex-wrap -mx-3 mb-6">
           <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
             <label
-              style={{ color: "#aa8073" }}
+              style={{ color: "#bd897d" }}
               className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
               htmlFor="grid-first-name"
             >
@@ -31,7 +31,7 @@ export default function Contact() {
           </div>
           <div className="w-full md:w-1/2 px-3">
             <label
-              style={{ color: "#aa8073" }}
+              style={{ color: "#bd897d" }}
               className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
               htmlFor="grid-last-name"
             >
@@ -47,7 +47,7 @@ export default function Contact() {
         <div className="flex flex-wrap -mx-3 mb-6">
           <div className="w-full px-3">
             <label
-              style={{ color: "#aa8073" }}
+              style={{ color: "#bd897d" }}
               className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
               htmlFor="grid-password"
             >
@@ -63,7 +63,7 @@ export default function Contact() {
         <div className="flex flex-wrap -mx-3 mb-6">
           <div className="w-full px-3">
             <label
-              style={{ color: "#aa8073" }}
+              style={{ color: "#bd897d" }}
               className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
               htmlFor="grid-password"
             >
@@ -79,7 +79,7 @@ export default function Contact() {
         <div className="flex flex-wrap -mx-3 mb-6">
           <div className="w-full px-3">
             <label
-              style={{ color: "#aa8073" }}
+              style={{ color: "#bd897d" }}
               className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
               htmlFor="grid-password"
             >
@@ -94,8 +94,8 @@ export default function Contact() {
         <div className="md:flex md:items-center">
           <div className="md:w-1/3">
             <button
-              style={{ background: "#995b37" }}
-              className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
+              style={{ background: "#bd897d" }}
+              className="shadow w-[250px] focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
               type="button"
             >
               Envoyer le message

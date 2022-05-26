@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import React, { useState } from "react";
 import Navbar from "../components/navbar";
+import Footer from '../components/footer';
 
 export default function Concept() {
   return (
@@ -100,6 +101,8 @@ export default function Concept() {
           </div>
         </div>
       </div>
+
+      <Footer/>
     </div>
   );
 }
