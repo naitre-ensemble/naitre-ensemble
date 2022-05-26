@@ -25,6 +25,9 @@ const responsive = {
 };
 
 export default function Home() {
+
+  const isMobile = navigator.userAgentData.mobile;
+
   return (
     <div className="relative">
       <Head>
@@ -259,11 +262,11 @@ export default function Home() {
         <Carousel
           swipeable={false}
           draggable={false}
-          showDots={true}
+          showDots={isMobile ? false : true}
           responsive={responsive}
           ssr={true} // means to render carousel on server-side.
-          infinite={false}
-          autoPlay={false}
+          infinite={true}
+          autoPlay={true}
           autoPlaySpeed={5000}
           keyBoardControl={true}
           customTransition="all .5"
