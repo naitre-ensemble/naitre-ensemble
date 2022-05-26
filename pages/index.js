@@ -262,7 +262,7 @@ export default function Home() {
           showDots={true}
           responsive={responsive}
           ssr={true} // means to render carousel on server-side.
-          infinite={true}
+          infinite={false}
           autoPlay={false}
           autoPlaySpeed={5000}
           keyBoardControl={true}
