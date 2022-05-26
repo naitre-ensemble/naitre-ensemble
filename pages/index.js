@@ -262,7 +262,7 @@ export default function Home() {
           showDots={true}
           responsive={responsive}
           ssr={true} // means to render carousel on server-side.
-          infinite={false}
+          infinite={true}
           autoPlay={false}
           autoPlaySpeed={3000}
           keyBoardControl={true}
@@ -302,7 +302,7 @@ export default function Home() {
             </p>{" "}
           </div>
           <div className="flex flex-col items-center justify-center select-none">
-          <h3
+            <h3
               style={{ color: "#bd897d" }}
               className="text-lg text-center font font-normal tracking-tight text-gray-900"
             >
@@ -320,7 +320,7 @@ export default function Home() {
             >
               Je n&apos;était pas prête à devenir maman. Leslie a su
               m&apos;accompagner tout au long de ma grossesse. Elle a été
-              d&apos;un soutien sans faille alors quer j&apos;étais seule tout
+              d&apos;un soutien sans faille alors que j&apos;étais seule, tout
               en me laissant faire mes propres choix.
             </p>
             <h3
@@ -331,7 +331,7 @@ export default function Home() {
             </h3>{" "}
           </div>
           <div className="flex flex-col items-center justify-center select-none">
-          <h3
+            <h3
               style={{ color: "#bd897d" }}
               className="text-lg text-center font font-normal tracking-tight text-gray-900"
             >
@@ -349,8 +349,9 @@ export default function Home() {
             >
               N&apos;ayant pas pu créer de lien avec mon bébé durant la
               grossesse, c&apos;est grâce au bain sensoriel que j&apos;ai pu
-              regarder mon bébé et apprendre à lui donner un bain tout en douceur. Je me
-              suis à cet instant senti papa pour la toute première fois.
+              découvrir mon bébé et apprendre à lui donner un bain tout en
+              douceur. Je me suis à cet instant senti papa pour la toute
+              première fois.
             </p>
             <h3
               style={{ color: "#bd897d" }}
@@ -360,6 +361,31 @@ export default function Home() {
             </h3>{" "}
           </div>
         </Carousel>
+      </div>
+
+      <div
+        className="h-[300px] pt-10 flex flex-col items-center"
+        style={{ background: "#cda69e" }}
+      >
+        <h4 className="text-center">
+          <span className="text-2xl mb-1 block text-center italic font-normal text-gray-600">
+            Abonnez vous à
+          </span>
+          <span className="text-4xl block text-center font-normal tracking-tight text-gray-600">
+            LA NEWSLETTER Naître Ensemble
+          </span>
+          <span className="mt-2 text-2xl block text-center font-normal tracking-tight text-gray-600">
+            pour recevoir des offres exclusives, des nouveautés et des astuces
+          </span>
+        </h4>
+        <div className="mt-10 mb-4">
+        <input
+          className="appearance-none block w-[500px] bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+          id="grid-first-name"
+          type="text"
+          placeholder="leslie@gmail.com"
+        />
+        </div>
       </div>
 
       <footer

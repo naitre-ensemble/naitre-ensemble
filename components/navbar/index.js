@@ -4,12 +4,10 @@ import React, { useState } from "react";
 import Link from "next/link";
 
 export default function Navbar() {
-  const [menuOneIsOpen, setMenuOneIsOpen] = useState(false);
-  const [menuTwoIsOpen, setMenuTwoIsOpen] = useState(false);
   const [displayMobileMenu, setDisplayMobileMenu] = useState(false);
 
   return (
-    <div className="fixed top-0 w-full z-50" style={{ background: "#bd897d" }}>
+    <div className="fixed top-0 w-full" style={{ background: "#bd897d", zIndex: 999999999 }}>
       <div className="w-full">
         {displayMobileMenu ? (
           <div className="absolute top-0 z-50 bg-white w-full h-screen">
