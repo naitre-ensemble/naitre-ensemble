@@ -21,7 +21,7 @@ export default function WhoIam() {
           >
             Qui suis-je...
           </h1>
-          <div className="grid grid-cols-2 gap-4 mt-12 mb-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-12 mb-12">
             <div>
               <p
                 style={{ color: "#aa8073" }}
@@ -47,10 +47,10 @@ export default function WhoIam() {
                   style={{ borderRadius: "50%" }}
                   className="border border-gray-100 shadow-sm"
                 />
-                <div className="absolute -bottom-12 -right-28 h-[200px] w-[200px] flex justify-center text-justify items-center p-4 rounded-full"              style={{ background: "#bd897d" }}>
+                <div className="absolute -bottom-12 -right-16 lg:-bottom-12 lg:-right-28 h-[200px] w-[200px] flex justify-center text-justify items-center p-4 rounded-full"              style={{ background: "#bd897d" }}>
                   {/* <p className="text-white text-center">Membre Doula de France Partenaire Ohmamacare Ambassadrice du
                   bain Sensoriel ®</p> */}
-                  <p className="text-white text-lg text-center">Ambassadrice du
+                  <p className="text-white text-md lg:text-lg text-center">Ambassadrice du
                   bain Sensoriel ®</p>
                 </div>
               </div>
