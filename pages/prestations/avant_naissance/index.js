@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import React, { useState } from "react";
-import Navbar from "../components/navbar";
-import Footer from "../components/footer";
+import Navbar from "../../../components/navbar";
+import Footer from "../../../components/footer";
 
 export default function Prestations() {
   const dataset = [

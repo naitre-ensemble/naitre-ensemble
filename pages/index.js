@@ -181,7 +181,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex justify-center">
-            <Link href="/prestations">
+            <Link href="/prestations/avant_naissance">
               <button
                 style={{ background: "#bd897d" }}
                 className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
@@ -209,7 +209,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex justify-center">
-            <Link href="/services-doula">
+            <Link href="/prestations/doula">
               <button
                 style={{ background: "#bd897d" }}
                 className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
@@ -237,7 +237,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex justify-center">
-            <Link href="/services-ohmamacare">
+            <Link href="/prestations/apres_naissance">
               <button
                 style={{ background: "#bd897d" }}
                 className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
