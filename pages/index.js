@@ -50,7 +50,7 @@ export default function Home() {
               <div className="lg:hidden text-center flex justify-center">
                 <img
                   className="h-auto w-[300px]"
-                  src="/img/logo-mobile.png"
+                  src="/img/logo-mobile-with-text.png"
                   alt="Naitre ensemble"
                 />
               </div>
