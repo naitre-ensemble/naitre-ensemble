@@ -390,10 +390,10 @@ export default function Home() {
 
       <footer
         style={{ background: "#bd897d" }}
-        className="text-center text-white border-t border-t-gray-200"
+        className="text-center text-white"
       >
         <div className="pt-9">
-          <div className="flex w-full justify-center mb-9">
+          <div className="flex w-full justify-center items-center mb-9 pl-8">
             <a
               href="https://www.facebook.com/naitreensemble"
               target="_blank"
@@ -463,7 +463,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="text-center text-white p-4">© Naitre ensemble</div>
+        <p className=" text-white p-4">Naitre ensemble</p>
       </footer>
     </div>
   );
