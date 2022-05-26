@@ -463,7 +463,7 @@ export default function Home() {
           </div>
         </div>
 
-        <p className=" text-white p-4">Naitre ensemble</p>
+        <p className=" text-white p-4">© Naitre ensemble</p>
       </footer>
     </div>
   );
