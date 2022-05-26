@@ -7,32 +7,20 @@ import Footer from "../../../components/footer";
 export default function Prestations() {
   const dataset = [
     {
-      image: "massage_fertilite.jpeg",
-      title: "massage fertilité",
+      image: "accompagnement_doula.png",
+      title: "accompagnement à la naissance",
     },
     {
-      image: "massage_bien_etre_femme_enceinte.jpeg",
-      title: "massage bien-être de la femme enceinte",
+      image: "accompagnement_doula.png",
+      title: "présence à l'accouchement",
     },
     {
-      image: "reflexologie_detente_femme_enceinte.png",
-      title: 'réflexologie "détente" de la femme enceinte',
+      image: "accompagnement_doula.png",
+      title: 'accompagnement post partum',
     },
     {
-      image: "portage.png",
-      title: "atelier découverte du portage physiologique",
-    },
-    {
-      image: "allaitement.png",
-      title: "atelier découverte de l'allaitement",
-    },
-    {
-      image: "papa_coach.jpeg",
-      title: "atelier papa/parent coach",
-    },
-    {
-      image: "fete_future_mere.jpeg",
-      title: "Fête de la future mère",
+      image: "accompagnement_doula.png",
+      title: "Transformation du placenta",
     },
   ];
 
