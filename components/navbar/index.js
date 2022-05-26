@@ -33,7 +33,7 @@ export default function Navbar() {
                     <span className="mr-9">Qui suis-je</span>
                   </div>
                 </Link>
-                <Link href="/prestations">
+                <Link href="/#accompagnements">
                   <div className="mb-3 p-3 text-lg font-normal text-gray-500 cursor-pointer select-none">
                     <span className="mr-9">Mes prestations</span>
                   </div>
@@ -112,11 +112,11 @@ export default function Navbar() {
                   <span className="mr-9">Qui suis-je</span>
                 </div>
               </Link>
-              <Link href="/prestations">
+              <a href="/#accompagnements">
                 <div className="-m-3 p-3 text-lg  font-normal text-white cursor-pointer select-none hover:underline">
                   <span className="mr-9">Mes prestations</span>
                 </div>
-              </Link>
+              </a>
               <Link href="/forfaits">
                 <div className="-m-3 p-3 text-lg font-normal text-white cursor-pointer select-none hover:underline">
                   <span className="mr-9">Forfaits</span>
