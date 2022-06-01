@@ -22,7 +22,10 @@ const Page = () => {
     <div className="relative">
       <Head>
         <title>Naitre ensemble - Prestation {current?.title}</title>
-        <meta name="description" content={`Naitre ensemble / Prestation / ${current?.title}`} />
+        <meta
+          name="description"
+          content={`Naitre ensemble / Prestation / ${current?.title}`}
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />

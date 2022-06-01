@@ -66,16 +66,20 @@ export default function Prestations() {
             style={{ color: "#aa8073" }}
             className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
-            Découvrez l&apos;ensemble de mes prestations qui ont été spécialement
-            choisies et conçues pour vous accompagner avant, pendant et après la
-            naissance de votre enfant. Chez Naître Ensemble, le bien être,
-            l&apos;accompagnement sur mesure et l&apos;écoute sont à votre disposition
-            pour vivre une naissance respectée et une parentalitée éclairée.
+            Découvrez l&apos;ensemble de mes prestations qui ont été
+            spécialement choisies et conçues pour vous accompagner avant,
+            pendant et après la naissance de votre enfant. Chez Naître Ensemble,
+            le bien être, l&apos;accompagnement sur mesure et l&apos;écoute sont
+            à votre disposition pour vivre une naissance respectée et une
+            parentalitée éclairée.
           </p>
           <div className="mt-12 mb-12 grid grid-cols-1 lg:grid-cols-3 gap-6">
             {dataset.map(({ image, title, url }, index) => {
               return (
-                <Link href={`/prestations/avant_naissance/${url}`} key={`link${index}`}>
+                <Link
+                  href={`/prestations/avant_naissance/${url}`}
+                  key={`link${index}`}
+                >
                   <div className="flex flex-col justify-center items-center text-center cursor-pointer">
                     <img
                       className="inline object-cover w-32 h-32 mr-2 rounded-full"

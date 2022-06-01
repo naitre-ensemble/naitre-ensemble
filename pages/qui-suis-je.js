@@ -66,15 +66,16 @@ export default function WhoIam() {
             style={{ color: "#aa8073" }}
           >
             <li className="p-2">
-              Un accompagnement de l&apos;avant, du pendant et de l&apos;après naissance,
-              sans tabous et avec la plus grande bienveillance.
+              Un accompagnement de l&apos;avant, du pendant et de l&apos;après
+              naissance, sans tabous et avec la plus grande bienveillance.
             </li>
             <li className="p-2">
               Une ressource pour toutes les femmes, les parents et les bébés.
             </li>
             <li className="p-2">
               Une vision du choix libre et conscient pour tous les parents en
-              faveur d&apos;une naissance respectée et d&apos;une parentalité éclairée.
+              faveur d&apos;une naissance respectée et d&apos;une parentalité
+              éclairée.
             </li>
             <li className="p-2">
               Permettre aux parents de prendre confiance en eux, en leurs Une
@@ -86,9 +87,9 @@ export default function WhoIam() {
               De la transmission auprès des professionnels en structure.
             </li>
             <li className="p-2">
-              De l&apos;éthique, du respect, de l&apos;écoute, de la transmission, de la
-              création de liens, beaucoup d&apos;amour mais surtout beaucoup de VOUS
-              !
+              De l&apos;éthique, du respect, de l&apos;écoute, de la
+              transmission, de la création de liens, beaucoup d&apos;amour mais
+              surtout beaucoup de VOUS !
             </li>
             <li className="p-2">
               Des savoir être et des savoir faire pour tous, qui que vous soyez.
@@ -98,34 +99,36 @@ export default function WhoIam() {
             style={{ color: "#aa8073" }}
             className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
-            J&apos;aime l&apos;humain profondément, je suis passionnée par la physiologie,
-            la Femme et le développement du jeune enfant c&apos;est pourquoi je me
-            suis engagée pour l&apos;origine : la naissance ; naissance d&apos;une mère,
-            naissance d&apos;un père, naissance d&apos;une famille, naissance d&apos;un enfant,
-            en me spécialisant dans le domaine de la périnatalité.
+            J&apos;aime l&apos;humain profondément, je suis passionnée par la
+            physiologie, la Femme et le développement du jeune enfant c&apos;est
+            pourquoi je me suis engagée pour l&apos;origine : la naissance ;
+            naissance d&apos;une mère, naissance d&apos;un père, naissance
+            d&apos;une famille, naissance d&apos;un enfant, en me spécialisant
+            dans le domaine de la périnatalité.
           </p>
 
           <p
             style={{ color: "#aa8073" }}
             className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
-            Le partage, l&apos;écoute active, l&apos;observation et la transmission font
-            partie de mon quotidien. J&apos;aime appuyer sur le bouton pause pour
-            vous faire vivre des moments hors du temps. J&apos;aime m&apos;arrêter sur les
-            choses qui paraissent si simples mais qui sont pourtant
-            fondamentales. Les petits rien ont tendance à me fasciner...
+            Le partage, l&apos;écoute active, l&apos;observation et la
+            transmission font partie de mon quotidien. J&apos;aime appuyer sur
+            le bouton pause pour vous faire vivre des moments hors du temps.
+            J&apos;aime m&apos;arrêter sur les choses qui paraissent si simples
+            mais qui sont pourtant fondamentales. Les petits rien ont tendance à
+            me fasciner...
           </p>
 
           <p
             style={{ color: "#aa8073" }}
             className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
-            Si le gage de qualité peut commencer par les formations, il s&apos;agit
-            avant tout pour moi de faire preuve d&apos;une posture humaine et
-            authentique à vos côtés tout en réactualisant mes connaissances à
-            travers l&apos;expérience et la formation afin de vous offrir un
-            accompagnement et une approche au plus proche de vos besoins et des
-            connaissances scientifiques actuelles.
+            Si le gage de qualité peut commencer par les formations, il
+            s&apos;agit avant tout pour moi de faire preuve d&apos;une posture
+            humaine et authentique à vos côtés tout en réactualisant mes
+            connaissances à travers l&apos;expérience et la formation afin de
+            vous offrir un accompagnement et une approche au plus proche de vos
+            besoins et des connaissances scientifiques actuelles.
           </p>
 
           <p

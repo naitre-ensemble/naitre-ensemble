@@ -27,10 +27,10 @@ export default function Concept() {
             className="mt-12 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
             Naître ensemble est un service d&apos;accompagnement dédié à la
-            périnatalité (de la préconception jusqu&apos;aux premiers mois de bébé)
-            et à la parentalité. C’est une ressource pour tous les parents et
-            futurs parents qui souhaitent vivre une naissance respectée et une
-            parentalité éclairée.
+            périnatalité (de la préconception jusqu&apos;aux premiers mois de
+            bébé) et à la parentalité. C’est une ressource pour tous les parents
+            et futurs parents qui souhaitent vivre une naissance respectée et
+            une parentalité éclairée.
           </p>
           <p
             style={{ color: "#aa8073" }}
@@ -95,8 +95,8 @@ export default function Concept() {
               className="font-extralight text-xl pl-3"
               style={{ color: "#aa8073" }}
             >
-              Parce qu&apos;il faut tout un village pour élever un enfant , et toute
-              une communauté pour prendre soin d&apos;un parent.
+              Parce qu&apos;il faut tout un village pour élever un enfant , et
+              toute une communauté pour prendre soin d&apos;un parent.
             </p>
           </div>
         </div>

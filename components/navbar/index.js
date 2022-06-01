@@ -1,10 +1,13 @@
 import Head from "next/head";
 import Image from "next/image";
-import React, { useState } from "react";
+import { Fragment, useEffect, useRef, useState } from "react";
+import { Menu, Transition } from "@headlessui/react";
+import { ChevronDownIcon } from "@heroicons/react/solid";
 import Link from "next/link";
 
 export default function Navbar() {
   const [displayMobileMenu, setDisplayMobileMenu] = useState(false);
+  const [currentMenu, setCurrentMenu] = useState();
 
   return (
     <div
@@ -112,11 +115,143 @@ export default function Navbar() {
                   <span className="mr-9">Qui suis-je</span>
                 </div>
               </Link>
-              <Link href="/#accompagnements">
-                <div className="-m-3 p-3 text-lg  font-normal text-white cursor-pointer select-none hover:underline">
-                  <span className="mr-9">Mes prestations</span>
-                </div>
-              </Link>
+              <div className="w-auto text-left -m-3 p-3">
+                <Menu as="div" className="relative inline-block">
+                  <div>
+                    <Menu.Button className="-m-3 p-3 text-lg font-normal text-white cursor-pointer select-none hover:underline flex justify-center items-center">
+                      Prestations
+                      <ChevronDownIcon
+                        className="ml-2 -mr-1 h-5 w-5 text-white"
+                        aria-hidden="true"
+                      />
+                    </Menu.Button>
+                  </div>
+                  <Transition
+                    as={Fragment}
+                    enter="transition ease-out duration-100"
+                    enterFrom="transform opacity-0 scale-95"
+                    enterTo="transform opacity-100 scale-100"
+                    leave="transition ease-in duration-75"
+                    leaveFrom="transform opacity-100 scale-100"
+                    leaveTo="transform opacity-0 scale-95"
+                  >
+                    <Menu.Items className="absolute right-0 mt-2 w-72 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                      <div className="px-1 py-1 ">
+                        <Menu.Item
+                        >
+                          {({ active }) => (
+                            <div>
+                            {active ? setCurrentMenu("before") : setCurrentMenu(null)}
+                              <button
+                                style={{ color: "#906c61" }}
+                                className={`${
+                                  active ? "bg-gray-100" : ""
+                                } group flex w-full items-center rounded-md px-2 py-4 text-sm`}
+                              >
+                                Avant la naissance
+                                <ChevronDownIcon
+                                  className="ml-2 -mr-1 h-5 w-5 text-gray-300"
+                                  aria-hidden="true"
+                                />
+                              </button>
+                              {currentMenu === "before" ? (
+                                <div className="absolute -right-72 top-3 w-72 mt-2 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                                  <ul className="cursor-pointer">
+                                    <li
+                                      style={{ color: "#906c61" }}
+                                      className={` group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
+                                    >
+                                      <Link href="/prestations/avant_naissance/massage-fertilite">
+                                        Massage fertilité
+                                      </Link>
+                                    </li>
+                                    <li
+                                      style={{ color: "#906c61" }}
+                                      className={`group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
+                                    >
+                                      <Link href="/prestations/avant_naissance/massage-femme-enceinte">
+                                        Massage femme enceinte
+                                      </Link>
+                                    </li>
+                                    <li
+                                      style={{ color: "#906c61" }}
+                                      className={` group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
+                                    >
+                                       <Link href="/prestations/avant_naissance/réflexologie-femme-enceinte">
+                                        Réflexologie femme enceinte
+                                      </Link>
+                                    </li>
+                                    <li
+                                      style={{ color: "#906c61" }}
+                                      className={` group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
+                                    >
+                                       <Link href="/prestations/avant_naissance/decouverte-portage-physiologique">
+                                        Découverte du portage
+                                      </Link>
+                                    </li>
+                                    <li
+                                      style={{ color: "#906c61" }}
+                                      className={` group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
+                                    >
+                                       <Link href="/prestations/avant_naissance/decouverte-allaitement">
+                                        Découverte de l&apos;allaitement
+                                      </Link>
+                                    </li>
+                                    <li
+                                      style={{ color: "#906c61" }}
+                                      className={` group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
+                                    >
+                                       <Link href="/prestations/avant_naissance/parent-coach">
+                                        Atelier parent coach
+                                      </Link>
+                                    </li>
+                                    <li
+                                      style={{ color: "#906c61" }}
+                                      className={` group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
+                                    >
+                                       <Link href="/prestations/avant_naissance/fete-future-mere">
+                                        Fête de la future mère
+                                      </Link>
+                                    </li>
+                                  </ul>
+                                </div>
+                              ) : null}
+                            </div>
+                          )}
+                        </Menu.Item>
+                        <Menu.Item>
+                          {({ active }) => (
+                            <button
+                              style={{ color: "#906c61" }}
+                              className={`${
+                                active ? "bg-gray-100" : ""
+                              } group flex w-full items-center rounded-md px-2 py-4 text-sm`}
+                            >
+                              Acommpagnement de Doula
+                              <ChevronDownIcon
+                                className="ml-2 -mr-1 h-5 w-5 text-gray-300"
+                                aria-hidden="true"
+                              />
+                            </button>
+                          )}
+                        </Menu.Item>
+                        <Menu.Item>
+                          {({ active }) => (
+                            <button
+                              style={{ color: "#906c61" }}
+                              className={`${
+                                active ? "bg-gray-100" : ""
+                              } group flex w-full items-center rounded-md px-2 py-4 text-sm`}
+                            >
+                              Après la naissance
+                            </button>
+                          )}
+                        </Menu.Item>
+                      </div>
+                    </Menu.Items>
+                  </Transition>
+                </Menu>
+              </div>
               <Link href="/forfaits">
                 <div className="-m-3 p-3 text-lg font-normal text-white cursor-pointer select-none hover:underline">
                   <span className="mr-9">Forfaits</span>
