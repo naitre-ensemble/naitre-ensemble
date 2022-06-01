@@ -155,7 +155,7 @@ export default function Navbar() {
                                 />
                               </button>
                               {currentMenu === "before" ? (
-                                <div className="absolute -right-72 top-3 w-72 mt-2 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                                <div className="absolute -right-72 top-0 w-72 mt-2 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                                   <ul className="cursor-pointer">
                                     <li
                                       style={{ color: "#906c61" }}
