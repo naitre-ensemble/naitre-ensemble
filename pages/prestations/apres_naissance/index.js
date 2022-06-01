@@ -32,7 +32,7 @@ export default function Prestations() {
     },
     {
       image: "allaitement.png",
-      title: "soutien en l&apos;allaitement",
+      title: "soutien à l'allaitement",
     },
     {
       image: "aide_domicile_post_partum.jpeg",

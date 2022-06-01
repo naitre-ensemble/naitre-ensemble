@@ -29,7 +29,7 @@ export default function Prestations() {
     },
     {
       image: "allaitement.png",
-      title: "atelier découverte de l&apos;allaitement",
+      title: "atelier découverte de l'allaitement",
       url: "decouverte-allaitement",
     },
     {
