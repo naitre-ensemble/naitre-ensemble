@@ -40,7 +40,7 @@ export default function Forfaits() {
                   style={{ color: "#bd897d" }}
                   className="font-medium text-xl mt-3 mb-2 flex justify-center"
                 >
-                  Forfait "naître ensemble"
+                  Forfait &quot;naître ensemble&quot;
                 </div>
                 <p
                   style={{ color: "#aa8073" }}
@@ -84,7 +84,7 @@ export default function Forfaits() {
                   style={{ color: "#bd897d" }}
                   className="font-medium text-xl mt-3 mb-2 flex justify-center"
                 >
-                  Forfait " devenir parents"
+                  Forfait &quot;devenir parents&quot;
                 </div>
                 <p
                   style={{ color: "#aa8073" }}
@@ -129,7 +129,7 @@ export default function Forfaits() {
                   style={{ color: "#bd897d" }}
                   className="font-medium text-xl mt-3 mb-2 flex justify-center"
                 >
-                  Forfait "bien naître"
+                  Forfait &quot;bien naître&quot;
                 </div>
                 <p
                   style={{ color: "#aa8073" }}
@@ -173,7 +173,7 @@ export default function Forfaits() {
                   style={{ color: "#bd897d" }}
                   className="font-medium text-xl mt-3 mb-2 flex justify-center"
                 >
-                  Forfait "détente"
+                  Forfait &quot;détente&quot;
                 </div>
                 <p
                   style={{ color: "#aa8073" }}

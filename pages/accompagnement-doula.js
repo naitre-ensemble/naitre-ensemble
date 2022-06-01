@@ -103,7 +103,7 @@ export default function AccompagnementDoula() {
               de nuit nourrisson)...
             </li>
             <li className="p-0 pb-4">
-              Je pense que "Pour materner, il faut être maternée" et je suis
+              Je pense que &quot;Pour materner, il faut être maternée&quot; et je suis
               convaincue de la force et de la puissance des Femmes, du corps de
               la femme et de ses ressources. J&apos;accompagne les femmes au
               quotidien à (re)découvrir qu&apos;elles ont tout en elles pour donner
@@ -228,8 +228,8 @@ export default function AccompagnementDoula() {
             style={{ color: "#aa8073" }}
             className="mt-12 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
-            La posture professionnelle de Naître Ensemble est une pratique "amie
-            des Sages-Femmes".
+            La posture professionnelle de Naître Ensemble est une pratique &quot;amie
+            des Sages-Femmes&quot;.
           </p>
 
           <p
