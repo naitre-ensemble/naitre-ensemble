@@ -112,11 +112,11 @@ export default function Navbar() {
                   <span className="mr-9">Qui suis-je</span>
                 </div>
               </Link>
-              <a href="/#accompagnements">
+              <Link href="/#accompagnements">
                 <div className="-m-3 p-3 text-lg  font-normal text-white cursor-pointer select-none hover:underline">
                   <span className="mr-9">Mes prestations</span>
                 </div>
-              </a>
+              </Link>
               <Link href="/forfaits">
                 <div className="-m-3 p-3 text-lg font-normal text-white cursor-pointer select-none hover:underline">
                   <span className="mr-9">Forfaits</span>
