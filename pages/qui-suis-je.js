@@ -113,7 +113,7 @@ export default function WhoIam() {
             partie de mon quotidien. J&apos;aime appuyer sur le bouton pause pour
             vous faire vivre des moments hors du temps. J&apos;aime m&apos;arrêter sur les
             choses qui paraissent si simples mais qui sont pourtant
-            fondamentales. Les petits "rien" ont tendance à me fasciner...
+            fondamentales. Les petits rien ont tendance à me fasciner...
           </p>
 
           <p
