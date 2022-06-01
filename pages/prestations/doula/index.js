@@ -53,9 +53,9 @@ export default function Prestations() {
             pour vivre une naissance respectée et une parentalitée éclairée.
           </p>
           <div className="mt-12 mb-12 grid grid-cols-1 lg:grid-cols-3 gap-6">
-            {dataset.map(({ image, title }) => {
+            {dataset.map(({ image, title }, index) => {
               return (
-                <div className="flex flex-col justify-center items-center text-center cursor-pointer">
+                <div key={`item_${index}`} className="flex flex-col justify-center items-center text-center cursor-pointer">
                   <img
                     className="inline object-cover w-32 h-32 mr-2 rounded-full"
                     src={`/img/prestations_doula/${image}`}

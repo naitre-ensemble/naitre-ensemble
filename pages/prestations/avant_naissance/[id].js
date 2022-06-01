@@ -51,9 +51,10 @@ const Page = () => {
           </div>
 
           <div className="pb-12 pt-12">
-            {current?.content.map((paragraph) => {
+            {current?.content.map((paragraph, index) => {
               return (
                 <p
+                  key={`paragraph_${index}`}
                   style={{ color: "#aa8073" }}
                   className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
                 >

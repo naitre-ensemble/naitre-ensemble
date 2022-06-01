@@ -73,9 +73,9 @@ export default function Prestations() {
             pour vivre une naissance respectée et une parentalitée éclairée.
           </p>
           <div className="mt-12 mb-12 grid grid-cols-1 lg:grid-cols-3 gap-6">
-            {dataset.map(({ image, title, url }) => {
+            {dataset.map(({ image, title, url }, index) => {
               return (
-                <Link href={`/prestations/avant_naissance/${url}`}>
+                <Link href={`/prestations/avant_naissance/${url}`} key={`link${index}`}>
                   <div className="flex flex-col justify-center items-center text-center cursor-pointer">
                     <img
                       className="inline object-cover w-32 h-32 mr-2 rounded-full"
