@@ -158,13 +158,13 @@ export default function Home() {
       </div>
 
       <h2
+              id="accompagnements"
         style={{ color: "#bd897d" }}
         className="mt-24 text-4xl text-center font-normal tracking-tight text-gray-900"
       >
         Mes accompagnements
       </h2>
       <div
-        id="accompagnements"
         className="pt-20 pb-20 grid lg:grid-flow-col gap-16 justify-center"
       >
         <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
@@ -388,7 +388,9 @@ export default function Home() {
           <input
             className="appearance-none h-12 block w-[200px] lg:w-[500px] bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
             id="grid-first-name"
-            type="text"
+            type="email"
+            autoComplete="email"
+            required
             placeholder="leslie@gmail.com"
           />
           <button

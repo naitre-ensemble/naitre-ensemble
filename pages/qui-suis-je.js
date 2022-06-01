@@ -36,7 +36,7 @@ export default function WhoIam() {
                 className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
               >
                 Dans la vie, je suis Éducatrice de Jeunes Enfants, Doula et
-                accompagnante périnatale et parentale. J'ai rassemblais mes
+                accompagnante périnatale et parentale. J&apos;ai rassemblais mes
                 compétences dans un seul et même projet : Naître Ensemble.
               </p>
             </div>
@@ -66,7 +66,7 @@ export default function WhoIam() {
             style={{ color: "#aa8073" }}
           >
             <li className="p-2">
-              Un accompagnement de l'avant, du pendant et de l'après naissance,
+              Un accompagnement de l&apos;avant, du pendant et de l&apos;après naissance,
               sans tabous et avec la plus grande bienveillance.
             </li>
             <li className="p-2">
@@ -74,7 +74,7 @@ export default function WhoIam() {
             </li>
             <li className="p-2">
               Une vision du choix libre et conscient pour tous les parents en
-              faveur d'une naissance respectée et d'une parentalité éclairée.
+              faveur d&apos;une naissance respectée et d&apos;une parentalité éclairée.
             </li>
             <li className="p-2">
               Permettre aux parents de prendre confiance en eux, en leurs Une
@@ -86,8 +86,8 @@ export default function WhoIam() {
               De la transmission auprès des professionnels en structure.
             </li>
             <li className="p-2">
-              De l'éthique, du respect, de l'écoute, de la transmission, de la
-              création de liens, beaucoup d'amour mais surtout beaucoup de VOUS
+              De l&apos;éthique, du respect, de l&apos;écoute, de la transmission, de la
+              création de liens, beaucoup d&apos;amour mais surtout beaucoup de VOUS
               !
             </li>
             <li className="p-2">
@@ -98,10 +98,10 @@ export default function WhoIam() {
             style={{ color: "#aa8073" }}
             className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
-            J'aime l'humain profondément, je suis passionnée par la physiologie,
-            la Femme et le développement du jeune enfant c'est pourquoi je me
-            suis engagée pour l'origine : la naissance ; naissance d'une mère,
-            naissance d'un père, naissance d'une famille, naissance d'un enfant,
+            J&apos;aime l&apos;humain profondément, je suis passionnée par la physiologie,
+            la Femme et le développement du jeune enfant c&apos;est pourquoi je me
+            suis engagée pour l&apos;origine : la naissance ; naissance d&apos;une mère,
+            naissance d&apos;un père, naissance d&apos;une famille, naissance d&apos;un enfant,
             en me spécialisant dans le domaine de la périnatalité.
           </p>
 
@@ -109,9 +109,9 @@ export default function WhoIam() {
             style={{ color: "#aa8073" }}
             className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
-            Le partage, l'écoute active, l'observation et la transmission font
-            partie de mon quotidien. J'aime appuyer sur le bouton pause pour
-            vous faire vivre des moments hors du temps. J'aime m'arrêter sur les
+            Le partage, l&apos;écoute active, l&apos;observation et la transmission font
+            partie de mon quotidien. J&apos;aime appuyer sur le bouton pause pour
+            vous faire vivre des moments hors du temps. J&apos;aime m&apos;arrêter sur les
             choses qui paraissent si simples mais qui sont pourtant
             fondamentales. Les petits "rien" ont tendance à me fasciner...
           </p>
@@ -120,10 +120,10 @@ export default function WhoIam() {
             style={{ color: "#aa8073" }}
             className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
-            Si le gage de qualité peut commencer par les formations, il s'agit
-            avant tout pour moi de faire preuve d'une posture humaine et
+            Si le gage de qualité peut commencer par les formations, il s&apos;agit
+            avant tout pour moi de faire preuve d&apos;une posture humaine et
             authentique à vos côtés tout en réactualisant mes connaissances à
-            travers l'expérience et la formation afin de vous offrir un
+            travers l&apos;expérience et la formation afin de vous offrir un
             accompagnement et une approche au plus proche de vos besoins et des
             connaissances scientifiques actuelles.
           </p>
@@ -133,7 +133,7 @@ export default function WhoIam() {
             className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
             Vous retrouverez mes références liées à mes nombreuses formations en
-            périnatalité que j'ai complété par de nombreuses lectures,
+            périnatalité que j&apos;ai complété par de nombreuses lectures,
             webinaires, vidéos, rencontres, partage de connaissance...
           </p>
         </div>

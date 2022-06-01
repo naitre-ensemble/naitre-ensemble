@@ -12,7 +12,7 @@ export default function Prestations() {
     },
     {
       image: "accompagnement_doula.png",
-      title: "présence à l'accouchement",
+      title: "présence à l&apos;accouchement",
     },
     {
       image: "accompagnement_doula.png",
@@ -46,10 +46,10 @@ export default function Prestations() {
             style={{ color: "#aa8073" }}
             className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
-            Découvrez l'ensemble de mes prestations qui ont été spécialement
+            Découvrez l&apos;ensemble de mes prestations qui ont été spécialement
             choisies et conçues pour vous accompagner avant, pendant et après la
             naissance de votre enfant. Chez Naître Ensemble, le bien être,
-            l'accompagnement sur mesure et l'écoute sont à votre disposition
+            l&apos;accompagnement sur mesure et l&apos;écoute sont à votre disposition
             pour vivre une naissance respectée et une parentalitée éclairée.
           </p>
           <div className="mt-12 mb-12 grid grid-cols-1 lg:grid-cols-3 gap-6">
