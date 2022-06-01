@@ -103,7 +103,10 @@ export default function Navbar() {
               </svg>
             </button>
           </div>
-          <nav className="hidden lg:flex w-full" onMouseLeave={() => setCurrentMenu(null)}>
+          <nav
+            className="hidden lg:flex w-full"
+            onMouseLeave={() => setCurrentMenu(null)}
+          >
             <div className="relative flex justify-between w-full">
               <Link href="/concept">
                 <div className="-m-3 p-3 text-lg font-normal text-white cursor-pointer select-none hover:underline">
@@ -221,41 +224,17 @@ export default function Navbar() {
                         <Menu.Item>
                           {({ active }) => (
                             <div>
-                              {active ? setCurrentMenu("doula") : () => {}}
-                              <button
-                                style={{ color: "#906c61" }}
-                                className={`${
-                                  active ? "bg-gray-100" : ""
-                                } group flex w-full items-center rounded-md px-2 py-4 text-sm`}
-                              >
-                                Acommpagnement de Doula
-                                <ChevronDownIcon
-                                  className="ml-2 -mr-1 h-5 w-5 text-gray-300"
-                                  aria-hidden="true"
-                                />
-                              </button>
-                              {currentMenu === "doula" ? (
-                                <div className="absolute -right-72 top-0 w-72 mt-2 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-                                  <ul className="cursor-pointer">
-                                    <li
-                                      style={{ color: "#906c61" }}
-                                      className={` group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
-                                    >
-                                      <Link href="/prestations/avant_naissance/massage-fertilite">
-                                        Massage fertilité
-                                      </Link>
-                                    </li>
-                                    <li
-                                      style={{ color: "#906c61" }}
-                                      className={`group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
-                                    >
-                                      <Link href="/prestations/avant_naissance/massage-femme-enceinte">
-                                        Massage femme enceinte
-                                      </Link>
-                                    </li>
-                                  </ul>
-                                </div>
-                              ) : null}
+                              {active ? setCurrentMenu(null) : () => {}}
+                              <Link href="/accompagnement-doula">
+                                <span
+                                  style={{ color: "#906c61" }}
+                                  className={`${
+                                    active ? "bg-gray-100" : ""
+                                  } group flex w-full items-center rounded-md px-2 py-4 text-sm cursor-pointer`}
+                                >
+                                  Accompagnement Doula
+                                </span>
+                              </Link>
                             </div>
                           )}
                         </Menu.Item>
@@ -270,6 +249,10 @@ export default function Navbar() {
                                 } group flex w-full items-center rounded-md px-2 py-4 text-sm`}
                               >
                                 Après la naissance
+                                <ChevronDownIcon
+                                  className="ml-2 -mr-1 h-5 w-5 text-gray-300"
+                                  aria-hidden="true"
+                                />
                               </button>
                               {currentMenu === "after" ? (
                                 <div className="absolute -right-72 top-0 w-72 mt-2 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
@@ -278,7 +261,7 @@ export default function Navbar() {
                                       style={{ color: "#906c61" }}
                                       className={` group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
                                     >
-                                      <Link href="/prestations/avant_naissance/massage-fertilite">
+                                      <Link href="/prestations/apres_naissance/rituel-bain-sensoriel">
                                         Rituel bain sensoriel
                                       </Link>
                                     </li>
@@ -286,7 +269,7 @@ export default function Navbar() {
                                       style={{ color: "#906c61" }}
                                       className={`group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
                                     >
-                                      <Link href="/prestations/avant_naissance/massage-femme-enceinte">
+                                      <Link href="/prestations/apres_naissance/massage-post-natal">
                                         Massage post natal
                                       </Link>
                                     </li>
@@ -294,7 +277,7 @@ export default function Navbar() {
                                       style={{ color: "#906c61" }}
                                       className={`group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
                                     >
-                                      <Link href="/prestations/avant_naissance/massage-femme-enceinte">
+                                      <Link href="/prestations/apres_naissance/rituel-rebozo">
                                         Soin rituel rebozo
                                       </Link>
                                     </li>
@@ -302,7 +285,7 @@ export default function Navbar() {
                                       style={{ color: "#906c61" }}
                                       className={`group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
                                     >
-                                      <Link href="/prestations/avant_naissance/massage-femme-enceinte">
+                                      <Link href="/prestations/apres_naissance/massage-bébé">
                                         Massage bien naître bébé
                                       </Link>
                                     </li>
@@ -310,7 +293,7 @@ export default function Navbar() {
                                       style={{ color: "#906c61" }}
                                       className={`group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
                                     >
-                                      <Link href="/prestations/avant_naissance/massage-femme-enceinte">
+                                      <Link href="/prestations/apres_naissance/reflexologie-bebe-émotionnelle">
                                         Réflexologie bébé
                                       </Link>
                                     </li>
@@ -318,7 +301,7 @@ export default function Navbar() {
                                       style={{ color: "#906c61" }}
                                       className={`group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
                                     >
-                                      <Link href="/prestations/avant_naissance/massage-femme-enceinte">
+                                      <Link href="/prestations/apres_naissance/atelier-de-portage">
                                         Atelier de portage
                                       </Link>
                                     </li>
@@ -326,7 +309,7 @@ export default function Navbar() {
                                       style={{ color: "#906c61" }}
                                       className={`group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
                                     >
-                                      <Link href="/prestations/avant_naissance/massage-femme-enceinte">
+                                      <Link href="/prestations/apres_naissance/aide-à-domicile-postpartum">
                                         Aide à domicile post partum
                                       </Link>
                                     </li>
@@ -334,7 +317,7 @@ export default function Navbar() {
                                       style={{ color: "#906c61" }}
                                       className={`group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
                                     >
-                                      <Link href="/prestations/avant_naissance/massage-femme-enceinte">
+                                      <Link href="/prestations/apres_naissance/service-doula-dodo">
                                         Service doula dodo
                                       </Link>
                                     </li>

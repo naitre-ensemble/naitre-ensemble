@@ -13,7 +13,7 @@ const data = [
       `Il peut être complémentaire à la vie d'une femme qui mène un parcours et un désir d'enfant sensible par exemple en PMA (demandez toujours un avis médical avant de vous lancer dans un protocole de massage)`,
       `Il est l'occasion pour la femme qui a vécu une interruption volontaire ou non de grossesse de se réapproprier cette zone.`,
       `Il soutient les femmes en général (trompes bouchées, fibromes, adhésions, tissus cicatriciel, infertilité inexpliquée, caillots durant les règles, kystes, endometriose, mauvaise circulation sanguine....)`,
-      `Le massage ventral se fait uniquement après vos règles et juste avant l'ovulation. 
+      `Le massage ventral se fait uniquement après vos règles et juste avant l'ovulation.
         Je ne masse pas le ventre pendant vos règles et en période post ovulatoire`,
     ],
     prestations: "à domicile - en cabinet",
@@ -64,7 +64,7 @@ const data = [
       `Avant que bébé arrive, vous êtes envahi d'une liste de naissance à créer, d'une poussette à acheter ? Vous avez repéré ou entendu parler du portage de près ou de loin ? `,
       `Vous êtes déjà parent et vous avez déjà porter bébé à l'aide d'un porte bébé dit "non physiologique" ? Vous souhaitez découvrir la physiologie et son intérêt pour bébé ? `,
       `Lors de cet atelier nous aborderons dans un premier temps ce qu'est le portage, sa physiologie, ses intérêts pour vous et votre bébé. C'est de façon ludique que vous découvrirez quand, comment, où et pourquoi porter.`,
-      `Vous serez initiez au portage à bras physiologique et à l'emmaillotage physiologique. Vous pourrez d'ailleurs pratiquer sur poupon ou sur votre bébé. `,
+      `Vous serez initié au portage à bras physiologique et à l'emmaillotage physiologique. Vous pourrez d'ailleurs pratiquer sur poupon ou sur votre bébé. `,
       `Puis vous découvrirez les différents moyens de portage du monde et pourrez tester des indispensables pour des débuts de portage tout en douceur. `,
       `Un mélange de pratique, d'échanges et de transmission... `,
     ],
@@ -125,25 +125,24 @@ const data = [
       `
       Naître Ensemble, vous propose de co-animer un moment épuré, féminin, plein de sororité autour d'une décoration "pampa".`,
       `Une fête de la future mère avec Naître Ensemble ressemble à : `,
-      `Ouverture de cérémonie d'un moment plein de sororité 
-      Découverte des divers ateliers bien être autour de la fin de grossesse et du post partum (création d'huile de massage, soins post-partum...), échanges et gourmandises
-      Découverte de l'atelier cuisine post partum à réaliser entre femmes pour vous 
-      Soin "bien naître" de la femme enceinte pendant que les femmes cuisinent pour vous 
-      Temps suspendu entre femmes pour faire durer le petit nuage sur lequel vous serez après le massage durant lequel vous pourrez vous faire chouchouter par toutes les femmes (massage des mains, massage crânien, massage des pieds, bain de pieds et henné sur les mains, pieds et/ou ventre) 
-      Clôture d'une cérémonie aimante et douce par des petit mots d'encouragements pour la future mère.  `,
-      `Évidemment, c'est vous qui composez avec moi et avec les organisatrices cette fête. Vous avez la possibilité d'ajouter ou de vous passez de ces propositions. Pour organiser ce moment, je propose : `,
-      `Un temps d'échange d'1h avec la future mère pour parler de ses besoins et ses désirs pour ce joli moment 
-      Des échanges avec les participantes ou la personne ressource de la mère pour la répartition de l'organisation
-      Je met à votre disposition des éléments de déco "pampa" assez naturels, dans les tons blanc/beige/osier (5 poufs/coussins de sol, 1 tapis, des fleurs de pampa, 2 palettes pour réaliser une table au sol, 1 chemin de table blanc, des set de table en osier). Libre à vous de compéter cette décoration pour ajouter votre touche. 
-      Je met également à disposition : des idées goûter à utiliser jusqu'à la naissance et en post partum et une liste de courses spéciale post partum pour préparer des plats à congeler pour la jeune mère. 
-      Je propose de disposer quelques ateliers à faire durant cette fête avec du matériel de soins pour prendre soin de soi entre femmes (bain de pieds, préparation d'huile de massage, soins post partum, sauna portatif pour les invitées) 
-      Je vous offre du henné, vous aurez le choix entre un modèle ou une création faite par les femmes pour vous
-      Mais aussi des papiers à petits mots à glisser pour la mère et le bébé. `,
+      `Ouverture de cérémonie d'un moment plein de sororité`,
+      `Découverte des divers ateliers bien être autour de la fin de grossesse et du post partum (création d'huile de massage, soins post-partum...), échanges et gourmandises`,
+      `Découverte de l'atelier cuisine post partum à réaliser entre femmes pour vous`,
+      `Massage "bien naître" de la femme enceinte pendant que les femmes cuisinent pour vous`,
+      `Temps suspendu entre femmes pour faire durer le petit nuage sur lequel vous serez après le massage durant lequel vous pourrez vous faire chouchouter par toutes les femmes (massage des mains, massage crânien, massage des pieds, bain de pieds et henné sur les mains, pieds et/ou ventre)`,
+      `Clôture d'une cérémonie aimante et douce par des petit mots d'encouragements pour la future mère.  `,
+      `Évidemment, c'est vous qui composez avec moi et avec les organisatrices de cette fête. Vous avez la possibilité d'ajouter ou de vous passer de ces propositions. Pour organiser ce moment, je propose : `,
+      `Un temps d'échange d'1h avec la future mère pour parler de ses besoins et ses désirs pour ce joli moment`,
+      `Des échanges avec les participantes ou la personne ressource de la mère pour la répartition de l'organisation`,
+      `Je met à votre disposition des éléments de déco "pampa" assez naturels, dans les tons blanc/beige/osier. Libre à vous de compléter cette décoration pour ajouter votre touche`,
+      `Je mets également à disposition : des idées goûter à utiliser jusqu'à la naissance et en post partum et une liste de courses spéciale post partum pour préparer des plats à congeler pour la jeune mère`,
+      `Je propose de disposer quelques ateliers à faire durant cette fête avec du matériel de soins pour prendre soin de soi entre femmes (bain de pieds, préparation d'huile de massage, soins post partum, sauna portatif pour les invitées)`,
+      `Je vous offre du henné, vous aurez le choix entre un modèle ou une création faite par les femmes pour vous. Mais aussi des papiers à petits mots à glisser pour la mère et le bébé. `,
       `Je suis à vos côtés pour co-animer cette fête avec les femmes qui prendront soin de vous et qui font partie de votre village de soutien avant et après la naissance. L'idéal est d'échanger avec vous et de désigner une super women qui sera garante de l'organisation en amont et de l'après fête (aide au rangement,...) `,
     ],
     prestations: "à domicile - en cabinet",
-    duration: "1 heure",
-    price: "45 euros",
+    duration: "3 heure",
+    price: "250 euros",
     infos: ``,
   },
 ];

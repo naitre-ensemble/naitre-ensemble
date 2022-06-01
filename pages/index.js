@@ -210,7 +210,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex justify-center">
-            <Link href="/prestations/doula">
+            <Link href="/accompagnement-doula">
               <button
                 style={{ background: "#bd897d" }}
                 className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
