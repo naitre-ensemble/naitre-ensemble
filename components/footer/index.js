@@ -53,7 +53,7 @@ export default function Footer() {
             </svg>
           </a>
           <a
-            href="https://www.linkedin.com/in/leslie-r-753257126/"
+            href="https://www.linkedin.com/in/na%C3%AEtre-ensemble-b6623323b"
             target="_blank"
             rel="noreferrer"
             className="mr-9 text-white"
