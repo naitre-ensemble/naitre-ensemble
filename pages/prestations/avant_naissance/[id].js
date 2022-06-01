@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
-import { data } from "../data";
+import data from "../data";
 import Head from "next/head";
 import Image from "next/image";
 import Navbar from "../../../components/navbar";

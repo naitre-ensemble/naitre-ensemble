@@ -1,4 +1,4 @@
-export const data = [
+ const data = [
   {
     url: "massage-fertilite",
     title: "Massage fertilité",
@@ -147,3 +147,5 @@ export const data = [
     infos: ``
   },
 ];
+
+export default data;
