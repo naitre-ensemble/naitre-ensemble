@@ -42,7 +42,7 @@ export default function Structure() {
             style={{ color: "#aa8073" }}
             className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
-            Soit sous forme d'ateliers parents/enfants (massage bébé,
+            Soit sous forme d&apos;ateliers parents/enfants (massage bébé,
             réflexologie, portage)
           </p>
           <p
@@ -50,7 +50,7 @@ export default function Structure() {
             className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
             Soit sous forme de temps dédiés aux parents uniquement (temps
-            d'échanges, temps de sensibilisations, temps pour prendre soin de
+            d&apos;échanges, temps de sensibilisations, temps pour prendre soin de
             soi, temps en couple...)
           </p>
 
@@ -78,19 +78,19 @@ export default function Structure() {
             <li className="p-0 pb-4">Le massage bébé</li>
             <li className="p-0 pb-4">Le portage physiologique</li>
             <li className="p-0 pb-4">
-              Le portage à bras et l'emmaillotage physiologique
+              Le portage à bras et l&apos;emmaillotage physiologique
             </li>
             <li className="p-0 pb-4">Le portage et le RGO</li>
             <li className="p-0 pb-4">Le portage et le handicap</li>
             <li className="p-0 pb-4">
-              Le rituel du bain sensoriel (s'exercer avant la naissance de bébé)
+              Le rituel du bain sensoriel (s&apos;exercer avant la naissance de bébé)
             </li>
             <li className="p-0 pb-4">
-              L'éveil sensoriel (approche multi sensorielle)
+              L&apos;éveil sensoriel (approche multi sensorielle)
             </li>
-            <li className="p-0 pb-4">La découverte de l'allaitement</li>
+            <li className="p-0 pb-4">La découverte de l&apos;allaitement</li>
             <li className="p-0 pb-4">La grossesse</li>
-            <li className="p-0 pb-4">L'accouchement</li>
+            <li className="p-0 pb-4">L&apos;accouchement</li>
             <li className="p-0 pb-4">Le post partum</li>
           </ul>
 
@@ -98,9 +98,9 @@ export default function Structure() {
             style={{ color: "#aa8073" }}
             className="mt-12 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
-            D'autres thématiques sont en cours d'élaboration et seront
+            D&apos;autres thématiques sont en cours d&apos;élaboration et seront
             disponibles à partir de 2023, cependant dans une démarche de qualité
-            naître ensemble reste entièrement à l'écoute de vos besoins et de
+            naître ensemble reste entièrement à l&apos;écoute de vos besoins et de
             vos demandes pour compléter son offre pour toujours mieux répondre
             aux parents et aux enfants.
           </p>
@@ -120,9 +120,9 @@ export default function Structure() {
             style={{ color: "#aa8073" }}
             className="mt-12 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
-            Parce que se nourrir professionnellement c'est aussi prendre le
-            temps de se retrouver, de reprendre son souffle, de s'écouter pour
-            être à l'écoute des autres dans sa pratique.
+            Parce que se nourrir professionnellement c&apos;est aussi prendre le
+            temps de se retrouver, de reprendre son souffle, de s&apos;écouter pour
+            être à l&apos;écoute des autres dans sa pratique.
           </p>
         </div>
 
@@ -181,8 +181,8 @@ export default function Structure() {
                 style={{ color: "#aa8073" }}
                 className="mt-3 text-md p-4 lg:p-0 font-normal text-center"
               >
-                Sensibilisation à l'allaitement maternel : approche théorique et
-                accueil bienveillant de l'allaitement en structure
+                Sensibilisation à l&apos;allaitement maternel : approche théorique et
+                accueil bienveillant de l&apos;allaitement en structure
               </p>
               <p
                 style={{ color: "#aa8073" }}
@@ -223,7 +223,7 @@ export default function Structure() {
                 style={{ color: "#aa8073" }}
                 className="mt-3 text-md p-4 lg:p-0 font-normal text-center"
               >
-                Sensibilisation au portage en structure : l'intérêt du portage
+                Sensibilisation au portage en structure : l&apos;intérêt du portage
                 en écharpe/porte bébé et des possibilités en structure
               </p>
               <p
@@ -231,7 +231,7 @@ export default function Structure() {
                 className="mt-3 text-md p-4 lg:p-0 font-normal text-center"
               >
                 Sensibilisation au bien être en équipe : Le rebozo un temps pour
-                créer une cohésion d'équipe (aménagement d'un espace bien-être,
+                créer une cohésion d&apos;équipe (aménagement d&apos;un espace bien-être,
                 techniques de bercements et de serrage des points du corps)
               </p>
               <div className="absolute w-full bottom-6 left-0 flex justify-center">

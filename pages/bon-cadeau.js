@@ -26,7 +26,7 @@ export default function BonCadeau() {
             style={{ color: "#bd897d" }}
             className="text-center text-2xl font-light tracking-tight sm:text-3xl mt-6 lg:text-left"
           >
-            Vous voulez être certain de faire plaisir et d'acheter utile ?
+            Vous voulez être certain de faire plaisir et d&apos;acheter utile ?
           </h2>
           <h2
             style={{ color: "#bd897d" }}
@@ -41,7 +41,7 @@ export default function BonCadeau() {
           >
             Vous pouvez choisir un bon cadeau avec la prestation de votre choix
             ou choisir un carte à prix libre pour que la personne à qui vous
-            l'offrez choisisse elle même ce qui lui fait plaisir
+            l&apos;offrez choisisse elle même ce qui lui fait plaisir
           </p>
           <p
             style={{ color: "#aa8073" }}
@@ -55,7 +55,7 @@ export default function BonCadeau() {
             className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight mb-72"
           >
             Bon cadeau à envoyer version numérique (gratuit) avec un petit mail
-            rempli d'amour
+            rempli d&apos;amour
           </p>
         </div>
       </div>

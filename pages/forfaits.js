@@ -27,9 +27,9 @@ export default function Forfaits() {
             style={{ color: "#aa8073" }}
             className="mt-12 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
-            Idéal pour préparer une naissance, à offrir ou à s'offrir les
+            Idéal pour préparer une naissance, à offrir ou à s&apos;offrir les
             forfaits chez Naître Ensemble vous permettent de vous faire plaisir
-            tout en bénéficiant d'avantages. Ils nous permettent également de
+            tout en bénéficiant d&apos;avantages. Ils nous permettent également de
             créer un lien unique avant, pendant ou après la grossesse.
           </p>
 
@@ -107,7 +107,7 @@ export default function Forfaits() {
                     <li>un massage femme enceinte</li>
                     <li>un atelier papa/parent coach</li>
                     <li>un atelier de portage</li>
-                    <li>un atelier découverte de l'allaitement</li>
+                    <li>un atelier découverte de l&apos;allaitement</li>
                   </ul>
                 </div>
                 <div className="absolute w-full bottom-6 left-0 flex justify-center">
