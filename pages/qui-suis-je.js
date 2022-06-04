@@ -22,7 +22,7 @@ export default function WhoIam() {
           >
             Qui suis-je...
           </h1>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-12 mb-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-12 mb-24">
             <div>
               <p
                 style={{ color: "#aa8073" }}
@@ -61,40 +61,6 @@ export default function WhoIam() {
               </div>
             </div>
           </div>
-          <ul
-            className="pt-6 text-xl font-normal list-disc"
-            style={{ color: "#aa8073" }}
-          >
-            <li className="p-2">
-              Un accompagnement de l&apos;avant, du pendant et de l&apos;après
-              naissance, sans tabous et avec la plus grande bienveillance.
-            </li>
-            <li className="p-2">
-              Une ressource pour toutes les femmes, les parents et les bébés.
-            </li>
-            <li className="p-2">
-              Une vision du choix libre et conscient pour tous les parents en
-              faveur d&apos;une naissance respectée et d&apos;une parentalité
-              éclairée.
-            </li>
-            <li className="p-2">
-              Permettre aux parents de prendre confiance en eux, en leurs Une
-              parenthèse autour du bien être sur mesure, rien que pour vous,
-              pour votre bébé ou en couple à travers différents soins.
-            </li>
-
-            <li className="p-2">
-              De la transmission auprès des professionnels en structure.
-            </li>
-            <li className="p-2">
-              De l&apos;éthique, du respect, de l&apos;écoute, de la
-              transmission, de la création de liens, beaucoup d&apos;amour mais
-              surtout beaucoup de VOUS !
-            </li>
-            <li className="p-2">
-              Des savoir être et des savoir faire pour tous, qui que vous soyez.
-            </li>
-          </ul>
           <p
             style={{ color: "#aa8073" }}
             className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
@@ -135,7 +101,7 @@ export default function WhoIam() {
             style={{ color: "#aa8073" }}
             className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
-            Vous retrouverez mes références liées à mes nombreuses formations en
+            Vous retrouverez mes références liées à mes formations en
             périnatalité que j&apos;ai complété par de nombreuses lectures,
             webinaires, vidéos, rencontres, partage de connaissance...
           </p>

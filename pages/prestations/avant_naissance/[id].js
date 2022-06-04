@@ -30,15 +30,24 @@ const Page = () => {
       </Head>
       <Navbar />
 
-      <div className="w-full pt-36 lg:pt-36 p-4 lg:p-6">
+      <div className="w-full">
+      <div
+          class="w-full bg-cover bg-center"
+          style={{
+            height: "22rem",
+            opacity: "0.75",
+            "background-image": `url('/img/prestations_avant_naissance/${current?.image}')`,
+          }}
+        >
+          <div class="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
+            <div class="text-center">
+              <h1 className="text-center mt-12 text-white text-4xl font-light tracking-tight sm:text-5xl lg:text-left">
+              {current?.title}
+              </h1>
+            </div>
+          </div>
+        </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
-          <h1
-            style={{ color: "#bd897d" }}
-            className="text-center text-4xl font-light tracking-tight sm:text-5xl lg:text-left"
-          >
-            {current?.title}
-          </h1>
-
           <div
             style={{ color: "#aa8073" }}
             className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
@@ -52,6 +61,15 @@ const Page = () => {
           >
             {current?.duration} - {current?.price}
           </div>
+
+          {current?.infos !== "" ? (
+            <div
+              style={{ color: "#aa8073" }}
+              className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
+            >
+              {current?.infos}
+            </div>
+          ) : null}
 
           <div className="pb-12 pt-12">
             {current?.content.map((paragraph, index) => {

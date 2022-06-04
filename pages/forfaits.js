@@ -15,22 +15,40 @@ export default function Forfaits() {
       </Head>
       <Navbar />
 
-      <div className="w-full pt-36 lg:pt-36 p-4 lg:p-6">
+      <div className="w-full">
+      <div
+          class="w-full bg-cover bg-center"
+          style={{
+            height: "22rem",
+            opacity: "0.75",
+            "background-image": `url('/img/forfait.png')`,
+          }}
+        >
+          <div class="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
+            <div class="text-center">
+              <h1 className="text-center mt-12 text-white text-4xl font-light tracking-tight sm:text-5xl lg:text-left">
+              Forfaits
+              </h1>
+            </div>
+          </div>
+        </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
-          <h1
-            style={{ color: "#bd897d" }}
-            className="text-center text-4xl font-light tracking-tight sm:text-5xl lg:text-left"
-          >
-            Forfaits
-          </h1>
           <p
             style={{ color: "#aa8073" }}
             className="mt-12 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
             Idéal pour préparer une naissance, à offrir ou à s&apos;offrir les
             forfaits chez Naître Ensemble vous permettent de vous faire plaisir
-            tout en bénéficiant d&apos;avantages. Ils nous permettent également de
-            créer un lien unique avant, pendant ou après la grossesse.
+            tout en bénéficiant d&apos;avantages. Ils nous permettent également
+            de créer un lien unique avant, pendant ou après la grossesse.
+          </p>
+
+          <p
+            style={{ color: "#aa8073" }}
+            className="mt-6 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
+          >
+            Vous avez le choix entre une formule clés en main ou un forfait sur
+            mesure.
           </p>
 
           <div className="grid lg:grid-cols-3 justify-center mt-12">
@@ -46,7 +64,7 @@ export default function Forfaits() {
                   style={{ color: "#aa8073" }}
                   className="mt-3 text-xl p-4 lg:p-0 font-normal text-center"
                 >
-                  200 euros
+                  250 euros
                 </p>
                 <div className="w-full mx-auto flex justify-center">
                   <img
@@ -61,8 +79,9 @@ export default function Forfaits() {
                     style={{ color: "#aa8073" }}
                   >
                     <li>un massage femme enceinte</li>
-                    <li>un bain sensoriel</li>
+                    <li>un rituel du bain sensoriel®</li>
                     <li>un massage post natal 1h15</li>
+                    <li>une séance de réflexologie bébé émotionnelle®</li>
                   </ul>
                 </div>
                 <div className="absolute w-full bottom-6 left-0 flex justify-center">
@@ -106,7 +125,7 @@ export default function Forfaits() {
                   >
                     <li>un massage femme enceinte</li>
                     <li>un atelier papa/parent coach</li>
-                    <li>un atelier de portage</li>
+                    <li>un atelier découverte du portage</li>
                     <li>un atelier découverte de l&apos;allaitement</li>
                   </ul>
                 </div>
@@ -135,7 +154,7 @@ export default function Forfaits() {
                   style={{ color: "#aa8073" }}
                   className="mt-3 text-xl p-4 lg:p-0 font-normal text-center"
                 >
-                  160 euros
+                  170 euros
                 </p>
                 <div className="w-full mx-auto flex justify-center">
                   <img
@@ -149,7 +168,7 @@ export default function Forfaits() {
                     className="pl-3 text-md font-normal list-disc"
                     style={{ color: "#aa8073" }}
                   >
-                    <li>un rituel du bain sensoriel</li>
+                    <li>un rituel du bain sensoriel®</li>
                     <li>une séance massage bébé</li>
                     <li>un atelier de portage</li>
                   </ul>
@@ -179,7 +198,7 @@ export default function Forfaits() {
                   style={{ color: "#aa8073" }}
                   className="mt-3 text-xl p-4 lg:p-0 font-normal text-center"
                 >
-                  150 euros
+                  160 euros
                 </p>
                 <div className="w-full mx-auto flex justify-center">
                   <img
@@ -193,9 +212,9 @@ export default function Forfaits() {
                     className="pl-3 text-md font-normal list-disc"
                     style={{ color: "#aa8073" }}
                   >
-                    <li>réflexo femme enceinte</li>
-                    <li>bain sensoriel</li>
-                    <li>réflexo bébé</li>
+                    <li>réflexologie femme enceinte</li>
+                    <li>un rituel du bain sensoriel®</li>
+                    <li>réflexologie bébé 45 minutes</li>
                   </ul>
                 </div>
                 <div className="absolute w-full bottom-6 left-0 flex justify-center">

@@ -15,14 +15,24 @@ export default function Structure() {
       </Head>
       <Navbar />
 
-      <div className="w-full pt-36 lg:pt-36 p-4 lg:p-6">
+      <div className="w-full">
+      <div
+          class="w-full bg-cover bg-center"
+          style={{
+            height: "22rem",
+            opacity: "0.75",
+            "background-image": `url('/img/structure.png')`,
+          }}
+        >
+          <div class="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
+            <div class="text-center">
+              <h1 className="text-center mt-12 text-white text-4xl font-light tracking-tight sm:text-5xl lg:text-left">
+              Structure
+              </h1>
+            </div>
+          </div>
+        </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
-          <h1
-            style={{ color: "#bd897d" }}
-            className="text-center text-4xl font-light tracking-tight sm:text-5xl lg:text-left"
-          >
-            Structure
-          </h1>
           <h2
             style={{ color: "#bd897d" }}
             className="text-center text-2xl font-light tracking-tight sm:text-3xl mt-6 lg:text-left"
@@ -30,6 +40,12 @@ export default function Structure() {
             Vous êtes une structure et vous avez des projets autour de la
             parentalité et la périnatalité ?
           </h2>
+          <p
+            style={{ color: "#aa8073" }}
+            className="mt-12 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
+          >
+            À DESTINATION DES PARENTS :{" "}
+          </p>
           <p
             style={{ color: "#aa8073" }}
             className="mt-12 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
@@ -50,8 +66,8 @@ export default function Structure() {
             className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
             Soit sous forme de temps dédiés aux parents uniquement (temps
-            d&apos;échanges, temps de sensibilisations, temps pour prendre soin de
-            soi, temps en couple...)
+            d&apos;échanges, temps de sensibilisations, temps pour prendre soin
+            de soi, temps en couple...)
           </p>
 
           <p
@@ -83,7 +99,8 @@ export default function Structure() {
             <li className="p-0 pb-4">Le portage et le RGO</li>
             <li className="p-0 pb-4">Le portage et le handicap</li>
             <li className="p-0 pb-4">
-              Le rituel du bain sensoriel (s&apos;exercer avant la naissance de bébé)
+              Le rituel du bain sensoriel (s&apos;exercer avant la naissance de
+              bébé)
             </li>
             <li className="p-0 pb-4">
               L&apos;éveil sensoriel (approche multi sensorielle)
@@ -100,9 +117,16 @@ export default function Structure() {
           >
             D&apos;autres thématiques sont en cours d&apos;élaboration et seront
             disponibles à partir de 2023, cependant dans une démarche de qualité
-            naître ensemble reste entièrement à l&apos;écoute de vos besoins et de
-            vos demandes pour compléter son offre pour toujours mieux répondre
-            aux parents et aux enfants.
+            naître ensemble reste entièrement à l&apos;écoute de vos besoins et
+            de vos demandes pour compléter son offre pour toujours mieux
+            répondre aux parents et aux enfants.
+          </p>
+
+          <p
+            style={{ color: "#aa8073" }}
+            className="mt-12 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
+          >
+            À DESTINATION DES PROFESSIONNELS : {" "}
           </p>
 
           <p
@@ -121,8 +145,8 @@ export default function Structure() {
             className="mt-12 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
             Parce que se nourrir professionnellement c&apos;est aussi prendre le
-            temps de se retrouver, de reprendre son souffle, de s&apos;écouter pour
-            être à l&apos;écoute des autres dans sa pratique.
+            temps de se retrouver, de reprendre son souffle, de s&apos;écouter
+            pour être à l&apos;écoute des autres dans sa pratique.
           </p>
         </div>
 
@@ -181,8 +205,9 @@ export default function Structure() {
                 style={{ color: "#aa8073" }}
                 className="mt-3 text-md p-4 lg:p-0 font-normal text-center"
               >
-                Sensibilisation à l&apos;allaitement maternel : approche théorique et
-                accueil bienveillant de l&apos;allaitement en structure
+                Sensibilisation à l&apos;allaitement maternel : approche
+                théorique et accueil bienveillant de l&apos;allaitement en
+                structure
               </p>
               <p
                 style={{ color: "#aa8073" }}
@@ -223,16 +248,17 @@ export default function Structure() {
                 style={{ color: "#aa8073" }}
                 className="mt-3 text-md p-4 lg:p-0 font-normal text-center"
               >
-                Sensibilisation au portage en structure : l&apos;intérêt du portage
-                en écharpe/porte bébé et des possibilités en structure
+                Sensibilisation au portage en structure : l&apos;intérêt du
+                portage en écharpe/porte bébé et des possibilités en structure
               </p>
               <p
                 style={{ color: "#aa8073" }}
                 className="mt-3 text-md p-4 lg:p-0 font-normal text-center"
               >
                 Sensibilisation au bien être en équipe : Le rebozo un temps pour
-                créer une cohésion d&apos;équipe (aménagement d&apos;un espace bien-être,
-                techniques de bercements et de serrage des points du corps)
+                créer une cohésion d&apos;équipe (aménagement d&apos;un espace
+                bien-être, techniques de bercements et de serrage des points du
+                corps)
               </p>
               <div className="absolute w-full bottom-6 left-0 flex justify-center">
                 <Link href="/prestations/doula">

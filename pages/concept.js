@@ -3,6 +3,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
+import Link from "next/link";
 
 export default function Concept() {
   return (
@@ -14,14 +15,24 @@ export default function Concept() {
       </Head>
       <Navbar />
 
-      <div className="w-full pt-36 lg:pt-36 p-4 lg:p-6">
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
-          <h1
-            style={{ color: "#bd897d" }}
-            className="text-center text-4xl font-light tracking-tight sm:text-5xl lg:text-left"
-          >
-            Concept
-          </h1>
+      <div className="w-full">
+        <div
+          class="w-full bg-cover bg-center"
+          style={{
+            height: "22rem",
+            opacity: "0.7",
+            "background-image": "url('/img/background_concept.png')",
+          }}
+        >
+          <div class="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
+            <div class="text-center">
+              <h1 className="text-center mt-12 text-white text-4xl font-light tracking-tight sm:text-5xl lg:text-left">
+                Concept
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div className="lg:pt-3 p-4 lg:p-6 relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
           <p
             style={{ color: "#aa8073" }}
             className="mt-12 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
@@ -99,9 +110,58 @@ export default function Concept() {
               toute une communauté pour prendre soin d&apos;un parent.
             </p>
           </div>
+
+          <p
+            style={{ color: "#aa8073" }}
+            className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
+          >
+            Naître Ensemble c'est :
+          </p>
+          <ul
+            className="pt-6 pb-12 text-xl font-normal list-disc"
+            style={{ color: "#aa8073" }}
+          >
+            <li className="p-2">
+              Un accompagnement de l'avant, du pendant et de l'après naissance,
+              sans tabous et avec la plus grande bienveillance.
+            </li>
+            <li className="p-2">
+              Une ressource pour toutes les femmes, les parents et les bébés.
+            </li>
+            <li className="p-2">
+              Une vision du choix libre et conscient pour tous les parents en
+              faveur d'une naissance respectée et d'une parentalité éclairée.
+            </li>
+            <li className="p-2">
+              Une parenthèse autour du bien être sur mesure, rien que pour vous,
+              pour votre bébé ou en couple à travers différents soins.
+            </li>
+            <li className="p-2">
+              De la transmission auprès des professionnels en structure.
+            </li>
+            <li className="p-2">
+              De l'éthique, du respect, de l'écoute, de la transmission, de la
+              création de liens, beaucoup d'amour mais surtout beaucoup de VOUS
+              !
+            </li>
+            <li className="p-2">
+              Des savoir être et des savoir faire pour tous, qui que vous soyez.
+            </li>
+          </ul>
+        </div>
+        <div className="flex justify-center items-center mb-12">
+          <div
+            className=" h-[300px] w-[300px] flex justify-center text-justify items-center p-4 rounded-full"
+            style={{ background: "#bd897d" }}
+          >
+            <Link href="/qui-suis-je">
+              <p className="text-white text-md lg:text-lg text-center cursor-pointer hover:underline">
+                Découvrez qui je suis
+              </p>
+            </Link>
+          </div>
         </div>
       </div>
-
       <Footer />
     </div>
   );

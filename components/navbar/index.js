@@ -65,7 +65,7 @@ export default function Navbar() {
             </div>
           </div>
         ) : null}
-        <div className="flex justify-between items-center border-b-2 border-gray-100 md:justify-start md:space-x-10">
+        <div className="flex justify-between items-center md:justify-start md:space-x-10">
           <div className="flex justify-start pl-4">
             <Link href="/">
               <img

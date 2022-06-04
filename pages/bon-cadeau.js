@@ -14,14 +14,24 @@ export default function BonCadeau() {
       </Head>
       <Navbar />
 
-      <div className="w-full pt-36 lg:pt-36 p-4 lg:p-6">
+      <div className="w-full">
+      <div
+          class="w-full bg-cover bg-center"
+          style={{
+            height: "22rem",
+            opacity: "0.75",
+            "background-image": `url('/img/10.jpeg')`,
+          }}
+        >
+          <div class="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
+            <div class="text-center">
+              <h1 className="text-center mt-12 text-white text-4xl font-light tracking-tight sm:text-5xl lg:text-left">
+              Bon cadeau
+              </h1>
+            </div>
+          </div>
+        </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
-          <h1
-            style={{ color: "#bd897d" }}
-            className="text-center text-4xl font-light tracking-tight sm:text-5xl lg:text-left"
-          >
-            Bon cadeau
-          </h1>
           <h2
             style={{ color: "#bd897d" }}
             className="text-center text-2xl font-light tracking-tight sm:text-3xl mt-6 lg:text-left"
@@ -29,33 +39,29 @@ export default function BonCadeau() {
             Vous voulez être certain de faire plaisir et d&apos;acheter utile ?
           </h2>
           <h2
-            style={{ color: "#bd897d" }}
-            className="text-center text-2xl font-light tracking-tight sm:text-3xl mt-6 lg:text-left"
+            style={{ color: "#aa8073" }}
+            className="mt-6 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
             Et si le bien être était la clé pour vivre une naissance respectée
             et une parentalité éclairée ?
           </h2>
           <p
             style={{ color: "#aa8073" }}
-            className="mt-12 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
+            className="mt-6 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
-            Vous pouvez choisir un bon cadeau avec la prestation de votre choix
-            ou choisir un carte à prix libre pour que la personne à qui vous
-            l&apos;offrez choisisse elle même ce qui lui fait plaisir
+Vous pouvez choisir un bon cadeau avec la prestation de votre choix ou choisir une carte avec un montant libre (à partir de 10 euros).
           </p>
           <p
             style={{ color: "#aa8073" }}
             className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
-            Bon cadeau à offrir clé en main à retirer directement chez Naître
-            Ensemble (gratuit) ou envoi (+prix)
+Vous recevez votre lien de paiement et vous avez le choix pour le mode de livraison. 
           </p>
           <p
             style={{ color: "#aa8073" }}
             className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight mb-72"
           >
-            Bon cadeau à envoyer version numérique (gratuit) avec un petit mail
-            rempli d&apos;amour
+Si vous souhaitez le faire livrer directement chez la personne ou que Naître Ensemble s'occupe de l'envoi du mail à la personne concernée, c'est possible. 
           </p>
         </div>
       </div>

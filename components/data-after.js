@@ -1,6 +1,7 @@
 const data = [
   {
     url: "rituel-bain-sensoriel",
+    image: "rituel_bain_sensoriel.png",
     title: "Rituel du bain sensoriel® ",
     content: [
       ` Le rituel du bain sensoriel® qu'est ce que c'est ?`,
@@ -29,6 +30,7 @@ const data = [
   },
   {
     url: "massage-post-natal",
+    image: "massage_post_natal.png",
     title: "Massage post natal",
     content: [
       `Un massage dédié à la femme après la naissance de bébé mais sans limite dans le temps car comme le dit Anna Roy la sage femme “le postpartum dure 3 ans”. Un massage enveloppant, aimant et revitalisant. Un massage qui vous fait ressentir que vous êtes importante.`,
@@ -44,15 +46,13 @@ const data = [
    `,
     ],
     prestations: "à domicile - en cabinet",
-    duration: " 1h15 à 2h heures",
-    price: `1h15 - 70 euros,
-   1h30 - 75 euros, 
-   1h45 - 80 euros, 
-   2h00 - 85 euros`,
+    duration: " 1h15",
+    price: `70 euros`,
     infos: ``,
   },
   {
     url: "rituel-rebozo",
+    image: "soin_ribozo.gif",
     title: "Rituel Rebozo",
     content: [
       `Le rituel Rebozo est un soin ancestral donné par des femmes pour des femmes dans toutes cultures du monde. Ce soin accompagne la femme lors d'un changement majeur (mariage, naissance, deuil, ménopause, déménagement, 1ères menstruations, changement de travail, séparation...) ou tout simplement à toute femme qui souhaite prendre un temps pour soi, faire une pause, prendre du recul, se faire plaisir, se ressourcer, soutenir la libido...`,
@@ -77,6 +77,7 @@ const data = [
 
   {
     url: "massage-bébé",
+    image: "massage_bebe.png",
     title: "Massage bien naître bébé ",
     content: [
       `Le massage "bien naître" bébé où comment découvrir tous les bienfaits du toucher, la première des capacités sensorielles qu'un enfant développe in-intéro.`,
@@ -98,6 +99,7 @@ const data = [
   },
   {
     url: "atelier-de-portage",
+    image: "portage.png",
     title: "Atelier de portage",
     content: [
       `​​Atelier idéal après l'atelier découverte du portage`,
@@ -115,6 +117,7 @@ const data = [
   },
   {
     url: "soutien-en-allaitement",
+    image: "allaitement.png",
     title: "Soutien en allaitement",
     content: [
       `​​Vous allaitez mais vous avez des questionnements qui ne nécessitent pas une consultation auprès d'un professionnel de santé (sage femme, médecin,...) ou d'une consultante en lactation (IBCLC) ? `,
@@ -129,6 +132,7 @@ const data = [
   },
   {
     url: "service-doula-dodo",
+    image: "service_doula_dodo.jpeg",
     title: "Service doula dodo",
     content: [
       `​​Le service doula dodo quésako? `,
@@ -152,6 +156,7 @@ const data = [
   },
   {
     url: "aide-à-domicile-postpartum",
+    image: "aide_domicile_post_partum.jpeg",
     title: "Aide à domicile post partum ",
     content: [
       `Ma mission ? Vous soulager dans ce quotidien totalement bousculé`,
@@ -160,6 +165,7 @@ const data = [
       `De prendre en charge la gestion de votre maison : ménage, linge, préparation de repas, courses`,
       `De vous soutenir émotionnellement en vous écoutant, en accueillant votre vécu, vos ressentis, vos angoisses...`,
       `De vous accompagner dans votre nouveau quotidien de parent et de répondre à vos questions concernant :les soins (change, bain, routine etc), l'allaitement (rythme, positions, douleurs etc.) ou le biberonnage,le sommeil (cycles, réveils nocturnes, siestes etc), les pleurs (décharge, inconfort, fatigue etc.)`,
+      `Le tout avec bienveillance, empathie et non jugement ! `,
     ],
     prestations: "à domicile",
     duration: " 1h ",
@@ -170,6 +176,7 @@ const data = [
 
   {
     url: "reflexologie-bebe-émotionnelle",
+    image: "reflexologie_bebe.png",
     title: "Réflexologie bébé émotionnelle®",
     content: [
       `Véritable accompagnement psycho-affectif la réflexologie bébé émotionnelle® vous permettra d'accompagner bébé au quotidien. Vous découvrirez à l'aide d'une séance ou plusieurs différentes thématiques, diverses techniques permettant de soulager et d'accompagner bébé dans ses divers maux de tous les jours. Et de comprendre l'importance du vécu de bébé.`,

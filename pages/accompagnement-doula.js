@@ -17,14 +17,24 @@ export default function AccompagnementDoula() {
       </Head>
       <Navbar />
 
-      <div className="w-full pt-36 lg:pt-36 p-4 lg:p-6">
+      <div className="w-full">
+      <div
+          class="w-full bg-cover bg-center"
+          style={{
+            height: "22rem",
+            opacity: "0.75",
+            "background-image": `url('/img/naissance.png')`,
+          }}
+        >
+          <div class="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
+            <div class="text-center">
+              <h1 className="text-center mt-12 text-white text-4xl font-light tracking-tight sm:text-5xl lg:text-left">
+              Accompagnement de doula
+              </h1>
+            </div>
+          </div>
+        </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
-          <h1
-            style={{ color: "#bd897d" }}
-            className="text-center text-4xl font-light tracking-tight sm:text-5xl lg:text-left"
-          >
-            Accompagnement de doula
-          </h1>
           <h2
             style={{ color: "#bd897d" }}
             className="text-center text-2xl font-light tracking-tight sm:text-3xl mt-6 lg:text-left"
@@ -33,17 +43,17 @@ export default function AccompagnementDoula() {
           </h2>
           <p
             style={{ color: "#aa8073" }}
-            className="mt-12 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
+            className="mt-6 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
-            C&apos;est une femme qui accompagne et soutient une autre femme durant
-            des passages de vie. Pour simplifier mon approche et mes compétences
-            je suis une doula qui accompagne la future mère et son entourage
-            pendant la grossesse, l’accouchement et le postpartum, et cela
-            uniquement en complément du suivi médical choisi par les parents
-            (hôpital, clinique, sage-femme libérale…). J&apos;accompagne sans
-            discrimination liée aux origines, à la religion ou à la préférence
-            sexuelle des parents. Je n’ai pas de fonction médicale et je
-            soutiens le travail des sages-femmes.
+            C&apos;est une femme qui accompagne et soutient une autre femme
+            durant des passages de vie. Pour simplifier mon approche et mes
+            compétences je suis une doula qui accompagne la future mère et son
+            entourage pendant la grossesse, l’accouchement et le postpartum, et
+            cela uniquement en complément du suivi médical choisi par les
+            parents (hôpital, clinique, sage-femme libérale…). J&apos;accompagne
+            sans discrimination liée aux origines, à la religion ou à la
+            préférence sexuelle des parents. Je n’ai pas de fonction médicale et
+            je soutiens le travail des sages-femmes.
           </p>
           <p
             style={{ color: "#aa8073" }}
@@ -73,7 +83,7 @@ export default function AccompagnementDoula() {
 
           <ul
             style={{ color: "#aa8073" }}
-            className="mt-12 text-xl text-justify lg:text-left m-0 font-extralight"
+            className="mt-6 text-xl text-justify lg:text-left m-0 font-extralight"
           >
             <li className="p-0 pb-4">
               Je suis Leslie, Femme, EJE, Doula formée par Diane Boutin ; une
@@ -92,22 +102,22 @@ export default function AccompagnementDoula() {
               je respecte vos choix tout en vous informant.
             </li>
             <li className="p-0 pb-4">
-              Je suis aux côtés des femmes durant cette période de l&apos;avant, du
-              pendant et de l&apos;après naissance.
+              Je suis aux côtés des femmes durant cette période de l&apos;avant,
+              du pendant et de l&apos;après naissance.
             </li>
             <li className="p-0 pb-4">
-              Ma couleur c&apos;est entre autre : l&apos;écoute active, la puissance de la
-              rencontre, la grossesse et la naissance, le post partum, le bien
-              être, le bain sensoriel®, l&apos;allaitement, le portage, le handicap
-              de l&apos;enfant, les massages, le rebozo, snoezelen, doula dodo (garde
-              de nuit nourrisson)...
+              Ma couleur c&apos;est entre autre : l&apos;écoute active, la
+              puissance de la rencontre, la grossesse et la naissance, le post
+              partum, le bien être, le bain sensoriel®, l&apos;allaitement, le
+              portage, le handicap de l&apos;enfant, les massages, le rebozo,
+              snoezelen, doula dodo (garde de nuit nourrisson)...
             </li>
             <li className="p-0 pb-4">
-              Je pense que &quot;Pour materner, il faut être maternée&quot; et je suis
-              convaincue de la force et de la puissance des Femmes, du corps de
-              la femme et de ses ressources. J&apos;accompagne les femmes au
-              quotidien à (re)découvrir qu&apos;elles ont tout en elles pour donner
-              naissance à leur enfant.
+              Je pense que &quot;Pour materner, il faut être maternée&quot; et
+              je suis convaincue de la force et de la puissance des Femmes, du
+              corps de la femme et de ses ressources. J&apos;accompagne les
+              femmes au quotidien à (re)découvrir qu&apos;elles ont tout en
+              elles pour donner naissance à leur enfant.
             </li>
           </ul>
           <h4
@@ -118,16 +128,16 @@ export default function AccompagnementDoula() {
           </h4>
           <p
             style={{ color: "#aa8073" }}
-            className="mt-12 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
+            className="mt-6 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
-            Tout en gardant à l&apos;esprit que je m&apos;adapte à vous et que nous créons
-            ensemble un accompagnement sur mesure, je vous propose entre autre
-            (liste non exhaustive) :
+            Tout en gardant à l&apos;esprit que je m&apos;adapte à vous et que
+            nous créons ensemble un accompagnement sur mesure, je vous propose
+            entre autre (liste non exhaustive) :
           </p>
 
           <h5
             style={{ color: "#bd897d" }}
-            className="text-center text-2xl font-light tracking-tight sm:text-3xl mt-6 lg:text-left"
+            className="text-center text-2xl font-light tracking-tight sm:text-3xl mt-12 lg:text-left"
           >
             En période prénatale :
           </h5>
@@ -137,14 +147,16 @@ export default function AccompagnementDoula() {
             style={{ color: "#aa8073" }}
           >
             <li className="p-2">
-              De l&apos;accompagnement à la naissance non médical (on parle histoire
-              de vie, grossesse, accouchement, droits, possibilités,
+              De l&apos;accompagnement à la naissance non médical (on parle
+              histoire de vie, grossesse, accouchement, droits, possibilités,
               éventualités, libre choix)
             </li>
-            <li className="p-2">Un espace d&apos;écoute et de soutien émotionnel</li>
             <li className="p-2">
-              De l&apos;accompagnement à la préparation d&apos;un projet de naissance et
-              d&apos;un plan post natal
+              Un espace d&apos;écoute et de soutien émotionnel
+            </li>
+            <li className="p-2">
+              De l&apos;accompagnement à la préparation d&apos;un projet de
+              naissance et d&apos;un plan post natal
             </li>
             <li className="p-2">
               Du bien être pour la femme et le couple : massage prénatal,
@@ -152,15 +164,15 @@ export default function AccompagnementDoula() {
               (ambiance relaxante et visualisations)...
             </li>
             <li className="p-2">
-              De l&apos;information sur des sujets liés à la femme, la grossesse,
-              l&apos;accouchement, le post partum
+              De l&apos;information sur des sujets liés à la femme, la
+              grossesse, l&apos;accouchement, le post partum
             </li>
             <li className="p-2">
-              De l&apos;accompagnement à la préparation de l&apos;arrivée de bébé
-              (puériculture, pédagogie, aménagement de l&apos;espace, développement
-              du jeune enfant...) et du soutien dans vos choix parentaux (en
-              proposant notamment des ateliers découverte du portage, de
-              l&apos;allaitement,..)
+              De l&apos;accompagnement à la préparation de l&apos;arrivée de
+              bébé (puériculture, pédagogie, aménagement de l&apos;espace,
+              développement du jeune enfant...) et du soutien dans vos choix
+              parentaux (en proposant notamment des ateliers découverte du
+              portage, de l&apos;allaitement,..)
             </li>
             <li className="p-2">
               Je propose également la fête de la future mère de façon non
@@ -181,10 +193,10 @@ export default function AccompagnementDoula() {
           >
             <li className="p-2">
               Je me déplace à domicile (avec présence d&apos;une sage femme
-              obligatoirement) et/ou à l&apos;hôpital si vous souhaitez ma présence
-              pour soutenir l&apos;espace, favoriser votre bien être, veiller sur
-              votre projet et vos droits, être un relai pour vous et votre
-              partenaire, croire en vous, gérer la logistique...
+              obligatoirement) et/ou à l&apos;hôpital si vous souhaitez ma
+              présence pour soutenir l&apos;espace, favoriser votre bien être,
+              veiller sur votre projet et vos droits, être un relai pour vous et
+              votre partenaire, croire en vous, gérer la logistique...
             </li>
           </ul>
 
@@ -205,8 +217,8 @@ export default function AccompagnementDoula() {
             <li className="p-2">Du soutien émotionnel et physique</li>
             <li className="p-2">
               Du bien être : resserage du bassin, soin rituel rebozo, massage
-              post natal, soutien à l&apos;allaitement, portage, massage bébé, bain
-              sensoriel®️...
+              post natal, soutien à l&apos;allaitement, portage, massage bébé,
+              bain sensoriel®️...
             </li>
             <li className="p-2">
               De l&apos;accompagnement aux premiers soins de bébé
@@ -220,7 +232,8 @@ export default function AccompagnementDoula() {
             </li>
             <li className="p-2">
               De l&apos;accompagnement et du soutien à la parentalité (notamment
-              grâce à mes compétences en tant qu&apos;éducatrice de jeunes enfants).
+              grâce à mes compétences en tant qu&apos;éducatrice de jeunes
+              enfants).
             </li>
           </ul>
 
@@ -228,8 +241,8 @@ export default function AccompagnementDoula() {
             style={{ color: "#aa8073" }}
             className="mt-12 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
-            La posture professionnelle de Naître Ensemble est une pratique &quot;amie
-            des Sages-Femmes&quot;.
+            La posture professionnelle de Naître Ensemble est une pratique
+            &quot;amie des Sages-Femmes&quot;.
           </p>
 
           <p
@@ -258,8 +271,8 @@ export default function AccompagnementDoula() {
               style={{ background: "#bd897d" }}
             >
               <p className="text-white text-md lg:text-lg text-center">
-                Présence à l&apos;accouchement + astreinte* 250 euros *dès la 37ème
-                semaine
+                Présence à l&apos;accouchement + astreinte* 250 euros *dès la
+                37ème semaine
               </p>
             </div>
           </div>
@@ -289,8 +302,8 @@ export default function AccompagnementDoula() {
           style={{ color: "#aa8073" }}
           className="mt-4 text-xl p-4 text-justify lg:text-center lg:p-0 font-extralight mb-24"
         >
-          Première rencontre offerte à DOUAI ou à domicile frais de déplacement
-          à régler au delà de 10km
+          Première rencontre offerte à DOUAI ou à domicile (frais de déplacement
+          à régler au delà de 10km)
         </p>
       </div>
 

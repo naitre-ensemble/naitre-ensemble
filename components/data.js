@@ -1,9 +1,10 @@
 const data = [
   {
     url: "massage-fertilite",
+    image: "massage_fertilite.jpeg",
     title: "Massage fertilité",
     content: [
-      `Le massage "fertilité" est soin bien être à but non thérapeutique dédié à la femme qui rencontre des difficultés dans son désir d'enfant. Il s'agit d'un massage qui stimule la circulation sanguine, qui soutient et soulage les crampes lors de l'ovulation et les douleurs liées à l'endométriose ou encore au SOPK (syndrome des ovaires polykystiques).
+      `Le massage "fertilité" est un soin bien être à but non thérapeutique dédié à la femme qui rencontre des difficultés dans son désir d'enfant. Il s'agit d'un massage qui stimule la circulation sanguine, qui soutient et soulage les crampes lors de l'ovulation et les douleurs liées à l'endométriose ou encore au SOPK (syndrome des ovaires polykystiques).
         `,
       `Ce soin débutera par un temps d'échange autour de votre parcours, suivi d'un temps de visualisation autour de l'appareil reproducteur pour que vous puissiez apprendre à connaître votre corps et à le conscientiser.`,
       `Une technique de bercement au rebozo vous sera proposée puis un temps de massage ventral vous sera offert ainsi qu'un temps d'accupression et de réflexologie spécial fertilité.`,
@@ -17,11 +18,12 @@ const data = [
         Je ne masse pas le ventre pendant vos règles et en période post ovulatoire`,
     ],
     prestations: "à domicile - en cabinet",
-    duration: "1h30",
+    duration: "1h15",
     price: "70 euros",
   },
   {
     url: "massage-femme-enceinte",
+    image: "massage_bien_etre_femme_enceinte.jpeg",
     title: "Le massage bien être femme enceinte",
     content: [
       `"Pour materner, il faut être maternée"`,
@@ -42,6 +44,7 @@ const data = [
   },
   {
     url: "réflexologie-femme-enceinte",
+    image: "reflexologie_detente_femme_enceinte.png",
     title: "Réflexologie détente de la femme enceinte",
     content: [
       `Véritable accompagnement psycho-affectif, le protocole réflexologie "détente" de la femme enceinte vous accompagnera tout au long de la grossesse pour vous détendre et vous sentir plus sereine.`,
@@ -58,6 +61,7 @@ const data = [
   },
   {
     url: "decouverte-portage-physiologique",
+    image: "portage.png",
     title: "Atelier découverte du portage physiologique",
     content: [
       `Lors de cet atelier, vous partirez à la découverte du portage physiologique et vous pourrez poser toutes les questions nécessaires au portage de bébé.`,
@@ -75,10 +79,10 @@ const data = [
   },
   {
     url: "decouverte-allaitement",
+    image: "allaitement.png",
     title: "Atelier découverte de l'allaitement",
     content: [
       `Vous êtes enceinte et vous vous demandez comment vous alimenterez bébé ? `,
-      `Avant que bébé arrive, vous êtes envahi d'une liste de naissance à créer, d'une poussette à acheter ? Vous avez repéré ou entendu parler du portage de près ou de loin ? `,
       `Vous avez besoin de vous informer ? Vous souhaitez allaiter mais vous avez des doutes ? Allaitement ? Pas allaitement ? Tire-lait, engorgement, positions... ? Vous avez déjà allaité et vous n'avez pas été ou pas suffisamment informée, accompagnée ? `,
       `Vous souhaitez vous informer seule ou en couple ? `,
       `Avec l'atelier découverte de l'allaitement, nous avancerons ensemble autour d'échanges libres et de transmission autour de l'allaitement.`,
@@ -94,9 +98,10 @@ const data = [
   },
   {
     url: "parent-coach",
+    image: "papa_coach.jpeg",
     title: "Atelier papa/parent coach",
     content: [
-      `S'impliquer dans la grossesse et créer du lien avec son bébé"`,
+      `"S'impliquer dans la grossesse et créer du lien avec son bébé"`,
       `L'ATELIER PAPA/PARENT COACH est un atelier dédié au couple autour de la grossesse, des changements physiques et psychiques liés à la grossesse et de la création de lien avec bébé.`,
       `C'est l'occasion pour le co-parent de recevoir une transmission autour d'un bon nombre d'outils pratiques tels que le rebozo, le massage, les bercements, les postures qui lui permettront de se sentir investi dans la grossesse, d'accompagner sa compagne au quotidien et dans la gestion de la douleur mais aussi de prendre plus facilement sa place en tant que père/mère.`,
       `C'est un atelier qui permet également d'inclure la fratrie (si vous m'en faites la demande) autour d'un protocole de massage bien être de la mère afin de préparer la famille à l'arrivée de ce petit être humain et de booster l'ocytocine chez la future maman.`,
@@ -114,6 +119,7 @@ const data = [
   },
   {
     url: "fete-future-mere",
+    image: "fete_future_mere.jpeg",
     title: "Fête de la future mère",
     content: [
       `Fêter la future mère pourquoi ? `,
@@ -121,7 +127,7 @@ const data = [
       `Afin de de mettre en lumière et d'honorer votre maternité, votre grossesse, la force de votre corps, votre souveraineté, la fête de la future mère vous est spécialement dédiée pour que "votre village" composé de diverses personnes dont des femmes prenne soin de vous et conscientise l'importance du soutien de la jeune mère. `,
       `
       C'est un temps qui vous est réservé, c'est un temps pour s'écouter, pour prendre confiance en ses capacités à donner naissance et à devenir mère. C'est un temps pour se retrouver et profiter d'un moment entre femmes. `,
-      `C'est un temps mêlant bien être, joie de se retrouver et préparer son mois d'or (40 jours après la naissance de bébé). C'est un temps durant lequel les femmes pourront créer des soins pour vous et mijoter des petits plats à congeler pour cette période transcendante qu'est le post partum.`,
+      `C'est un temps mêlant bien être, joie de se retrouver et préparation de son mois d'or (40 jours après la naissance de bébé). C'est un temps durant lequel les femmes pourront créer des soins pour vous et mijoter des petits plats à congeler pour cette période transcendante qu'est le post partum.`,
       `
       Naître Ensemble, vous propose de co-animer un moment épuré, féminin, plein de sororité autour d'une décoration "pampa".`,
       `Une fête de la future mère avec Naître Ensemble ressemble à : `,
@@ -131,7 +137,8 @@ const data = [
       `Massage "bien naître" de la femme enceinte pendant que les femmes cuisinent pour vous`,
       `Temps suspendu entre femmes pour faire durer le petit nuage sur lequel vous serez après le massage durant lequel vous pourrez vous faire chouchouter par toutes les femmes (massage des mains, massage crânien, massage des pieds, bain de pieds et henné sur les mains, pieds et/ou ventre)`,
       `Clôture d'une cérémonie aimante et douce par des petit mots d'encouragements pour la future mère.  `,
-      `Évidemment, c'est vous qui composez avec moi et avec les organisatrices de cette fête. Vous avez la possibilité d'ajouter ou de vous passer de ces propositions. Pour organiser ce moment, je propose : `,
+      `Évidemment, c'est vous qui composez avec moi et avec les organisatrices de cette fête. Vous avez la possibilité d'ajouter ou de vous passer de ces propositions. `,
+      `Pour organiser ce moment, je propose : `,
       `Un temps d'échange d'1h avec la future mère pour parler de ses besoins et ses désirs pour ce joli moment`,
       `Des échanges avec les participantes ou la personne ressource de la mère pour la répartition de l'organisation`,
       `Je met à votre disposition des éléments de déco "pampa" assez naturels, dans les tons blanc/beige/osier. Libre à vous de compléter cette décoration pour ajouter votre touche`,
@@ -140,7 +147,7 @@ const data = [
       `Je vous offre du henné, vous aurez le choix entre un modèle ou une création faite par les femmes pour vous. Mais aussi des papiers à petits mots à glisser pour la mère et le bébé. `,
       `Je suis à vos côtés pour co-animer cette fête avec les femmes qui prendront soin de vous et qui font partie de votre village de soutien avant et après la naissance. L'idéal est d'échanger avec vous et de désigner une super women qui sera garante de l'organisation en amont et de l'après fête (aide au rangement,...) `,
     ],
-    prestations: "à domicile - en cabinet",
+    prestations: "à domicile",
     duration: "3 heure",
     price: "250 euros",
     infos: ``,
