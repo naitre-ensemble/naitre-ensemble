@@ -17,15 +17,15 @@ export default function Concept() {
 
       <div className="w-full">
         <div
-          class="w-full bg-cover bg-center"
+          className="w-full bg-cover bg-center"
           style={{
             height: "22rem",
             opacity: "0.7",
             "background-image": "url('/img/background_concept.png')",
           }}
         >
-          <div class="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
-            <div class="text-center">
+          <div className="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
+            <div className="text-center">
               <h1 className="text-center mt-12 text-white text-4xl font-light tracking-tight sm:text-5xl lg:text-left">
                 Concept
               </h1>
@@ -115,14 +115,14 @@ export default function Concept() {
             style={{ color: "#aa8073" }}
             className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
-            Naître Ensemble c'est :
+            Naître Ensemble c&apos;est :
           </p>
           <ul
             className="pt-6 pb-12 text-xl font-normal list-disc"
             style={{ color: "#aa8073" }}
           >
             <li className="p-2">
-              Un accompagnement de l'avant, du pendant et de l'après naissance,
+              Un accompagnement de l&apos;avant, du pendant et de l&apos;après naissance,
               sans tabous et avec la plus grande bienveillance.
             </li>
             <li className="p-2">
@@ -130,7 +130,7 @@ export default function Concept() {
             </li>
             <li className="p-2">
               Une vision du choix libre et conscient pour tous les parents en
-              faveur d'une naissance respectée et d'une parentalité éclairée.
+              faveur d&apos;une naissance respectée et d&apos;une parentalité éclairée.
             </li>
             <li className="p-2">
               Une parenthèse autour du bien être sur mesure, rien que pour vous,
@@ -140,8 +140,8 @@ export default function Concept() {
               De la transmission auprès des professionnels en structure.
             </li>
             <li className="p-2">
-              De l'éthique, du respect, de l'écoute, de la transmission, de la
-              création de liens, beaucoup d'amour mais surtout beaucoup de VOUS
+              De l&apos;éthique, du respect, de l&apos;écoute, de la transmission, de la
+              création de liens, beaucoup d&apos;amour mais surtout beaucoup de VOUS
               !
             </li>
             <li className="p-2">

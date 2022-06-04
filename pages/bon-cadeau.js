@@ -16,15 +16,15 @@ export default function BonCadeau() {
 
       <div className="w-full">
       <div
-          class="w-full bg-cover bg-center"
+          className="w-full bg-cover bg-center"
           style={{
             height: "22rem",
             opacity: "0.75",
             "background-image": `url('/img/10.jpeg')`,
           }}
         >
-          <div class="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
-            <div class="text-center">
+          <div className="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
+            <div className="text-center">
               <h1 className="text-center mt-12 text-white text-4xl font-light tracking-tight sm:text-5xl lg:text-left">
               Bon cadeau
               </h1>
@@ -61,7 +61,7 @@ Vous recevez votre lien de paiement et vous avez le choix pour le mode de livrai
             style={{ color: "#aa8073" }}
             className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight mb-72"
           >
-Si vous souhaitez le faire livrer directement chez la personne ou que Naître Ensemble s'occupe de l'envoi du mail à la personne concernée, c'est possible. 
+Si vous souhaitez le faire livrer directement chez la personne ou que Naître Ensemble s&apos;occupe de l&apos;envoi du mail à la personne concernée, c&apos;est possible. 
           </p>
         </div>
       </div>

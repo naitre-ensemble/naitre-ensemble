@@ -32,15 +32,15 @@ const Page = () => {
 
       <div className="w-full">
       <div
-          class="w-full bg-cover bg-center"
+          className="w-full bg-cover bg-center"
           style={{
             height: "22rem",
             opacity: "0.75",
             "background-image": `url('/img/prestations_apres_naissance/${current?.image}')`,
           }}
         >
-          <div class="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
-            <div class="text-center">
+          <div className="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
+            <div className="text-center">
               <h1 className="text-center mt-12 text-white text-4xl font-light tracking-tight sm:text-5xl lg:text-left">
               {current?.title}
               </h1>
