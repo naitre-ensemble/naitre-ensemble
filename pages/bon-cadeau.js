@@ -15,7 +15,7 @@ export default function BonCadeau() {
       <Navbar />
 
       <div className="w-full">
-      <div
+        <div
           className="w-full bg-cover bg-center"
           style={{
             height: "22rem",
@@ -26,7 +26,7 @@ export default function BonCadeau() {
           <div className="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
             <div className="text-center">
               <h1 className="text-center mt-12 text-white text-4xl font-light tracking-tight sm:text-5xl lg:text-left">
-              Bon cadeau
+                Bon cadeau
               </h1>
             </div>
           </div>
@@ -49,19 +49,23 @@ export default function BonCadeau() {
             style={{ color: "#aa8073" }}
             className="mt-6 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
-Vous pouvez choisir un bon cadeau avec la prestation de votre choix ou choisir une carte avec un montant libre (à partir de 10 euros).
+            Vous pouvez choisir un bon cadeau avec la prestation de votre choix
+            ou choisir une carte avec un montant libre (à partir de 10 euros).
           </p>
           <p
             style={{ color: "#aa8073" }}
             className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
-Vous recevez votre lien de paiement et vous avez le choix pour le mode de livraison. 
+            Vous recevez votre lien de paiement et vous avez le choix pour le
+            mode de livraison.
           </p>
           <p
             style={{ color: "#aa8073" }}
             className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight mb-72"
           >
-Si vous souhaitez le faire livrer directement chez la personne ou que Naître Ensemble s&apos;occupe de l&apos;envoi du mail à la personne concernée, c&apos;est possible. 
+            Si vous souhaitez le faire livrer directement chez la personne ou
+            que Naître Ensemble s&apos;occupe de l&apos;envoi du mail à la
+            personne concernée, c&apos;est possible.
           </p>
         </div>
       </div>

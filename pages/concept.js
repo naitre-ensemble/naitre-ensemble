@@ -122,15 +122,16 @@ export default function Concept() {
             style={{ color: "#aa8073" }}
           >
             <li className="p-2">
-              Un accompagnement de l&apos;avant, du pendant et de l&apos;après naissance,
-              sans tabous et avec la plus grande bienveillance.
+              Un accompagnement de l&apos;avant, du pendant et de l&apos;après
+              naissance, sans tabous et avec la plus grande bienveillance.
             </li>
             <li className="p-2">
               Une ressource pour toutes les femmes, les parents et les bébés.
             </li>
             <li className="p-2">
               Une vision du choix libre et conscient pour tous les parents en
-              faveur d&apos;une naissance respectée et d&apos;une parentalité éclairée.
+              faveur d&apos;une naissance respectée et d&apos;une parentalité
+              éclairée.
             </li>
             <li className="p-2">
               Une parenthèse autour du bien être sur mesure, rien que pour vous,
@@ -140,9 +141,9 @@ export default function Concept() {
               De la transmission auprès des professionnels en structure.
             </li>
             <li className="p-2">
-              De l&apos;éthique, du respect, de l&apos;écoute, de la transmission, de la
-              création de liens, beaucoup d&apos;amour mais surtout beaucoup de VOUS
-              !
+              De l&apos;éthique, du respect, de l&apos;écoute, de la
+              transmission, de la création de liens, beaucoup d&apos;amour mais
+              surtout beaucoup de VOUS !
             </li>
             <li className="p-2">
               Des savoir être et des savoir faire pour tous, qui que vous soyez.

@@ -31,7 +31,7 @@ const Page = () => {
       <Navbar />
 
       <div className="w-full">
-      <div
+        <div
           className="w-full bg-cover bg-center"
           style={{
             height: "22rem",
@@ -42,7 +42,7 @@ const Page = () => {
           <div className="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
             <div className="text-center">
               <h1 className="text-center mt-12 text-white text-4xl font-light tracking-tight sm:text-5xl lg:text-left">
-              {current?.title}
+                {current?.title}
               </h1>
             </div>
           </div>
