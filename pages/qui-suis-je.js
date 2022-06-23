@@ -38,18 +38,18 @@ export default function WhoIam() {
                 Dans la vie, je suis Éducatrice de Jeunes Enfants, spécialiste
                 de la petite enfance, formée en développement du jeune enfant,
                 en périnatalité et en accompagnement à la parentalité. Mon
-                identité professionnelle s'est construite à travers des lieux
+                identité professionnelle s&apos;est construite à travers des lieux
                 variés (Pôle Ressources Handicap, Centres Sociaux, EAJE,
-                RAM...). J'ai ainsi pu faire la rencontre de nombreux enfants et
-                de nombreux parents. Chaque rencontre fut unique et m'aura
-                permis de grandir humainement et professionnellement. J'ai eu la
+                RAM...). J&apos;ai ainsi pu faire la rencontre de nombreux enfants et
+                de nombreux parents. Chaque rencontre fut unique et m&apos;aura
+                permis de grandir humainement et professionnellement. J&apos;ai eu la
                 chance de mener divers projets, recherches et ainsi avoir des
-                sujets de prédilection comme l'attachement, les neurosciences,
-                l'observation, l'écoute active, la communication non violente,
-                le handicap et les besoins particuliers, l'approche sensorielle
-                de l'enfant, la diversification menée par l'enfant, l'hygiène
+                sujets de prédilection comme l&apos;attachement, les neurosciences,
+                l&apos;observation, l&apos;écoute active, la communication non violente,
+                le handicap et les besoins particuliers, l&apos;approche sensorielle
+                de l&apos;enfant, la diversification menée par l&apos;enfant, l&apos;hygiène
                 naturelle infantile, la motricité libre, les soins de
-                développement l'enfant, les pédagogies alternatives, ...)
+                développement l&apos;enfant, les pédagogies alternatives, ...)
               </p>
             </div>
             <div className="flex justify-center items-center">
