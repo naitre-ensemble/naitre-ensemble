@@ -367,7 +367,7 @@ export default function Home() {
         </Carousel>
       </div>
 
-      <div
+      {/* <div
         className="h-auto lg:h-[300px] pt-10 flex flex-col items-center"
         style={{ background: "#cda69e" }}
       >
@@ -399,7 +399,7 @@ export default function Home() {
             S&apos;abonner
           </button>
         </div>
-      </div>
+      </div> */}
 
       <Footer />
     </div>
