@@ -236,7 +236,7 @@ export default function Forfaits() {
                   style={{ color: "#bd897d" }}
                   className="font-medium text-xl mt-3 mb-2 flex justify-center"
                 >
-                  Forfait "sororité" (3 massages)
+                  Forfait &quot;sororité&quot; (3 massages)
                 </div>
                 <p
                   style={{ color: "#aa8073" }}
