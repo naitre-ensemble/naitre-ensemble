@@ -5,6 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Navbar from "../../../components/navbar";
 import Footer from "../../../components/footer";
+import Link from "next/link";
 
 const Page = () => {
   const router = useRouter();
@@ -47,31 +48,31 @@ const Page = () => {
             </div>
           </div>
         </div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static relative">
           <div
             style={{ color: "#aa8073" }}
-            className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
+            className="text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight mt-6"
           >
-            {current?.prestations}
+            {current?.prestations.map((prestation) => {
+              return (
+                <span
+                  style={{ background: "rgb(189, 137, 125)" }}
+                  className=" text-white font-medium rounded p-2 mr-2"
+                >
+                  {prestation}
+                </span>
+              );
+            })}
           </div>
-
-          <div
-            style={{ color: "#aa8073" }}
-            className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
-          >
-            {current?.duration} - {current?.price}
-          </div>
-
-          {current?.infos !== "" ? (
-            <div
-              style={{ color: "#aa8073" }}
-              className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
-            >
-              {current?.infos}
-            </div>
-          ) : null}
 
           <div className="pb-12 pt-12">
+            <h2
+              style={{ color: "#bd897d" }}
+              className="text-center text-4xl font-light tracking-tight sm:text-3xl lg:text-left mb-12"
+            >
+              Le soin{" "}
+            </h2>
+
             {current?.content.map((paragraph, index) => {
               return (
                 <p
@@ -83,6 +84,65 @@ const Page = () => {
                 </p>
               );
             })}
+          </div>
+
+          {current?.infos.length > 0 ? (
+            <>
+              <h3
+                style={{ color: "#bd897d" }}
+                className="text-center text-4xl font-light tracking-tight sm:text-3xl lg:text-left"
+              >
+                Informations pratiques{" "}
+              </h3>
+              <div
+                style={{ color: "#aa8073" }}
+                className="mt-4 mb-12 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
+              >
+                <ul className="pt-6 text-xl font-normal list-disc">
+                  {current?.infos.map((info) => {
+                    return <li>{info}</li>;
+                  })}
+                </ul>
+              </div>
+            </>
+          ) : null}
+
+          <div
+            style={{ color: "#aa8073" }}
+            className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
+          >
+            <h4
+              style={{ color: "#bd897d" }}
+              className="text-center text-4xl font-light tracking-tight sm:text-3xl lg:text-left"
+            >
+              Durée{" "}
+            </h4>
+            <p className="pt-6 block">{current?.duration}</p>
+          </div>
+
+          <div
+            style={{ color: "#aa8073" }}
+            className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
+          >
+            <h5
+              style={{ color: "#bd897d" }}
+              className="text-center text-4xl font-light tracking-tight sm:text-3xl lg:text-left"
+            >
+              Tarif{" "}
+            </h5>
+            <p className="pt-6 block">{current?.price}</p>
+          </div>
+
+          <div className="text-center mx-auto flex items-center justify-center mb-12">
+            <Link href={`/prise-rendez-vous?prestation=${current?.id}`}>
+              <button
+                style={{ background: "#bd897d" }}
+                className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
+                type="button"
+              >
+                Réserver maintenant
+              </button>
+            </Link>
           </div>
         </div>
       </div>

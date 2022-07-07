@@ -34,38 +34,50 @@ export default function BonCadeau() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
           <h2
             style={{ color: "#bd897d" }}
-            className="text-center text-2xl font-light tracking-tight sm:text-3xl mt-6 lg:text-left"
+            className="text-center text-2xl font-light tracking-tight sm:text-3xl mt-10 lg:text-left"
           >
-            Vous voulez être certain de faire plaisir et d&apos;acheter utile ?
+            Et si le bien être était la clé pour vivre une naissance respectée
+            et une parentalité éclairée ?
           </h2>
           <h2
             style={{ color: "#aa8073" }}
             className="mt-6 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
-            Et si le bien être était la clé pour vivre une naissance respectée
-            et une parentalité éclairée ?
+            Chez Naître Ensemble vous êtes certain de faire plaisir et
+            d&apos;acheter utile :
           </h2>
           <p
             style={{ color: "#aa8073" }}
             className="mt-6 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
-            Vous pouvez choisir un bon cadeau avec la prestation de votre choix
-            ou choisir une carte avec un montant libre (à partir de 10 euros).
+            Un bon cadeau avec la prestation de votre choix ?
+          </p>
+          <p
+            style={{ color: "#aa8073" }}
+            className="mt-6 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
+          >
+            {" "}
+            Une carte cadeau à prix libre ?
           </p>
           <p
             style={{ color: "#aa8073" }}
             className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
-            Vous recevez votre lien de paiement et vous avez le choix pour le
-            mode de livraison.
+            Et pour la livraison ?
           </p>
           <p
             style={{ color: "#aa8073" }}
             className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight mb-72"
           >
-            Si vous souhaitez le faire livrer directement chez la personne ou
-            que Naître Ensemble s&apos;occupe de l&apos;envoi du mail à la
-            personne concernée, c&apos;est possible.
+            Bon cadeau papier à retirer au 87 rue d&apos;Arras 59500 Douai
+            (gratuit) ou envoi possible (+5euros)
+          </p>
+          <p
+            style={{ color: "#aa8073" }}
+            className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight mb-72"
+          >
+            Bon cadeau en version numérique avec un petit mail rempli
+            d&apos;amour (gratuit)
           </p>
         </div>
       </div>

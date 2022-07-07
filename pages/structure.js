@@ -35,22 +35,22 @@ export default function Structure() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
           <h2
             style={{ color: "#bd897d" }}
-            className="text-center text-2xl font-light tracking-tight sm:text-3xl mt-6 lg:text-left"
+            className="text-center text-2xl font-light tracking-tight sm:text-3xl mt-10 lg:text-left"
           >
             Vous êtes une structure et vous avez des projets autour de la
             parentalité et la périnatalité ?
           </h2>
+          <h3
+            style={{ color: "#bd897d" }}
+            className="text-center text-2xl font-light tracking-tight sm:text-3xl mt-10 lg:text-left"
+          >
+            À destination des parents
+          </h3>
           <p
             style={{ color: "#aa8073" }}
             className="mt-12 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
-            À DESTINATION DES PARENTS :{" "}
-          </p>
-          <p
-            style={{ color: "#aa8073" }}
-            className="mt-12 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
-          >
-            Naître Ensemble vous proposes divers interventions en structure à
+            Naître Ensemble vous propose diverses interventions en structure à
             destination des familles que vous accompagnez au quotidien sur des
             thématiques liées au bien être ou au développement du jeune enfant.
           </p>
@@ -79,19 +79,20 @@ export default function Structure() {
             des temps sur mesure.
           </p>
 
-          <h3
+          <h4
             style={{ color: "#bd897d" }}
-            className="text-center text-2xl font-light tracking-tight sm:text-3xl mt-6 lg:text-left"
+            className="text-center text-2xl font-light tracking-tight sm:text-3xl mt-10 lg:text-left"
           >
-            Les thèmes disponibles sont :
-          </h3>
+            Les thèmes disponibles sont
+          </h4>
 
           <ul
             style={{ color: "#aa8073" }}
-            className="mt-12 text-xl text-justify lg:text-left m-0 font-extralight"
+            className="mt-12 text-xl text-justify lg:text-left m-5 font-extralight list-disc"
           >
             <li className="p-0 pb-4">La motricité libre</li>
             <li className="p-0 pb-4">Le massage bébé</li>
+            <li className="p-0 pb-4">La réflexologie bébé émotionnelle ®</li>
             <li className="p-0 pb-4">Le portage physiologique</li>
             <li className="p-0 pb-4">
               Le portage à bras et l&apos;emmaillotage physiologique
@@ -122,12 +123,12 @@ export default function Structure() {
             répondre aux parents et aux enfants.
           </p>
 
-          <p
-            style={{ color: "#aa8073" }}
-            className="mt-12 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
+          <h5
+            style={{ color: "#bd897d" }}
+            className="text-center text-2xl font-light tracking-tight sm:text-3xl mt-10 lg:text-left"
           >
-            À DESTINATION DES PROFESSIONNELS :{" "}
-          </p>
+            À destination des professionnels
+          </h5>
 
           <p
             style={{ color: "#aa8073" }}
@@ -274,16 +275,6 @@ export default function Structure() {
             </div>
           </div>
         </div>
-
-        {/* <div className="mb-12 flex justify-center">
-        <button
-              style={{ background: "#bd897d" }}
-              className="shadow w-[250px] focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
-              type="button"
-            >
-              Demander un devis
-            </button>
-        </div> */}
       </div>
 
       <Footer />

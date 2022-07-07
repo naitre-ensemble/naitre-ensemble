@@ -78,10 +78,10 @@ export default function Forfaits() {
                     className="pl-3 text-md font-normal list-disc"
                     style={{ color: "#aa8073" }}
                   >
-                    <li>un massage femme enceinte</li>
-                    <li>un rituel du bain sensoriel®</li>
-                    <li>un massage post natal 1h15</li>
-                    <li>une séance de réflexologie bébé émotionnelle®</li>
+                    <li>Massage femme enceinte</li>
+                    <li>Rituel du bain sensoriel®</li>
+                    <li>Massage post natal</li>
+                    <li>Réflexologie bébé émotionnelle®</li>
                   </ul>
                 </div>
                 <div className="absolute w-full bottom-6 left-0 flex justify-center">
@@ -123,10 +123,10 @@ export default function Forfaits() {
                     className="pl-3 text-md font-normal list-disc"
                     style={{ color: "#aa8073" }}
                   >
-                    <li>un massage femme enceinte</li>
-                    <li>un atelier papa/parent coach</li>
-                    <li>un atelier découverte du portage</li>
-                    <li>un atelier découverte de l&apos;allaitement</li>
+                    <li>Massage femme enceinte</li>
+                    <li>Atelier papa/parent coach</li>
+                    <li>Atelier découverte du portage</li>
+                    <li>Atelier découverte de l&apos;allaitement</li>
                   </ul>
                 </div>
                 <div className="absolute w-full bottom-6 left-0 flex justify-center">
@@ -168,9 +168,9 @@ export default function Forfaits() {
                     className="pl-3 text-md font-normal list-disc"
                     style={{ color: "#aa8073" }}
                   >
-                    <li>un rituel du bain sensoriel®</li>
-                    <li>une séance massage bébé</li>
-                    <li>un atelier de portage</li>
+                    <li>Rituel du bain sensoriel®</li>
+                    <li>Séance massage bébé</li>
+                    <li>Atelier de portage</li>
                   </ul>
                 </div>
                 <div className="absolute w-full bottom-6 left-0 flex justify-center">
@@ -212,9 +212,53 @@ export default function Forfaits() {
                     className="pl-3 text-md font-normal list-disc"
                     style={{ color: "#aa8073" }}
                   >
-                    <li>réflexologie femme enceinte</li>
-                    <li>un rituel du bain sensoriel®</li>
-                    <li>réflexologie bébé 45 minutes</li>
+                    <li>Réflexologie femme enceinte</li>
+                    <li>Rituel du bain sensoriel®</li>
+                    <li>Réflexologie bébé émotionnelle®</li>
+                  </ul>
+                </div>
+                <div className="absolute w-full bottom-6 left-0 flex justify-center">
+                  <Link href="/prestations/doula">
+                    <button
+                      style={{ background: "#bd897d" }}
+                      className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
+                      type="button"
+                    >
+                      Choisir ce forfait
+                    </button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="flex justify-center items-center">
+              <div className="min-w-[250px] w-[350px] h-[550px] rounded overflow-hidden shadow-lg p-6 relative mb-12">
+                <div
+                  style={{ color: "#bd897d" }}
+                  className="font-medium text-xl mt-3 mb-2 flex justify-center"
+                >
+                  Forfait "sororité" (3 massages)
+                </div>
+                <p
+                  style={{ color: "#aa8073" }}
+                  className="mt-3 text-xl p-4 lg:p-0 font-normal text-center"
+                >
+                  180 euros
+                </p>
+                <div className="w-full mx-auto flex justify-center">
+                  <img
+                    className="h-48 w-auto cursor-pointer"
+                    src="/img/logo-white.png"
+                    alt="Naitre ensemble"
+                  />
+                </div>
+                <div className="mb-3 flex flex-col justify-center">
+                  <ul
+                    className="pl-3 text-md font-normal list-disc"
+                    style={{ color: "#aa8073" }}
+                  >
+                    <li>Massage fertilité</li>
+                    <li>Massage femme enceinte</li>
+                    <li>Massage post natal</li>
                   </ul>
                 </div>
                 <div className="absolute w-full bottom-6 left-0 flex justify-center">

@@ -309,6 +309,14 @@ export default function Navbar() {
                                       style={{ color: "#906c61" }}
                                       className={`group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
                                     >
+                                      <Link href="/prestations/apres_naissance/soutien-en-allaitement">
+                                        Soutien en allaitement
+                                      </Link>
+                                    </li>
+                                    <li
+                                      style={{ color: "#906c61" }}
+                                      className={`group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
+                                    >
                                       <Link href="/prestations/apres_naissance/aide-à-domicile-postpartum">
                                         Aide à domicile post partum
                                       </Link>

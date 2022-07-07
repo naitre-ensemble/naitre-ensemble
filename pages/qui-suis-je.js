@@ -161,12 +161,12 @@ export default function WhoIam() {
                 </h3>
                 <p style={{ color: "#bd897d" }} className="text-justify">
                   (expertise du développement du jeune enfant, de la
-                  périnatalité et de l&apos;accompagnement à la parentalité, approche
-                  réflexive pluridisciplinaire, attachement, neurosciences,
-                  observation, écoute active, CNV, handicap et besoins
-                  particuliers, approche sensorielle de l&apos;enfant, DME, HNI,
-                  motricité libre, soins de l&apos;enfant, pédagogies alternatives,
-                  ...)
+                  périnatalité et de l&apos;accompagnement à la parentalité,
+                  approche réflexive pluridisciplinaire, attachement,
+                  neurosciences, observation, écoute active, CNV, handicap et
+                  besoins particuliers, approche sensorielle de l&apos;enfant,
+                  DME, HNI, motricité libre, soins de l&apos;enfant, pédagogies
+                  alternatives, ...)
                 </p>
               </div>
             </div>
@@ -333,7 +333,8 @@ export default function WhoIam() {
                   style={{ color: "#bd897d" }}
                   className="pb-6 text-center text-xl"
                 >
-                  Réflexologie bébé émotionnelle®️ par l&apos;École du Bien Naître
+                  Réflexologie bébé émotionnelle®️ par l&apos;École du Bien
+                  Naître
                 </h3>
               </div>
             </div>
