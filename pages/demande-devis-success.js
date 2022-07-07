@@ -33,7 +33,7 @@ export default function DemandeDevisSuccess() {
 
         <div className="text-center w-1/2 mt-12 m-auto bg-green-200 text-green-800 p-6">
           <p className="text-xl">
-            Votre demande de devis vient d'être envoyée.
+            Votre demande de devis vient d&apos;être envoyée.
           </p>
           <p className="text-xl mt-3">Vous serez bientôt contacté !</p>
         </div>
@@ -45,7 +45,7 @@ export default function DemandeDevisSuccess() {
               className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
               type="button"
             >
-              Retour à l'accueil
+              Retour à l&apos;accueil
             </button>
           </Link>
         </div>
