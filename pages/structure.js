@@ -168,7 +168,7 @@ export default function Structure() {
             <li className="p-0 pb-4">Sensibilisation au portage</li>
             <li className="p-0 pb-4">
               Sensibilisation au bien-être en équipe (rebozo, espace bien-être,
-              techniques d'auto-massages...)
+              techniques d&apos;auto-massages...)
             </li>
           </ul>
         </div>

@@ -157,7 +157,7 @@ export default function WhoIam() {
                   style={{ color: "#bd897d" }}
                   className="pb-6 text-center text-xl"
                 >
-                  Diplôme d&apos;État d&apos;Éducatrice de Jeunes Enfants{" "}
+                  Diplôme d&apos;État d&apos;Éducatrice de Jeunes Enfants
                 </h3>
                 <p style={{ color: "#bd897d" }} className="text-justify">
                   (expertise du développement du jeune enfant, de la
@@ -186,7 +186,7 @@ export default function WhoIam() {
                   style={{ color: "#bd897d" }}
                   className="pb-6 text-center text-xl"
                 >
-                  Praticienne en massage "bien naître" de la femme enceinte avec
+                  Praticienne en massage &quot;bien naître&quot; de la femme enceinte avec
                   Graine de massage
                 </h3>
               </div>
@@ -197,7 +197,7 @@ export default function WhoIam() {
                   style={{ color: "#bd897d" }}
                   className="pb-6 text-center text-xl"
                 >
-                  Certifiée en massage "bien-naître" pour bébé par Graine de
+                  Certifiée en massage &quot;bien-naître&quot; pour bébé par Graine de
                   massage
                 </h3>
               </div>
@@ -323,7 +323,7 @@ export default function WhoIam() {
                   style={{ color: "#bd897d" }}
                   className="pb-6 text-center text-xl"
                 >
-                  Réflexologie " détente" de la femme enceinte
+                  Réflexologie &quot;détente&quot; de la femme enceinte
                 </h3>
               </div>
             </div>
@@ -344,7 +344,7 @@ export default function WhoIam() {
                   style={{ color: "#bd897d" }}
                   className="pb-6 text-center text-xl"
                 >
-                  Formation de Doula (accompagnante non médicale à la naissance
+                  Formation de Doula accompagnante non médicale à la naissance
                   avec Diane Boutin
                 </h3>
               </div>
