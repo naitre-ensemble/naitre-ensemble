@@ -53,9 +53,10 @@ const Page = () => {
             style={{ color: "#aa8073" }}
             className="text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight mt-6"
           >
-            {current?.prestations.map((prestation) => {
+            {current?.prestations.map((prestation, index) => {
               return (
                 <span
+                  key={index}
                   style={{ background: "rgb(189, 137, 125)" }}
                   className=" text-white font-medium rounded p-2 mr-2"
                 >
@@ -99,8 +100,8 @@ const Page = () => {
                 className="mt-4 mb-12 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
               >
                 <ul className="pt-6 text-xl font-normal list-disc">
-                  {current?.infos.map((info) => {
-                    return <li>{info}</li>;
+                  {current?.infos.map((info, index) => {
+                    return <li key={index}>{info}</li>;
                   })}
                 </ul>
               </div>
