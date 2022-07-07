@@ -3,10 +3,7 @@ import axios from "axios";
 import Image from "next/image";
 import React, { useEffect, useState, useRef } from "react";
 import Navbar from "../components/navbar";
-import dataBefore from "../components/data";
-import dataAfter from "../components/data-after";
 import { useRouter } from "next/router";
-import { format, parseISO } from "date-fns";
 import Router from "next/router";
 
 export default function RendezVous() {
@@ -16,23 +13,39 @@ export default function RendezVous() {
   const lastnameRef = useRef();
   const emailRef = useRef();
   const phoneRef = useRef();
-  const dateRef = useRef();
+
+  const forfaits = [
+    {
+      id: 1,
+      title: "forfait naître ensemble",
+    },
+    {
+      id: 2,
+      title: "forfait devenir parents",
+    },
+    {
+      id: 3,
+      title: "forfait bien naître",
+    },
+    {
+      id: 4,
+      title: "forfait détente",
+    },
+    {
+      id: 5,
+      title: "forfait sororité",
+    },
+    {
+      id: 6,
+      title: "forfait sur mesure",
+    },
+  ];
 
   useEffect(() => {
-    const id = router.query.prestation;
-    const dataBeforeFound = dataBefore?.filter(
-      (el) => Number(el.id) === Number(id)
-    );
-    const dataAfterFound = dataAfter?.filter(
-      (el) => Number(el.id) === Number(id)
-    );
-    if (dataBeforeFound.length > 0) {
-      setFoundPrestation(dataBeforeFound[0]);
-    }
-    if (dataAfterFound.length > 0) {
-      setFoundPrestation(dataAfterFound[0]);
-    }
-  }, [router, dataBefore, dataAfter]);
+    const id = router.query.forfait;
+    const foundForfait = forfaits.find((forfait) => forfait.id == id);
+    setFoundPrestation(foundForfait);
+  }, [router]);
 
   useEffect(() => {}, [foundPrestation]);
 
@@ -42,16 +55,15 @@ export default function RendezVous() {
       lastname: lastnameRef.current?.value,
       email: emailRef.current?.value,
       phone: phoneRef.current?.value,
-      date: format(parseISO(dateRef.current?.value), "dd/MM/yyyy"),
-      prestation: foundPrestation?.title,
+      forfait: foundPrestation?.title,
     };
     try {
       const response = await axios.post(
-        "https://naitre-ensemble.herokuapp.com/prestation",
+        "https://naitre-ensemble.herokuapp.com/forfait",
         data
       );
       if (response.status === 200) {
-        Router.push("/reservation-success");
+        Router.push("/reservation-forfait-success");
       }
     } catch (error) {
       console.error(error);
@@ -82,7 +94,7 @@ export default function RendezVous() {
           <div className="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
             <div className="text-center">
               <h1 className="text-center mt-12 text-white text-4xl font-light tracking-tight sm:text-5xl lg:text-left">
-                Prise de rendez-vous
+                Demande de forfait
               </h1>
             </div>
           </div>
@@ -94,26 +106,10 @@ export default function RendezVous() {
             style={{ color: "#aa8073" }}
             className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
-            {foundPrestation?.title} -{foundPrestation?.price} -{" "}
-            {foundPrestation?.duration}
+            {foundPrestation?.title}
           </p>
         </div>
         <div className="flex flex-wrap -mx-3 mb-6">
-          <div className="w-full md:w-full px-3 mb-6 md:mb-0">
-            <label
-              style={{ color: "#bd897d" }}
-              className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-              htmlFor="grid-date"
-            >
-              Date souhaitée
-            </label>
-            <input
-              ref={dateRef}
-              className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-              id="grid-date"
-              type="date"
-            />
-          </div>
           <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
             <label
               style={{ color: "#bd897d" }}
@@ -187,7 +183,7 @@ export default function RendezVous() {
               type="button"
               onClick={() => sendReservation()}
             >
-              Prendre rendez-vous
+              Envoyer la demande
             </button>
           </div>
           <div className="md:w-2/3"></div>

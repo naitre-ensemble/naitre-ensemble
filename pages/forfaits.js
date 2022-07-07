@@ -85,7 +85,7 @@ export default function Forfaits() {
                   </ul>
                 </div>
                 <div className="absolute w-full bottom-6 left-0 flex justify-center">
-                  <Link href="/prestations/doula">
+                  <Link href="/reservation-forfait?forfait=1">
                     <button
                       style={{ background: "#bd897d" }}
                       className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
@@ -130,7 +130,7 @@ export default function Forfaits() {
                   </ul>
                 </div>
                 <div className="absolute w-full bottom-6 left-0 flex justify-center">
-                  <Link href="/prestations/doula">
+                  <Link href="/reservation-forfait?forfait=2">
                     <button
                       style={{ background: "#bd897d" }}
                       className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
@@ -174,7 +174,7 @@ export default function Forfaits() {
                   </ul>
                 </div>
                 <div className="absolute w-full bottom-6 left-0 flex justify-center">
-                  <Link href="/prestations/doula">
+                  <Link href="/reservation-forfait?forfait=3">
                     <button
                       style={{ background: "#bd897d" }}
                       className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
@@ -218,7 +218,7 @@ export default function Forfaits() {
                   </ul>
                 </div>
                 <div className="absolute w-full bottom-6 left-0 flex justify-center">
-                  <Link href="/prestations/doula">
+                  <Link href="/reservation-forfait?forfait=4">
                     <button
                       style={{ background: "#bd897d" }}
                       className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
@@ -262,7 +262,7 @@ export default function Forfaits() {
                   </ul>
                 </div>
                 <div className="absolute w-full bottom-6 left-0 flex justify-center">
-                  <Link href="/prestations/doula">
+                  <Link href="/reservation-forfait?forfait=5">
                     <button
                       style={{ background: "#bd897d" }}
                       className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
@@ -295,7 +295,7 @@ export default function Forfaits() {
                   </p>
                 </div>
                 <div className="absolute w-full bottom-6 left-0 flex justify-center">
-                  <Link href="/prestations/doula">
+                  <Link href="/reservation-forfait?forfait=6">
                     <button
                       style={{ background: "#bd897d" }}
                       className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"

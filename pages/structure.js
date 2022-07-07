@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import React, { useState } from "react";
+import React from "react";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import Link from "next/link";
@@ -149,9 +149,31 @@ export default function Structure() {
             temps de se retrouver, de reprendre son souffle, de s&apos;écouter
             pour être à l&apos;écoute des autres dans sa pratique.
           </p>
+
+          <h4
+            style={{ color: "#bd897d" }}
+            className="text-center text-2xl font-light tracking-tight sm:text-3xl mt-10 lg:text-left"
+          >
+            Les thèmes disponibles sont
+          </h4>
+
+          <ul
+            style={{ color: "#aa8073" }}
+            className="mt-12 text-xl text-justify lg:text-left m-5 font-extralight list-disc"
+          >
+            <li className="p-0 pb-4">Sensibilisation au massage bébé</li>
+            <li className="p-0 pb-4">
+              Sensibilisation à l&apos;allaitement maternel
+            </li>
+            <li className="p-0 pb-4">Sensibilisation au portage</li>
+            <li className="p-0 pb-4">
+              Sensibilisation au bien-être en équipe (rebozo, espace bien-être,
+              techniques d'auto-massages...)
+            </li>
+          </ul>
         </div>
 
-        <div className="grid grid-cols-3 justify-center mt-24 mb-24">
+        {/* <div className="grid grid-cols-3 justify-center mt-24 mb-24">
           <div className="flex justify-center items-center">
             <div className="min-w-[250px] w-[350px] h-[600px] rounded overflow-hidden shadow-lg p-6 relative mb-12">
               <div
@@ -175,7 +197,7 @@ export default function Structure() {
                 ses utilisations en structure.
               </p>
               <div className="absolute w-full bottom-6 left-0 flex justify-center">
-                <Link href="/prestations/doula">
+                <Link href="/demande-devis?devis=1">
                   <button
                     style={{ background: "#bd897d" }}
                     className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
@@ -218,7 +240,7 @@ export default function Structure() {
                 intérêt pour le professionnel
               </p>
               <div className="absolute w-full bottom-6 left-0 flex justify-center">
-                <Link href="/prestations/doula">
+                <Link href="/demande-devis?devis=2">
                   <button
                     style={{ background: "#bd897d" }}
                     className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
@@ -262,7 +284,7 @@ export default function Structure() {
                 corps)
               </p>
               <div className="absolute w-full bottom-6 left-0 flex justify-center">
-                <Link href="/prestations/doula">
+                <Link href="/demande-devis?devis=3">
                   <button
                     style={{ background: "#bd897d" }}
                     className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
@@ -274,6 +296,18 @@ export default function Structure() {
               </div>
             </div>
           </div>
+        </div> */}
+
+        <div className=" w-full mb-12 mt-12 flex justify-center">
+          <Link href="/demande-devis">
+            <button
+              style={{ background: "#bd897d" }}
+              className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
+              type="button"
+            >
+              Demander un devis
+            </button>
+          </Link>
         </div>
       </div>
 

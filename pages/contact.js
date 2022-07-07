@@ -1,9 +1,41 @@
 import Head from "next/head";
+import axios from "axios";
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useRef } from "react";
 import Navbar from "../components/navbar";
+import { useRouter } from "next/router";
+import Router from "next/router";
 
 export default function Contact() {
+  const router = useRouter();
+  const firstnameRef = useRef();
+  const lastnameRef = useRef();
+  const emailRef = useRef();
+  const phoneRef = useRef();
+  const messageRef = useRef();
+
+  const sendMessage = async () => {
+    const data = {
+      firstname: firstnameRef.current?.value,
+      lastname: lastnameRef.current?.value,
+      message: messageRef?.current?.value,
+      email: emailRef.current?.value,
+      phone: phoneRef.current?.value,                                         
+    };
+
+    try {
+      const response = await axios.post(
+        "https://naitre-ensemble.herokuapp.com/contact",
+        data
+      );
+      if (response.status === 200) {
+        Router.push("/contact-success");
+      }
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
   return (
     <div className="relative">
       <Head>
@@ -42,6 +74,7 @@ export default function Contact() {
               Nom
             </label>
             <input
+              ref={firstnameRef}
               className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
               id="grid-first-name"
               type="text"
@@ -56,6 +89,7 @@ export default function Contact() {
               Prénom
             </label>
             <input
+              ref={lastnameRef}
               className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               id="grid-last-name"
               type="text"
@@ -72,6 +106,7 @@ export default function Contact() {
               E-mail
             </label>
             <input
+              ref={emailRef}
               className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               id="email"
               type="email"
@@ -88,6 +123,7 @@ export default function Contact() {
               Téléphone
             </label>
             <input
+              ref={phoneRef}
               className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               id="email"
               type="text"
@@ -104,6 +140,7 @@ export default function Contact() {
               Message
             </label>
             <textarea
+              ref={messageRef}
               className=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
               id="message"
             ></textarea>
@@ -115,6 +152,7 @@ export default function Contact() {
               style={{ background: "#bd897d" }}
               className="shadow w-[250px] focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
               type="button"
+              onClick={() => sendMessage()}
             >
               Envoyer le message
             </button>
