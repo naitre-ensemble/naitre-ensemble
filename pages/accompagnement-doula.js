@@ -248,7 +248,8 @@ export default function AccompagnementDoula() {
             style={{ color: "#aa8073" }}
             className="mt-12 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
           >
-            Naître Ensemble est signataire de la charte des Doulas de France www.doulas.info.
+            Naître Ensemble est signataire de la charte des Doulas de France
+            www.doulas.info.
           </p>
           <p
             style={{ color: "#aa8073" }}
@@ -307,7 +308,7 @@ export default function AccompagnementDoula() {
           style={{ color: "#aa8073" }}
           className="mt-4 text-xl p-4 text-justify lg:text-center lg:p-0 font-extralight mb-24"
         >
-          Première rencontre sans engagament (1h) = 50 euros 
+          Première rencontre sans engagament (1h) = 50 euros
         </p>
       </div>
 

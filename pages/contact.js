@@ -210,7 +210,8 @@ export default function Contact() {
               style={{ color: "#aa8073" }}
               className="text-center mt-4 text-sm p-4 lg:p-0 font-normal"
             >
-              *Au delà de 15 kilomètres, des frais de déplacement s&apos;appliquent
+              *Au delà de 15 kilomètres, des frais de déplacement
+              s&apos;appliquent
             </p>
           </div>
         </div>

@@ -38,7 +38,8 @@ export default function Structure() {
             className="text-center text-2xl font-light tracking-tight sm:text-3xl mt-10 lg:text-left"
           >
             Vous êtes une structure et vous avez des projets autour de la
-            parentalité et la périnatalité ? Un projet REAAP ? Un projet de soutien à la parentalité ? 
+            parentalité et la périnatalité ? Un projet REAAP ? Un projet de
+            soutien à la parentalité ?
           </h2>
           <h3
             style={{ color: "#bd897d" }}
@@ -153,9 +154,11 @@ export default function Structure() {
             <li className="p-0 pb-4">
               Sensibilisation au bien-être en équipe (rebozo, espace bien-être,
               techniques d&apos;auto-massages...)
-              <li className="p-0 pb-4">Sensibilisation à la réflexologie bébé émotionnelle</li>
-              <li className="p-0 pb-4">Sensibilisation au bain enveloppé</li>
             </li>
+            <li className="p-0 pb-4">
+              Sensibilisation à la réflexologie bébé émotionnelle
+            </li>
+            <li className="p-0 pb-4">Sensibilisation au bain enveloppé</li>
           </ul>
         </div>
 

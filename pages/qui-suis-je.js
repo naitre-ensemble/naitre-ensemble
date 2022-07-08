@@ -128,8 +128,8 @@ export default function WhoIam() {
             s&apos;agit avant tout pour moi de faire preuve d&apos;une posture
             humaine et authentique à vos côtés tout en réactualisant mes
             connaissances à travers l&apos;expérience et la formation afin de
-            vous offrir un accompagnement et une approche toujours en accord avec vos
-            besoins et les connaissances scientifiques actuelles.
+            vous offrir un accompagnement et une approche toujours en accord
+            avec vos besoins et les connaissances scientifiques actuelles.
           </p>
 
           <p

@@ -211,6 +211,14 @@ export default function Navbar() {
                                       style={{ color: "#906c61" }}
                                       className={` group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
                                     >
+                                      <Link href="/prestations/avant_naissance/rendez-vous-personnalise">
+                                        Rendez-vous personnalisé
+                                      </Link>
+                                    </li>
+                                    <li
+                                      style={{ color: "#906c61" }}
+                                      className={` group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
+                                    >
                                       <Link href="/prestations/avant_naissance/fete-future-mere">
                                         Fête de la future mère
                                       </Link>
@@ -286,7 +294,7 @@ export default function Navbar() {
                                       className={`group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
                                     >
                                       <Link href="/prestations/apres_naissance/massage-bébé">
-                                        Massage bien naître bébé
+                                        Massage bébé / enfant
                                       </Link>
                                     </li>
                                     <li
@@ -327,6 +335,14 @@ export default function Navbar() {
                                     >
                                       <Link href="/prestations/apres_naissance/service-doula-dodo">
                                         Service doula dodo
+                                      </Link>
+                                    </li>
+                                    <li
+                                      style={{ color: "#906c61" }}
+                                      className={` group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
+                                    >
+                                      <Link href="/prestations/apres_naissance/rendez-vous-personnalise">
+                                        Rendez-vous personnalisé
                                       </Link>
                                     </li>
                                   </ul>

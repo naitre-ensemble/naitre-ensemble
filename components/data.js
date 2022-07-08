@@ -8,7 +8,7 @@ const data = [
       `Le massage "fertilité" est un soin bien être à but non thérapeutique dédié à la femme qui rencontre des difficultés dans son désir d'enfant. Il s'agit d'un massage qui stimule la circulation sanguine, qui soutient et soulage les crampes lors de l'ovulation et les douleurs liées à l'endométriose ou encore au SOPK (syndrome des ovaires polykystiques).
         `,
       `Ce soin débutera par un temps d'échange autour de votre parcours, suivi d'un temps de visualisation autour de l'appareil reproducteur pour que vous puissiez apprendre à connaître votre corps et à le conscientiser.`,
-      `Une technique de bercement au rebozo vous sera proposée puis un temps de massage ventral vous sera offert ainsi qu'un temps d'accupression et de réflexologie spécial fertilité.`,
+      `Une technique de bercement au rebozo vous sera proposée puis un temps de massage ventral/cuisses vous sera offert ainsi qu'un temps d'accupression et de réflexologie spécial fertilité.`,
       `Nous terminerons le soin avec un temps de transmissions et d'échanges autour de l'alimentation et d'un protocole de massage pré ovulatoire à réaliser seule ou en couple.`,
       `Ce soin est réalisé sur mesure en fonction de votre histoire, vos besoins, votre parcours.`,
       `Il est idéal avant toute préconception pour apprendre à connaître son propre corps et pour stimuler/harmoniser le système reproducteur.`,
@@ -21,16 +21,19 @@ const data = [
     prestations: ["à domicile", "en cabinet"],
     duration: "1h15",
     price: "70 euros",
-    infos: [],
+    infos: [
+      `Livret de transmission remis en fin de séance`,
+      `Plusieurs séances sont conseillées`,
+      `L'objectif est de vous rendre autonome pour soutenir votre fertilité et de vous offrir un soin bien être sur mesure`,
+    ],
   },
   {
     id: 2,
     url: "massage-femme-enceinte",
-    image: "massage_femme_enceinte.jpeg",
+    image: "massage_femme_enceinte.png",
     title: "Le massage femme enceinte",
     content: [
       `"Pour materner, il faut être maternée"`,
-      `Convaincue de la force et la puissance des Femmes, du corps de la femme et de ses ressources, j'accompagne les femmes au quotidien à (re)découvrir qu'elles ont tout en elles pour donner naissance à leur enfant.`,
       `Ce massage est un soin dédié à la femme enceinte à but non thérapeutique qui permet de détendre, d'apaiser, de libérer les tensions et de soulager les différents maux de la grossesse (tensions du dos, sensations de tiraillement au niveau du plancher pelvien, sensation d'étouffement...). Il permet également à la maman de prendre conscience de son corps et d'accepter les différents changements corporels survenus durant la grossesse.`,
       `Ce soin débute par un temps d'accueil et d'échanges autour d'une tisane chaude adaptée à votre stade de grossesse.`,
       `Vous êtes ensuite bercée délicatement à l'aide d'un rebozo mexicain. Une véritable enveloppe de douceur.`,
@@ -42,14 +45,14 @@ const data = [
     duration: "1h15",
     price: "70 euros",
     infos: [
-      `Contre-indications :  fièvre, hypertension ou vaccin de moins de 48h. En cas de doute demandez toujours l'avis de votre professionnel de santé de référence.`,
+      `Contre-indications : fièvre, hypertension ou vaccin de moins de 48h. En cas de doute demandez toujours l'avis de votre professionnel de santé de référence.`,
     ],
   },
   {
     id: 3,
     url: "réflexologie-femme-enceinte",
     image: "reflexologie_detente_femme_enceinte.png",
-    title: "Réflexologie détente de la femme enceinte",
+    title: "Réflexologie de la femme enceinte",
     content: [
       `Véritable accompagnement psycho-affectif, le protocole réflexologie "détente" de la femme enceinte vous accompagnera tout au long de la grossesse pour vous détendre et vous sentir plus sereine.`,
       `C'est un temps de soin qui peut également être partagé avec le co/parent pour lui permettre de prendre sa place durant la grossesse et de vivre un moment complice qui peut devenir un rituel bien être en couple.`,
@@ -160,6 +163,25 @@ const data = [
     duration: "3 heure",
     price: "250 euros",
     infos: [],
+  },
+  {
+    id: 8,
+    url: "rendez-vous-personnalise",
+    image: "fete_future_mere.jpeg",
+    title: "Rendez vous personnalisé",
+    content: [
+      `Avant la naissance, vous ressentez le besoin de vous y retrouver, d'être accompagnée, écoutée, conseillée sur des sujets qui vous tiennent à coeur (puériculture, soins de bébé, éducation, aménagement pour bébé, développement de l'enfant, projet de naissance,...) `,
+      `Les rendez-vous personnalisés vous permettent d'aborder tous les sujets.`,
+      `À l'aide de mon approche, de mes mots, de mes connaissances, de mon non jugement, je vous apporterai des éclairages sur vos questionnements afin que vous fassiez vos propres choix. `,
+      `Ces rendez-vous se font sur la base d'un échange. Des ressources sont également mises à votre disposition en fonction des sujets abordés. Mes prestations pourront aussi être une réponse supplémentaire à vos besoins.`,
+    ],
+    prestations: ["à domicile", "en cabinet"],
+    duration: "1 heure",
+    price: "50 euros",
+    infos: [
+      `Les rendez-vous personnalisés ne se substituent pas à un accompagnement médical ou psychologique.`,
+      `Seule ou en couple`,
+    ],
   },
 ];
 

@@ -1,6 +1,6 @@
 const data = [
   {
-    id: 8,
+    id: 9,
     url: "rituel-bain-sensoriel",
     image: "rituel_bain_sensoriel.png",
     title: "Rituel du bain sensoriel® ",
@@ -32,7 +32,7 @@ const data = [
     ],
   },
   {
-    id: 9,
+    id: 10,
     url: "massage-post-natal",
     image: "massage_post_natal.png",
     title: "Massage post natal",
@@ -54,7 +54,7 @@ const data = [
     infos: [],
   },
   {
-    id: 10,
+    id: 11,
     url: "rituel-rebozo",
     image: "soin_ribozo.gif",
     title: "Rituel Rebozo",
@@ -79,7 +79,7 @@ const data = [
     infos: [],
   },
   {
-    id: 11,
+    id: 12,
     url: "massage-bébé",
     image: "massage_bebe.png",
     title: "Massage bébé/enfant ",
@@ -109,7 +109,7 @@ const data = [
     ],
   },
   {
-    id: 12,
+    id: 13,
     url: "atelier-de-portage",
     image: "portage.png",
     title: "Atelier de portage",
@@ -129,7 +129,7 @@ const data = [
     infos: [],
   },
   {
-    id: 13,
+    id: 14,
     url: "soutien-en-allaitement",
     image: "allaitement.png",
     title: "Soutien en allaitement",
@@ -146,7 +146,7 @@ const data = [
     infos: [],
   },
   {
-    id: 14,
+    id: 15,
     url: "service-doula-dodo",
     image: "service_doula_dodo.jpeg",
     title: "Service doula dodo",
@@ -175,7 +175,7 @@ const data = [
     ],
   },
   {
-    id: 15,
+    id: 16,
     url: "aide-à-domicile-postpartum",
     image: "aide_domicile_post_partum.jpeg",
     title: "Aide à domicile post partum ",
@@ -198,7 +198,7 @@ const data = [
     ],
   },
   {
-    id: 16,
+    id: 17,
     url: "reflexologie-bebe-émotionnelle",
     image: "reflexologie_bebe.png",
     title: "Réflexologie bébé émotionnelle®",
@@ -219,6 +219,32 @@ const data = [
       `Elle intervient en soutien aux différentes maux du quotidien : maux de ventre, petit virus du quotidien, les problèmes de la sphère ORL, les douleurs, les angoisses, les phobies, les émotions difficiles...`,
       `De la naissance à 6 ans`,
       `Durant l'atelier, l'huile de massage est fournie`,
+    ],
+  },
+  {
+    id: 18,
+    url: "rendez-vous-personnalise",
+    image: "reflexologie_bebe.png",
+    title: "Rendez vous personnalisé",
+    content: [
+      `Après la naissance, vous ressentez le besoin de poser vos questions à une personne formée, de vous sentir écoutée, comprise et accompagnée sur des sujets liés à vous, votre accouchement, votre bébé, vos enfants (puériculture, éducation, soins, aménagement de l'espace, développement de l'enfant, activités, jeux...) ? `,
+      `Les rendez-vous personnalisés après la naissance se font sur mesure en fonction de vos besoins et ceux de votre enfant.`,
+      `Vous souhaitez mettre en place une éducation bien traitante sans vous y perdre ? `,
+      `La motricité libre est un concept dont vous avez entendu parler et vous souhaitez la mettre en place à la maison ? `,
+      `Vous ne savez pas par où commencer dans les activités avec bébé ou dans les achats de jeux ? `,
+      `Vous avez envie d'apprendre à signer quelques mots avec bébé, quelques comptines et à lire avec bébé ? `,
+      `Dans votre quotidien avec votre enfant, certains moments sont plus difficiles que d'autres et vous avez besoin d'un regard sur la situation ? `,
+      `Jouer avec votre enfant n'est pas inné, et vous souhaitez apprendre à adopter une posture qui vous permette de vivre des moments de qualité autour du jeu ? `,
+      `Vous souhaitez vous offrir une heure d'activité qui change de l'ordinaire ? (parcours de motricité, éveil sensoriel, bacs sensoriels, manipulation,...)`,
+      `Tout est possible sur demande. `,
+    ],
+    prestations: ["à domicile", "au cabinet"],
+    duration: "1 heure",
+    price: "50 euros",
+    infos: [
+      `Un échange téléphonique nous permet de cerner vos premiers besoins`,
+      `J'utilise mon approche d'éducatrice, d'accompagnante et de doula pour vous offir une approche intégrative qui répondra à vos besoins et ceux de votre enfant`,
+      `Seule, en couple ou en famille,`,
     ],
   },
 ];
