@@ -244,7 +244,12 @@ export default function AccompagnementDoula() {
             La posture professionnelle de Naître Ensemble est une pratique
             &quot;amie des Sages-Femmes&quot;.
           </p>
-
+          <p
+            style={{ color: "#aa8073" }}
+            className="mt-12 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
+          >
+            Naître Ensemble est signataire de la charte des Doulas de France www.doulas.info.
+          </p>
           <p
             style={{ color: "#aa8073" }}
             className="mt-3 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight mb-12"
@@ -254,7 +259,7 @@ export default function AccompagnementDoula() {
           </p>
         </div>
 
-        <div className="grid grid-cols-4 justify-center mt-24 mb-24">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 justify-center mt-24 mb-24">
           <div className="flex justify-center items-center">
             <div
               className=" h-[300px] w-[300px] flex justify-center text-justify items-center p-4 rounded-full"
@@ -282,7 +287,7 @@ export default function AccompagnementDoula() {
               style={{ background: "#bd897d" }}
             >
               <p className="text-white text-md lg:text-lg text-center">
-                Forfait sur devis <br /> Paiement échelonné possible
+                CESU possible <br /> Paiement échelonné possible
               </p>
             </div>
           </div>
@@ -302,8 +307,7 @@ export default function AccompagnementDoula() {
           style={{ color: "#aa8073" }}
           className="mt-4 text-xl p-4 text-justify lg:text-center lg:p-0 font-extralight mb-24"
         >
-          Première rencontre offerte à DOUAI ou à domicile (frais de déplacement
-          à régler au delà de 10km)
+          Première rencontre sans engagament (1h) = 50 euros 
         </p>
       </div>
 

@@ -128,8 +128,8 @@ export default function WhoIam() {
             s&apos;agit avant tout pour moi de faire preuve d&apos;une posture
             humaine et authentique à vos côtés tout en réactualisant mes
             connaissances à travers l&apos;expérience et la formation afin de
-            vous offrir un accompagnement et une approche au plus proche de vos
-            besoins et des connaissances scientifiques actuelles.
+            vous offrir un accompagnement et une approche toujours en accord avec vos
+            besoins et les connaissances scientifiques actuelles.
           </p>
 
           <p
@@ -186,8 +186,8 @@ export default function WhoIam() {
                   style={{ color: "#bd897d" }}
                   className="pb-6 text-center text-xl"
                 >
-                  Praticienne en massage &quot;bien naître&quot; de la femme enceinte avec
-                  Graine de massage
+                  Praticienne en massage &quot;bien naître&quot; de la femme
+                  enceinte avec Graine de massage
                 </h3>
               </div>
             </div>
@@ -197,8 +197,8 @@ export default function WhoIam() {
                   style={{ color: "#bd897d" }}
                   className="pb-6 text-center text-xl"
                 >
-                  Certifiée en massage &quot;bien-naître&quot; pour bébé par Graine de
-                  massage
+                  Certifiée en massage &quot;bien-naître&quot; pour bébé par
+                  Graine de massage
                 </h3>
               </div>
             </div>
@@ -308,7 +308,7 @@ export default function WhoIam() {
               </div>
             </div>
             <div className="flex justify-start items-center">
-              <div className="min-w-[300px] w-[350px] h-[390px] rounded overflow-hidden shadow-lg p-6 relative mb-12 flex items-center">
+              <div className="min-w-[300px] w-[350px] h-[390px] rounded overflow-hidden shadow-lg p-6 relative mb-12 flex items-center justify-center">
                 <h3
                   style={{ color: "#bd897d" }}
                   className="pb-6 text-center text-xl"

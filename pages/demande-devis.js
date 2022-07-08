@@ -9,7 +9,7 @@ import Router from "next/router";
 export default function DemandeDevis() {
   const router = useRouter();
   const themeRef = useRef();
-  const structureNameRef = useRef(); 
+  const structureNameRef = useRef();
   const firstnameRef = useRef();
   const lastnameRef = useRef();
   const emailRef = useRef();
@@ -22,7 +22,7 @@ export default function DemandeDevis() {
       structureName: structureNameRef?.current?.value,
       email: emailRef.current?.value,
       phone: phoneRef.current?.value,
-      theme: themeRef.current?.value                                           
+      theme: themeRef.current?.value,
     };
 
     try {
@@ -165,10 +165,18 @@ export default function DemandeDevis() {
               type="text"
             >
               <option></option>
-              <option value="Sensibilisation à l&apos;allaitement maternel">Sensibilisation à l&apos;allaitement maternel</option>
-              <option value="Sensibilisation au massage bébé">Sensibilisation au massage bébé</option>
-              <option value="Sensibilisation au portage">Sensibilisation au portage</option>
-              <option value="Sensibilisation au bien-être en équipe">Sensibilisation au bien-être en équipe</option>
+              <option value="Sensibilisation à l'allaitement maternel">
+                Sensibilisation à l&apos;allaitement maternel
+              </option>
+              <option value="Sensibilisation au massage bébé">
+                Sensibilisation au massage bébé
+              </option>
+              <option value="Sensibilisation au portage">
+                Sensibilisation au portage
+              </option>
+              <option value="Sensibilisation au bien-être en équipe">
+                Sensibilisation au bien-être en équipe
+              </option>
             </select>
           </div>
         </div>

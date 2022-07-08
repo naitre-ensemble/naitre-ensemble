@@ -8,10 +8,7 @@ export default function ContactSuccess() {
     <div className="relative">
       <Head>
         <title>Naitre ensemble - contact</title>
-        <meta
-          name="description"
-          content="Naitre ensemble / contact"
-        />
+        <meta name="description" content="Naitre ensemble / contact" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />

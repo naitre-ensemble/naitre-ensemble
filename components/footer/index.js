@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -6,8 +7,8 @@ export default function Footer() {
       style={{ background: "#bd897d" }}
       className="text-center text-white"
     >
-      <div className="pt-9">
-        <div className="flex w-full justify-center items-center mb-9 pl-8">
+      <div className="pt-6">
+        <div className="flex w-full justify-center items-center mb-3 pl-8">
           <a
             href="https://www.facebook.com/naitreensemble"
             target="_blank"
@@ -75,9 +76,13 @@ export default function Footer() {
             </svg>
           </a>
         </div>
+        <div className="flex w-full justify-center items-center pt-3 pb-3">
+          <Link href="/mentions-legales" className="cursor-pointer">
+            <p className="cursor-pointer">Mentions légales</p>
+          </Link>
+        </div>
       </div>
-
-      <p className=" text-white p-4">© Naitre ensemble</p>
+      <p className="p-4 text-white">© Naitre ensemble</p>
     </footer>
   );
 }
