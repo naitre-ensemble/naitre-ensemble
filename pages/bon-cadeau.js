@@ -1,8 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
+import axios from "axios";
 import React, { useState, useRef } from "react";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
+import { useRouter } from "next/router";
+import Router from "next/router";
 
 export default function BonCadeau() {
   const firstnameRef = useRef();
@@ -20,11 +23,12 @@ export default function BonCadeau() {
       lastname: lastnameRef.current?.value,
       email: emailRef.current?.value,
       phone: phoneRef.current?.value,
-      prestation: prestationRef?.value,
-      destinataire: destinataireRef?.value,
-      delapart: delapartRef?.value,
-      livraison: livraisonRef?.value
+      prestation: prestationRef?.current?.value,
+      destinataire: destinataireRef?.current?.value,
+      delapart: delapartRef?.current?.value,
+      livraison: livraisonRef?.current?.value
     };
+    console.log(data);
     try {
       const response = await axios.post(
         "https://naitre-ensemble.herokuapp.com/cadeau",
