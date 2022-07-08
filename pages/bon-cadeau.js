@@ -10,6 +10,33 @@ export default function BonCadeau() {
   const emailRef = useRef();
   const phoneRef = useRef();
   const prestationRef = useRef();
+  const destinataireRef = useRef();
+  const delapartRef = useRef();
+  const livraisonRef = useRef();
+
+  const sendReservation = async () => {
+    const data = {
+      firstname: firstnameRef.current?.value,
+      lastname: lastnameRef.current?.value,
+      email: emailRef.current?.value,
+      phone: phoneRef.current?.value,
+      prestation: prestationRef?.value,
+      destinataire: destinataireRef?.value,
+      delapart: delapartRef?.value,
+      livraison: livraisonRef?.value
+    };
+    try {
+      const response = await axios.post(
+        "https://naitre-ensemble.herokuapp.com/cadeau",
+        data
+      );
+      if (response.status === 200) {
+        Router.push("/bon-cadeau-success");
+      }
+    } catch (error) {
+      console.error(error);
+    }
+  };
 
   return (
     <div className="relative">
@@ -151,7 +178,7 @@ export default function BonCadeau() {
                   Destinataire
                 </label>
                 <input
-                  ref={phoneRef}
+                  ref={destinataireRef}
                   className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                   id="grid-phone"
                   type="text"
@@ -168,7 +195,7 @@ export default function BonCadeau() {
                   De la part de
                 </label>
                 <input
-                  ref={phoneRef}
+                  ref={delapartRef}
                   className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                   id="grid-phone"
                   type="text"
@@ -233,7 +260,7 @@ export default function BonCadeau() {
                   Choix de livraison
                 </label>
                 <select
-                  ref={prestationRef}
+                  ref={livraisonRef}
                   className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                   id="grid-theme"
                   type="text"
