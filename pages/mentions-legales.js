@@ -48,65 +48,65 @@ export default function Mentions() {
             Hébergeur : OVH sas Siège social : 2 rue Kellermann - 59100 Roubaix
             - France Contact : http://www.ovh.com Le présent site est la
             propriété de Leslie RICHARD utilisant la notion Naître Ensemble™
-            comme nom de marque. 1. CONDITIONS D'UTILISATION DU SITE Naître
-            Ensemble ™ fournit ses services sous réserve de l'engagement de
-            l'utilisateur à respecter les présentes conditions d'utilisation que
+            comme nom de marque. 1. CONDITIONS D&apos;UTILISATION DU SITE Naître
+            Ensemble ™ fournit ses services sous réserve de l&apos;engagement de
+            l&apos;utilisateur à respecter les présentes conditions d&apos;utilisation que
             Leslie RICHARD sera libre de modifier à tout moment. 2. PROPRIÉTÉ
             INTELLECTUELLE En accord avec les lois régissant la propriété
-            intellectuelle, la reproduction ou l'utilisation des éléments se
+            intellectuelle, la reproduction ou l&apos;utilisation des éléments se
             trouvant sur le site internet www.naitreensemble.fr, en totalité ou
             en partie, est strictement interdite. Seules sont maintenues les
             exceptions légales dont notamment la représentation dans le cadre du
             cercle de famille, la copie privée ou le droit de courte citation.
             Ainsi, tous les textes, photos, logos, marques et autres éléments
             reproduits sur ce site sont réservés et protégés par le droit de la
-            propriété intellectuelle. (Droit d'auteur et droit des marques).
+            propriété intellectuelle. (Droit d&apos;auteur et droit des marques).
             Toute représentation totale ou partielle de ce site par quelque
-            procédé que ce soit, sans l'autorisation expresse et préalable de
+            procédé que ce soit, sans l&apos;autorisation expresse et préalable de
             Leslie RICHARD est interdite et constituerait une contrefaçon
             sanctionnée par les articles L 335-2 et suivants du Code de la
             propriété intellectuelle. 3. DONNÉES PERSONNELLES Naître Ensemble™
-            s'engage à maintenir confidentielles les données personnelles
-            fournies par l'utilisateur du site et à ne pas les transférer à
-            d'autres sociétés ou organismes. Naître Ensemble™ s'engage à assurer
-            à toute personne qui en fera la demande un droit d'accès, de
+            s&apos;engage à maintenir confidentielles les données personnelles
+            fournies par l&apos;utilisateur du site et à ne pas les transférer à
+            d&apos;autres sociétés ou organismes. Naître Ensemble™ s&apos;engage à assurer
+            à toute personne qui en fera la demande un droit d&apos;accès, de
             rectification et de suppression des données la concernant. Toutes
             les informations légales concernant les données personnelles sont
             disponibles dans la Charte de Confidentialité. 4. RESPONSABILITÉ
             Naître Ensemble™ décline toute responsabilité pour les difficultés
-            rencontrées lors de l'accès à son site ou pour toute défaillance de
+            rencontrées lors de l&apos;accès à son site ou pour toute défaillance de
             communication. Naître Ensemble™ se réserve la possibilité de
-            modifier, d'interrompre temporairement ou de façon permanente, toute
+            modifier, d&apos;interrompre temporairement ou de façon permanente, toute
             ou une partie du site, sans préavis. Naître Ensemble ™ ne pourra en
             aucun cas être tenu pour responsable à votre encontre ou à
-            l'encontre d'un tiers de toute modification, interruption ou
-            suspension du site. L'utilisateur est invité à remplir le formulaire
+            l&apos;encontre d&apos;un tiers de toute modification, interruption ou
+            suspension du site. L&apos;utilisateur est invité à remplir le formulaire
             de contact pour toute remarque propre au contenu ou au
-            fonctionnement du site. 5. LIENS HYPERTEXTES L'utilisateur est libre
-            d'établir des liens vers le site et le blog www.naitreensemble.fr
-            dans la mesure où ils ne portent pas atteinte à l'image de son
-            éditeur. Naître Ensemble ™ n'est en aucun cas responsable du contenu
+            fonctionnement du site. 5. LIENS HYPERTEXTES L&apos;utilisateur est libre
+            d&apos;établir des liens vers le site et le blog www.naitreensemble.fr
+            dans la mesure où ils ne portent pas atteinte à l&apos;image de son
+            éditeur. Naître Ensemble ™ n&apos;est en aucun cas responsable du contenu
             et de la disponibilité des sites Internet accessibles à travers son
-            site web. 6. INFORMATION CLIENTÈLE En cas d'annulation ou de report
-            de rendez-vous, Leslie RICHARD invite sa clientèle à l'en informer
+            site web. 6. INFORMATION CLIENTÈLE En cas d&apos;annulation ou de report
+            de rendez-vous, Leslie RICHARD invite sa clientèle à l&apos;en informer
             par téléphone au 06 44 76 55 88 ou par mail via le formulaire de
-            contact au minimum 48 heures à l'avance. Toute séance annulée moins
-            de 48 heures à l'avance devra être payée dans son intégralité ou
-            annulera la validité du bon cadeau. À partir de la date d'achat, les
+            contact au minimum 48 heures à l&apos;avance. Toute séance annulée moins
+            de 48 heures à l&apos;avance devra être payée dans son intégralité ou
+            annulera la validité du bon cadeau. À partir de la date d&apos;achat, les
             bons cadeaux Naître Ensemble™ sont valable 12 mois. 7. SOINS
-            "BIEN-ÊTRE" Leslie RICHARD invite sa clientèle à s'assurer auprès de
+            "BIEN-ÊTRE" Leslie RICHARD invite sa clientèle à s&apos;assurer auprès de
             leur médecin, gynécologue ou sage-femme que les soins "bien-être"
             sont adaptés à leur condition pré-natal ou post-natal. Merci de bien
             vouloir me confirmer que votre état de santé vous permet de
             bénéficier de mes prestations avant notre rendez-vous. Toutes les
-            prestations sont à but non thérapeutiques sans exception. Ils n'ont
+            prestations sont à but non thérapeutiques sans exception. Ils n&apos;ont
             aucune visée thérapeutique, médicale ou sensuelle. 8. POSTURE
             ÉTHIQUE ET NON MÉDICALE DE DOULA Naître Ensemble™ est signataire de
             la charte Doula de france : https://doulas.info/association/charte/
             Les accompagnements de doula de Leslie RICHARD respectent une
             posture éthique, non médicale, amie des sages femmes. Naître
             Ensemble™ ne propose pas de préparation psychoprophylactique à
-            l'accouchement. Leslie RICHARD invite sa clientèle de s'assurer un
+            l&apos;accouchement. Leslie RICHARD invite sa clientèle de s&apos;assurer un
             suivi médical auprès de leur médecin, gynécologue ou sage-femme.
           </p>
         </div>

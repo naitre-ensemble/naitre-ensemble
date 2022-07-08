@@ -189,7 +189,7 @@ export default function Contact() {
               style={{ color: "#aa8073" }}
               className="text-center mt-4 text-xl p-4 lg:p-0 font-medium"
             >
-              87 rue d'Arras 59500 DOUAI
+              87 rue d&apos;Arras 59500 DOUAI
             </p>
             <p
               style={{ color: "#aa8073" }}
@@ -210,7 +210,7 @@ export default function Contact() {
               style={{ color: "#aa8073" }}
               className="text-center mt-4 text-sm p-4 lg:p-0 font-normal"
             >
-              *Au delà de 15 kilomètres, des frais de déplacement s'appliquent
+              *Au delà de 15 kilomètres, des frais de déplacement s&apos;appliquent
             </p>
           </div>
         </div>
