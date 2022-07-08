@@ -94,8 +94,8 @@ export default function Mentions() {
             de 48 heures à l&apos;avance devra être payée dans son intégralité ou
             annulera la validité du bon cadeau. À partir de la date d&apos;achat, les
             bons cadeaux Naître Ensemble™ sont valable 12 mois. 7. SOINS
-            "BIEN-ÊTRE" Leslie RICHARD invite sa clientèle à s&apos;assurer auprès de
-            leur médecin, gynécologue ou sage-femme que les soins "bien-être"
+            &quot;BIEN-ÊTRE&quot; Leslie RICHARD invite sa clientèle à s&apos;assurer auprès de
+            leur médecin, gynécologue ou sage-femme que les soins &quot;bien-être&quot;
             sont adaptés à leur condition pré-natal ou post-natal. Merci de bien
             vouloir me confirmer que votre état de santé vous permet de
             bénéficier de mes prestations avant notre rendez-vous. Toutes les
