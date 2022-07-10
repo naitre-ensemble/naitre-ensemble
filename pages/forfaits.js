@@ -40,7 +40,7 @@ export default function Forfaits() {
             Idéal pour préparer une naissance, à offrir ou à s&apos;offrir les
             forfaits chez Naître Ensemble vous permettent de vous faire plaisir
             tout en bénéficiant d&apos;avantages. Ils nous permettent également
-            de créer un lien unique avant, pendant ou après la grossesse.
+            de créer un lien unique avant, pendant et après la grossesse.
           </p>
 
           <p
@@ -64,7 +64,7 @@ export default function Forfaits() {
                   style={{ color: "#aa8073" }}
                   className="mt-3 text-xl p-4 lg:p-0 font-normal text-center"
                 >
-                  250 euros
+                  280 euros
                 </p>
                 <div className="w-full mx-auto flex justify-center">
                   <img
@@ -78,9 +78,9 @@ export default function Forfaits() {
                     className="pl-3 text-md font-normal list-disc"
                     style={{ color: "#aa8073" }}
                   >
+                    <li>Rdv personnalisé</li>
                     <li>Massage femme enceinte</li>
                     <li>Rituel du bain sensoriel®</li>
-                    <li>Massage post natal</li>
                     <li>Réflexologie bébé émotionnelle®</li>
                   </ul>
                 </div>
@@ -109,7 +109,7 @@ export default function Forfaits() {
                   style={{ color: "#aa8073" }}
                   className="mt-3 text-xl p-4 lg:p-0 font-normal text-center"
                 >
-                  180 euros
+                  205 euros
                 </p>
                 <div className="w-full mx-auto flex justify-center">
                   <img
@@ -123,10 +123,10 @@ export default function Forfaits() {
                     className="pl-3 text-md font-normal list-disc"
                     style={{ color: "#aa8073" }}
                   >
-                    <li>Massage femme enceinte</li>
-                    <li>Atelier papa/parent coach</li>
-                    <li>Atelier découverte du portage</li>
-                    <li>Atelier découverte de l&apos;allaitement</li>
+                    <li>Rdv personnalisé</li>
+                    <li>Atelier de portage </li>
+                    <li>Atelier allaitement </li>
+                    <li>Atelier massage bébé/enfant</li>
                   </ul>
                 </div>
                 <div className="absolute w-full bottom-6 left-0 flex justify-center">
@@ -168,9 +168,8 @@ export default function Forfaits() {
                     className="pl-3 text-md font-normal list-disc"
                     style={{ color: "#aa8073" }}
                   >
-                    <li>Rituel du bain sensoriel®</li>
-                    <li>Séance massage bébé</li>
-                    <li>Atelier de portage</li>
+                    <li>Massage femme enceinte </li>
+                    <li>Rituel du bain sensoriel</li>
                   </ul>
                 </div>
                 <div className="absolute w-full bottom-6 left-0 flex justify-center">
@@ -198,7 +197,7 @@ export default function Forfaits() {
                   style={{ color: "#aa8073" }}
                   className="mt-3 text-xl p-4 lg:p-0 font-normal text-center"
                 >
-                  160 euros
+                  200 euros
                 </p>
                 <div className="w-full mx-auto flex justify-center">
                   <img
@@ -242,7 +241,7 @@ export default function Forfaits() {
                   style={{ color: "#aa8073" }}
                   className="mt-3 text-xl p-4 lg:p-0 font-normal text-center"
                 >
-                  180 euros
+                  265 euros
                 </p>
                 <div className="w-full mx-auto flex justify-center">
                   <img

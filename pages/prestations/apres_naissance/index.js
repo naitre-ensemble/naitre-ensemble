@@ -52,6 +52,11 @@ export default function Prestations() {
       title: "service doula dodo",
       url: "service-doula-dodo",
     },
+    {
+      url: "rendez-vous-personnalise",
+      image: "custom.jpeg",
+      title: "Rendez vous personnalisé",
+    }
   ];
 
   return (

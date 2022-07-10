@@ -42,6 +42,11 @@ export default function Prestations() {
       title: "Fête de la future mère",
       url: "fete-future-mere",
     },
+    {
+      url: "rendez-vous-personnalise",
+      image: "custom.jpeg",
+      title: "Rendez vous personnalisé",
+    }
   ];
 
   return (
