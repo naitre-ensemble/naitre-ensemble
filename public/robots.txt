@@ -1,0 +1,14 @@
+# *
+User-agent: *
+Disallow: /404
+
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.naitreensemble.fr/
+
+# Sitemaps
+Sitemap: https://www.naitreensemble.fr/sitemap.xml
+Sitemap: https://www.naitreensemble.fr/server-sitemap.xml
