@@ -26,7 +26,7 @@ export default function BonCadeau() {
       prestation: prestationRef?.current?.value,
       destinataire: destinataireRef?.current?.value,
       delapart: delapartRef?.current?.value,
-      livraison: livraisonRef?.current?.value
+      livraison: livraisonRef?.current?.value,
     };
     console.log(data);
     try {

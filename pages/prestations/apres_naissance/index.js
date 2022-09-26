@@ -56,7 +56,7 @@ export default function Prestations() {
       url: "rendez-vous-personnalise",
       image: "custom.jpeg",
       title: "Rendez vous personnalisé",
-    }
+    },
   ];
 
   return (

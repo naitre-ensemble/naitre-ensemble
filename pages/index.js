@@ -40,227 +40,220 @@ export default function Home() {
       <Navbar />
 
       <div className="relative bg-white overflow-hidden">
-        <div className="pt-40 pb-0 lg:pt-40 lg:pb-48">
-          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
-            <div className="sm:max-w-lg">
-              <div className="flex">
-                <h1
-                  style={{ color: "#bd897d" }}
-                  className="text-center text-4xl font-light tracking-tight sm:text-6xl lg:text-left"
-                >
-                  Bienvenue chez Naître Ensemble
-                </h1>
-              </div>
-              <div className="lg:hidden text-center flex justify-center">
+        <div className="pt-20 pb-0 lg:pt-20 lg:pb-48">
+          <div className="grid grid-cols-2">
+            <div
+              className="h-auto flex gap-12 p-12"
+              style={{ background: "#dec3b4" }}
+            >
+              <div className="w-full mx-auto flex justify-center">
                 <img
-                  className="h-auto w-[300px]"
-                  src="/img/logo-mobile-with-text.png"
+                  className="w-full rounded-full"
+                  src="/img/v202.jpeg"
                   alt="Naitre ensemble"
                 />
               </div>
-              <p
-                style={{ color: "#aa8073" }}
-                className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
-              >
-                J&apos;accompagne les femmes et les couples qui veulent vivre
-                une grossesse, un accouchement et un post partum entourés
-                d&apos;une personne ressource, qui leur apportera douceur et
-                confiance durant ce moment de vie totalement bouleversant.
-              </p>
-
-              <div className="flex items-center justify-center mt-9">
+              <div className="w-full mx-auto flex justify-center">
                 <img
-                  src="/img/ponctuation-mark-vector.png"
-                  alt=""
-                  className="h-8 pl-4 lg:pl-0"
+                  className="w-full rounded-full"
+                  src="/img/v201.jpeg"
+                  alt="Naitre ensemble"
                 />
-                <p
-                  className="font-extralight text-xl pl-3"
-                  style={{ color: "#aa8073" }}
-                >
-                  Vivons ensemble une naissance respectée et une parentalité
-                  éclairée
-                </p>
               </div>
             </div>
-            <div className="hidden lg:block">
-              <div className="mt-10">
-                <div
-                  aria-hidden="true"
-                  className="pointer-events-none lg:absolute lg:inset-y-0 lg:max-w-7xl lg:mx-auto lg:w-full"
-                >
-                  <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-[350px] lg:-translate-y-[390px] lg:translate-x-8">
-                    <div className="flex items-center space-x-6 lg:space-x-8">
-                      <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
-                        <div className="w-44 h-64 rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100">
-                          <img
-                            src="/img/10.jpeg"
-                            alt=""
-                            className="w-full h-full object-center object-cover"
-                          />
-                        </div>
-                        <div className="w-44 h-64 rounded-lg overflow-hidden">
-                          <img
-                            src="/img/09.jpeg"
-                            alt=""
-                            className="w-full h-full object-center object-cover"
-                          />
-                        </div>
-                      </div>
-                      <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
-                        <div className="w-44 h-64 rounded-lg overflow-hidden">
-                          <img
-                            src="/img/06.jpeg"
-                            alt=""
-                            className="w-full h-full object-center object-cover"
-                          />
-                        </div>
-                        <div className="w-44 h-64 rounded-lg overflow-hidden">
-                          <img
-                            src="/img/11.jpeg"
-                            alt=""
-                            className="w-full h-full object-center object-cover"
-                          />
-                        </div>
-                        <div className="w-44 h-64 rounded-lg overflow-hidden">
-                          <img
-                            src="/img/15.png"
-                            alt=""
-                            className="w-full h-full object-center object-cover"
-                          />
-                        </div>
-                      </div>
-                      <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
-                        <div className="w-44 h-64 rounded-lg overflow-hidden">
-                          <img
-                            src="/img/07.jpeg"
-                            alt=""
-                            className="w-full h-full object-center object-cover"
-                          />
-                        </div>
-                        <div className="w-44 h-64 rounded-lg overflow-hidden">
-                          <img
-                            src="/img/08.jpeg"
-                            alt=""
-                            className="w-full h-full object-center object-cover"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            <div
+              className="h-auto p-4 flex flex-col items-center justify-center"
+              style={{ background: "#bd897d" }}
+            >
+              <h1 className="text-center text-white">
+                Accompagnante périnatale{" "}
+              </h1>
+              <p className="text-center text-white mt-6">
+                Certifiée par l'École du bien naître (lien vers site à venir:
+                https://www.mespremiersjours.com/)
+              </p>
+              <p className="text-center text-white mt-6">
+                J'accompagne les femmes et les couples qui veulent vivre une
+                grossesse, un accouchement et un post partum entourés d'une
+                personne ressource, qui leur apportera de la douceur, de la
+                confiance et du bien être durant ce moment de vie totalement
+                bouleversant.
+              </p>
+              <div className="w-full text-center mt-6">
+                <Link href="/prendre-rendez-vous">
+                  <button
+                    style={{ background: "#bd897d" }}
+                    className="shadow focus:shadow-outline focus:outline-none border-2 text-white font-bold py-2 px-4 rounded"
+                    type="button"
+                  >
+                    Prendre rendez-vous
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
 
-                {/* <a href="#" className="inline-block text-center bg-indigo-600 border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-indigo-700">Shop Collection</a> */}
+          <div className="grid grid-cols-2 mt-12">
+            <div className="h-auto p-4 flex flex-col items-center justify-center">
+              <h1 className="text-center mt-6">
+                Le bien être pour bien naître. Je suis à vos côtés pour vous
+                rassurer, vous accompagner, prendre soin de vous et de votre
+                bébé. Dè
+              </h1>
+              <p className="text-center mt-6">
+                Je suis Leslie et je vous accompagne sur le chemin du devenir
+                parent à travers le bien être de maman, de bébé et du couple.
+              </p>
+              <div className="flex justify-center mt-3">
+                <img
+                  className="w-auto h-20"
+                  src="/img/v203.png"
+                  alt="Naitre ensemble"
+                />
+              </div>
+              <p className="text-center mt-6">
+                Éducatrice de jeunes enfants diplômée d'état Ambassadrice de
+                l'École du Bien Naître (LIEN
+                :https://www.lecoledubiennaitre.com/) Doula signataire de la
+                charte des Doulas de France
+              </p>
+              <div className="w-full text-center mt-6">
+                <Link href="/prendre-rendez-vous">
+                  <button
+                    style={{ background: "#bd897d" }}
+                    className="shadow focus:shadow-outline focus:outline-none border-2 text-white font-bold py-2 px-4 rounded"
+                    type="button"
+                  >
+                    Découvrir mes présetations
+                  </button>
+                </Link>
               </div>
             </div>
+            <div className="h-auto flex gap-3 p-4">
+              <div className="w-full mx-auto flex justify-center">
+                <img
+                  className="w-auto h-96"
+                  src="/img/v204.png"
+                  alt="Naitre ensemble"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div
+            style={{ background: "#bd897d" }}
+            className="h-auto grid grid-cols-4 mt-12"
+          >
+            <Link href="/prestations/avant_naissance">
+              <div className="max-w-sm rounded overflow-hidden p-6 cursor-pointer">
+                <div className="w-full mx-auto flex justify-center">
+                  <img
+                    className="w-full rounded-lg"
+                    src="/img/07.jpeg"
+                    alt="Avant la naissance"
+                  />
+                  <p className="font-normal absolute mt-32 text-white text-lg mb-2 flex justify-center">
+                    Avant la naissance
+                  </p>
+                </div>
+              </div>
+            </Link>
+            <Link href="/prestations/avant_naissance">
+              <div className="max-w-sm rounded overflow-hidden p-6 cursor-pointer">
+                <div className="w-full mx-auto flex justify-center">
+                  <img
+                    className="w-full rounded-lg"
+                    src="/img/v205.jpeg"
+                    alt="Avant la naissance"
+                  />
+                  <p className="font-normal absolute mt-32 text-white text-lg mb-2 flex justify-center">
+                    Le bien être des bébés
+                  </p>
+                </div>
+              </div>
+            </Link>
+            <Link href="/prestations/avant_naissance">
+              <div className="max-w-sm rounded overflow-hidden p-6 cursor-pointer">
+                <div className="w-full mx-auto flex justify-center">
+                  <img
+                    className="w-full rounded-lg"
+                    src="/img/15.png"
+                    alt="Avant la naissance"
+                  />
+                  <p className="font-normal absolute mt-32 text-white text-lg mb-2 flex justify-center">
+                    Accompagnement périnatal
+                  </p>
+                </div>
+              </div>
+            </Link>
+            <Link href="/prestations/avant_naissance">
+              <div className="max-w-sm rounded overflow-hidden p-6 cursor-pointer">
+                <div className="w-full mx-auto flex justify-center">
+                  <img
+                    className="w-full rounded-lg"
+                    src="/img/10.jpeg"
+                    alt="Avant la naissance"
+                  />
+                  <p className="font-normal absolute mt-32 text-white text-lg mb-2 flex justify-center">
+                    Accompagnement postnatal
+                  </p>
+                </div>
+              </div>
+            </Link>
           </div>
         </div>
       </div>
 
-      <h2
-        id="accompagnements"
-        style={{ color: "#bd897d" }}
-        className="mt-24 text-4xl text-center font-normal tracking-tight text-gray-900"
-      >
-        Mes accompagnements
-      </h2>
-      <div className="pt-20 pb-20 grid lg:grid-flow-col gap-16 justify-center">
-        <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
-          <div className="w-full mx-auto flex justify-center">
-            <img
-              className="w-full rounded-lg"
-              src="/img/16.png"
-              alt="Avant la naissance"
-            />
-          </div>
-          <div className="px-8 py-6 flex flex-col justify-center">
-            <div
-              style={{ color: "#bd897d" }}
-              className="font-normal text-lg mb-2 flex justify-center"
-            >
-              Avant la naissance
-            </div>
-          </div>
-          <div className="flex justify-center">
-            <Link href="/prestations/avant_naissance">
-              <button
-                style={{ background: "#bd897d" }}
-                className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
-                type="button"
-              >
-                En savoir plus
-              </button>
-            </Link>
-          </div>
+      <div className="flex">
+        <div className="flex justify-center">
+          <img className="w-1/3" src="/img/v201.jpeg" alt="Naitre ensemble" />
         </div>
-        <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
-          <div className="w-full mx-auto flex justify-center">
-            <img
-              className="w-full rounded-lg"
-              src="/img/doula.png"
-              alt="Accompagnement de doula"
-            />
-          </div>
-          <div className="px-8 py-6 flex flex-col justify-center">
-            <div
-              style={{ color: "#bd897d" }}
-              className="font-normal text-lg mb-2 flex justify-center"
-            >
-              Accompagnement de Doula
-            </div>
-          </div>
-          <div className="flex justify-center">
-            <Link href="/accompagnement-doula">
-              <button
-                style={{ background: "#bd897d" }}
-                className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
-                type="button"
-              >
-                En savoir plus
-              </button>
-            </Link>
-          </div>
+        <div>
+          <h2 className="text-lg" style={{ color: "#bd897d" }}>
+            Mon approche
+          </h2>
+
+          <p className="mt-6">
+            Mon approche et mes valeurs sont avant tout les vôtres. Il est
+            essentiel pour moi de respecter et de m'adapter à chaque parent,
+            chaque bébé et chaque famille. Ma façon d'être avec les bébés et
+            leur famille est tournée vers le maternage proximale (massage, bain
+            bébé, allaitement bébé signes, ...LIENS VERS LES PRESTATIONS
+            CONCERNÉES). J'accompagne avec douceur, bienveillance et humilité.{" "}
+          </p>
+
+          <p className="mt-6">
+            Vous êtes les experts de vos enfants et de la naissance, je suis
+            votre accompagnante.{" "}
+          </p>
+
+          <p className="mt-6">
+            Il est primordiale pour moi de vous offrir le meilleur. C'est
+            pourquoi je suis diplômée d'état, j'ai expérimenté dans divers lieux
+            et auprès de centaines de familles, j'ai réalisé plus d'une
+            vingtaine de formations et je suis certifiée Ambassadrice du Bien
+            Naître par L'école du bien naître (lien) de Sonia Krief (lien
+            :https://www.instagram.com/lebaindesonia/)
+          </p>
         </div>
-        <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
-          <div className="w-full mx-auto flex justify-center">
-            <img
-              className="w-full rounded-lg"
-              src="/img/naissance.png"
-              alt="Après la naissance"
-            />
-          </div>
-          <div className="px-8 py-6 flex flex-col justify-center">
-            <div
-              style={{ color: "#bd897d" }}
-              className="font-normal text-lg mb-2 flex justify-center"
-            >
-              Après la naissance
-            </div>
-          </div>
-          <div className="flex justify-center">
-            <Link href="/prestations/apres_naissance">
-              <button
-                style={{ background: "#bd897d" }}
-                className="shadow focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
-                type="button"
-              >
-                En savoir plus
-              </button>
-            </Link>
-          </div>
-        </div>
+      </div>
+
+      <div className="h-auto mt-12 p-12" style={{ background: "#dec3b4" }}>
+        <p className="text-center text-white">
+          Parents ? Futurs parents ? En désir d'enfant ? N'attendez plus pour
+          vous offrir une accompagnante périnatale et une parenthèse de bien
+          être de la grossesse au post partum.
+        </p>
+
+        <p className="text-center text-white mt-12">
+          CABINET PÉRINATAL - 50 RUE DE LA CLOCHE 59500 DOUAI ACCOMPAGNANTE
+          PÉRINATALE NORD - HAUTS DE FRANCE GROSSESSE - NAISSANCE - POST
+          ACCOUCHEMENT NOUVEAU NÉ - BÉBÉ - MAMAN - COUPLE DOUAI - LILLE - LENS -
+          ARRAS - CAMBRAI - VALENCIENNES
+        </p>
       </div>
 
       <div className="flex justify-center pb-20 h-[600px]">
-        {/* <iframe
-          width="400"
-          height="315"
-          src="https://www.youtube.com/embed/mDBbDCvlL8E"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe> */}
         <Carousel
           swipeable={false}
           draggable={false}
@@ -366,41 +359,6 @@ export default function Home() {
           </div>
         </Carousel>
       </div>
-
-      {/* <div
-        className="h-auto lg:h-[300px] pt-10 flex flex-col items-center"
-        style={{ background: "#cda69e" }}
-      >
-        <h4 className="text-center">
-          <span className="text-lg lg:text-2xl mb-1 block text-center italic font-normal text-gray-600">
-            Abonnez vous à
-          </span>
-          <span className="text-2xl lg:text-4xl block text-center font-normal tracking-tight text-gray-600">
-            LA NEWSLETTER Naître Ensemble
-          </span>
-          <span className="mt-2 text-lg lg:text-2xl block text-center font-normal tracking-tight text-gray-600">
-            pour recevoir des offres exclusives, des nouveautés et des astuces
-          </span>
-        </h4>
-        <div className="mt-10 mb-6 flex">
-          <input
-            className="appearance-none h-12 block w-[200px] lg:w-[500px] bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-            id="grid-first-name"
-            type="email"
-            autoComplete="email"
-            required
-            placeholder="leslie@gmail.com"
-          />
-          <button
-            style={{ background: "#bd897d" }}
-            className="shadow h-12 ml-1 focus:shadow-outline focus:outline-none text-white font-bold px-4 rounded"
-            type="button"
-          >
-            S&apos;abonner
-          </button>
-        </div>
-      </div> */}
-
       <Footer />
     </div>
   );

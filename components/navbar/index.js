@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <div
       className="fixed top-0 w-full"
-      style={{ background: "#bd897d", zIndex: 999999999 }}
+      style={{ background: "#ffffff", zIndex: 999999999 }}
     >
       <div className="w-full">
         {displayMobileMenu ? (
@@ -28,7 +28,7 @@ export default function Navbar() {
               <div className="relative flex flex-col justify-between w-full pl-12 pr-12">
                 <Link href="/concept">
                   <div className="mb-3 p-3 text-lg font-normal text-gray-500 cursor-pointer select-none">
-                    <span className="mr-9">Concept</span>
+                    <span className="mr-9">Présentation</span>
                   </div>
                 </Link>
                 <Link href="/qui-suis-je">
@@ -66,15 +66,6 @@ export default function Navbar() {
           </div>
         ) : null}
         <div className="flex justify-between items-center md:justify-start md:space-x-10">
-          <div className="flex justify-start pl-4">
-            <Link href="/">
-              <img
-                className="h-20 w-auto cursor-pointer"
-                src="/img/logo.png"
-                alt="Naitre ensemble"
-              />
-            </Link>
-          </div>
           <div className="-mr-2 -my-2 md:hidden">
             <button
               type="button"
@@ -104,275 +95,64 @@ export default function Navbar() {
             </button>
           </div>
           <nav
-            className="hidden lg:flex w-full"
+            className="hidden lg:flex w-full items-center"
             onMouseLeave={() => setCurrentMenu(null)}
           >
-            <div className="relative flex justify-between w-full">
+            <div className="relative flex justify-between w-full items-center">
               <Link href="/concept">
-                <div className="-m-3 p-3 text-lg font-normal text-white cursor-pointer select-none hover:underline">
-                  <span className="mr-9">Concept</span>
+                <div
+                  style={{ color: "#bd897d" }}
+                  className="-m-3 p-3 text-lg font-normal text-white cursor-pointer select-none hover:underline"
+                >
+                  <span className="mr-9">Présentation</span>
                 </div>
               </Link>
-              <Link href="/qui-suis-je">
-                <div className="-m-3 p-3 text-lg font-normal text-white cursor-pointer select-none hover:underline">
-                  <span className="mr-9">Qui suis-je</span>
+              <Link href="/concept">
+                <div
+                  style={{ color: "#bd897d" }}
+                  className="-m-3 p-3 text-lg font-normal text-white cursor-pointer select-none hover:underline"
+                >
+                  <span className="mr-9">Prestations</span>
                 </div>
               </Link>
-              <div className="w-auto text-left -m-3 p-3">
-                <Menu as="div" className="relative inline-block">
-                  <div>
-                    <Menu.Button className="-m-3 p-3 text-lg font-normal text-white cursor-pointer select-none hover:underline flex justify-center items-center">
-                      Prestations
-                      <ChevronDownIcon
-                        className="ml-2 -mr-1 h-5 w-5 text-white"
-                        aria-hidden="true"
-                      />
-                    </Menu.Button>
-                  </div>
-                  <Transition
-                    as={Fragment}
-                    enter="transition ease-out duration-100"
-                    enterFrom="transform opacity-0 scale-95"
-                    enterTo="transform opacity-100 scale-100"
-                    leave="transition ease-in duration-75"
-                    leaveFrom="transform opacity-100 scale-100"
-                    leaveTo="transform opacity-0 scale-95"
-                  >
-                    <Menu.Items className="absolute right-0 mt-2 w-72 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-                      <div className="px-1 py-1 ">
-                        <Menu.Item>
-                          {({ active }) => (
-                            <div>
-                              {active ? setCurrentMenu("before") : () => {}}
-                              <button
-                                style={{ color: "#906c61" }}
-                                className={`${
-                                  active ? "bg-gray-100" : ""
-                                } group flex w-full items-center rounded-md px-2 py-4 text-sm`}
-                              >
-                                Avant la naissance
-                                <ChevronDownIcon
-                                  className="ml-2 -mr-1 h-5 w-5 text-gray-300"
-                                  aria-hidden="true"
-                                />
-                              </button>
-                              {currentMenu === "before" ? (
-                                <div className="absolute -right-72 top-0 w-72 mt-2 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-                                  <ul className="cursor-pointer">
-                                    <li
-                                      style={{ color: "#906c61" }}
-                                      className={` group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
-                                    >
-                                      <Link href="/prestations/avant_naissance/massage-fertilite">
-                                        Massage fertilité
-                                      </Link>
-                                    </li>
-                                    <li
-                                      style={{ color: "#906c61" }}
-                                      className={`group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
-                                    >
-                                      <Link href="/prestations/avant_naissance/massage-femme-enceinte">
-                                        Massage femme enceinte
-                                      </Link>
-                                    </li>
-                                    <li
-                                      style={{ color: "#906c61" }}
-                                      className={` group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
-                                    >
-                                      <Link href="/prestations/avant_naissance/réflexologie-femme-enceinte">
-                                        Réflexologie femme enceinte
-                                      </Link>
-                                    </li>
-                                    <li
-                                      style={{ color: "#906c61" }}
-                                      className={` group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
-                                    >
-                                      <Link href="/prestations/avant_naissance/decouverte-portage-physiologique">
-                                        Découverte du portage
-                                      </Link>
-                                    </li>
-                                    <li
-                                      style={{ color: "#906c61" }}
-                                      className={` group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
-                                    >
-                                      <Link href="/prestations/avant_naissance/decouverte-allaitement">
-                                        Découverte de l&apos;allaitement
-                                      </Link>
-                                    </li>
-                                    <li
-                                      style={{ color: "#906c61" }}
-                                      className={` group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
-                                    >
-                                      <Link href="/prestations/avant_naissance/parent-coach">
-                                        Atelier parent coach
-                                      </Link>
-                                    </li>
-                                    <li
-                                      style={{ color: "#906c61" }}
-                                      className={` group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
-                                    >
-                                      <Link href="/prestations/avant_naissance/rendez-vous-personnalise">
-                                        Rendez-vous personnalisé
-                                      </Link>
-                                    </li>
-                                    <li
-                                      style={{ color: "#906c61" }}
-                                      className={` group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
-                                    >
-                                      <Link href="/prestations/avant_naissance/fete-future-mere">
-                                        Fête de la future mère
-                                      </Link>
-                                    </li>
-                                  </ul>
-                                </div>
-                              ) : null}
-                            </div>
-                          )}
-                        </Menu.Item>
-                        <Menu.Item>
-                          {({ active }) => (
-                            <div>
-                              {active ? setCurrentMenu(null) : () => {}}
-                              <Link href="/accompagnement-doula">
-                                <span
-                                  style={{ color: "#906c61" }}
-                                  className={`${
-                                    active ? "bg-gray-100" : ""
-                                  } group flex w-full items-center rounded-md px-2 py-4 text-sm cursor-pointer`}
-                                >
-                                  Accompagnement Doula
-                                </span>
-                              </Link>
-                            </div>
-                          )}
-                        </Menu.Item>
-                        <Menu.Item>
-                          {({ active }) => (
-                            <div>
-                              {active ? setCurrentMenu("after") : () => {}}
-                              <button
-                                style={{ color: "#906c61" }}
-                                className={`${
-                                  active ? "bg-gray-100" : ""
-                                } group flex w-full items-center rounded-md px-2 py-4 text-sm`}
-                              >
-                                Après la naissance
-                                <ChevronDownIcon
-                                  className="ml-2 -mr-1 h-5 w-5 text-gray-300"
-                                  aria-hidden="true"
-                                />
-                              </button>
-                              {currentMenu === "after" ? (
-                                <div className="absolute -right-72 top-0 w-72 mt-2 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-                                  <ul className="cursor-pointer">
-                                    <li
-                                      style={{ color: "#906c61" }}
-                                      className={` group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
-                                    >
-                                      <Link href="/prestations/apres_naissance/rituel-bain-sensoriel">
-                                        Rituel bain sensoriel
-                                      </Link>
-                                    </li>
-                                    <li
-                                      style={{ color: "#906c61" }}
-                                      className={`group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
-                                    >
-                                      <Link href="/prestations/apres_naissance/massage-post-natal">
-                                        Massage post natal
-                                      </Link>
-                                    </li>
-                                    <li
-                                      style={{ color: "#906c61" }}
-                                      className={`group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
-                                    >
-                                      <Link href="/prestations/apres_naissance/rituel-rebozo">
-                                        Soin rituel rebozo
-                                      </Link>
-                                    </li>
-                                    <li
-                                      style={{ color: "#906c61" }}
-                                      className={`group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
-                                    >
-                                      <Link href="/prestations/apres_naissance/massage-bébé">
-                                        Massage bébé / enfant
-                                      </Link>
-                                    </li>
-                                    <li
-                                      style={{ color: "#906c61" }}
-                                      className={`group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
-                                    >
-                                      <Link href="/prestations/apres_naissance/reflexologie-bebe-émotionnelle">
-                                        Réflexologie bébé
-                                      </Link>
-                                    </li>
-                                    <li
-                                      style={{ color: "#906c61" }}
-                                      className={`group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
-                                    >
-                                      <Link href="/prestations/apres_naissance/atelier-de-portage">
-                                        Atelier de portage
-                                      </Link>
-                                    </li>
-                                    <li
-                                      style={{ color: "#906c61" }}
-                                      className={`group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
-                                    >
-                                      <Link href="/prestations/apres_naissance/soutien-en-allaitement">
-                                        Soutien en allaitement
-                                      </Link>
-                                    </li>
-                                    <li
-                                      style={{ color: "#906c61" }}
-                                      className={`group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
-                                    >
-                                      <Link href="/prestations/apres_naissance/aide-à-domicile-postpartum">
-                                        Aide à domicile post partum
-                                      </Link>
-                                    </li>
-                                    <li
-                                      style={{ color: "#906c61" }}
-                                      className={`group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
-                                    >
-                                      <Link href="/prestations/apres_naissance/service-doula-dodo">
-                                        Service doula dodo
-                                      </Link>
-                                    </li>
-                                    <li
-                                      style={{ color: "#906c61" }}
-                                      className={` group flex w-full items-center rounded-md px-3 py-4 text-sm hover:bg-gray-100`}
-                                    >
-                                      <Link href="/prestations/apres_naissance/rendez-vous-personnalise">
-                                        Rendez-vous personnalisé
-                                      </Link>
-                                    </li>
-                                  </ul>
-                                </div>
-                              ) : null}
-                            </div>
-                          )}
-                        </Menu.Item>
-                      </div>
-                    </Menu.Items>
-                  </Transition>
-                </Menu>
-              </div>
               <Link href="/forfaits">
-                <div className="-m-3 p-3 text-lg font-normal text-white cursor-pointer select-none hover:underline">
+                <div
+                  style={{ color: "#bd897d" }}
+                  className="-m-3 p-3 text-lg font-normal text-white cursor-pointer select-none hover:underline"
+                >
                   <span className="mr-9">Forfaits</span>
                 </div>
               </Link>
+              <div className="flex justify-start pl-4">
+                <Link href="/">
+                  <img
+                    className="h-20 w-auto cursor-pointer"
+                    src="/img/logov2.png"
+                    alt="Naitre ensemble"
+                  />
+                </Link>
+              </div>
               <Link href="/structure">
-                <div className="-m-3 p-3 text-lg font-normal text-white cursor-pointer select-none hover:underline">
+                <div
+                  style={{ color: "#bd897d" }}
+                  className="-m-3 p-3 text-lg font-normal text-white cursor-pointer select-none hover:underline"
+                >
                   <span className="mr-9">Structure</span>
                 </div>
               </Link>
               <Link href="/bon-cadeau">
-                <div className="-m-3 p-3 text-lg font-normal text-white cursor-pointer select-none hover:underline">
+                <div
+                  style={{ color: "#bd897d" }}
+                  className="-m-3 p-3 text-lg font-normal text-white cursor-pointer select-none hover:underline"
+                >
                   <span className="mr-9">Bon cadeau</span>
                 </div>
               </Link>
               <Link href="/contact">
-                <div className="-m-3 p-3 text-lg font-normal text-white cursor-pointer select-none hover:underline">
+                <div
+                  style={{ color: "#bd897d" }}
+                  className="-m-3 p-3 text-lg font-normal cursor-pointer select-none hover:underline"
+                >
                   <span className="mr-9">Contact</span>
                 </div>
               </Link>
