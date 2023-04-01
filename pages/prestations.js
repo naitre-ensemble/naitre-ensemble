@@ -42,10 +42,10 @@ export default function Prestations() {
             </h1>
             <p className="text-center mt-6">
               Vous êtes une femme ? Une future mère ? Une femme en désir
-              d'enfant ? Déjà maman ? Offrez vous un temps dédié à votre bien
-              être avec votre accompagnante périnatale. Je saurais prendre soin
-              de vous de la préconception, en passant par la grossesse et le
-              post partum.
+              d&apos;enfant ? Déjà maman ? Offrez vous un temps dédié à votre
+              bien être avec votre accompagnante périnatale. Je saurais prendre
+              soin de vous de la préconception, en passant par la grossesse et
+              le post partum.
             </p>
             <div className="w-full text-center mt-6">
               <Link href="/prendre-rendez-vous">
@@ -111,10 +111,10 @@ export default function Prestations() {
             </h1>
             <p className="text-center mt-6">
               La grossesse est une période totalement bouleversante dans la vie
-              d'une femme. Être soutenue, accompagnée et rassurée par une
-              personne fixe durant la grossesse est essentiel. L'accompagnement
-              prénatal s'adresse aux femmes et aux couples du désir d'enfant
-              jusqu'à la naissance.
+              d&apos;une femme. Être soutenue, accompagnée et rassurée par une
+              personne fixe durant la grossesse est essentiel.
+              L&apos;accompagnement prénatal s&apos;adresse aux femmes et aux
+              couples du désir d&apos;enfant jusqu&apos;à la naissance.
             </p>
             <div className="w-full text-center mt-6">
               <Link href="/prendre-rendez-vous">
@@ -140,7 +140,7 @@ export default function Prestations() {
               durant laquelle le soutien émotionnel et logistique est
               primordial. Je serais à vos côtés dans votre quotidien mais aussi
               dans votre aventure de parent dans divers divers domaines tels que
-              les soins, l'éveil de bébé, l'éducation...
+              les soins, l&apos;éveil de bébé, l&apos;éducation...
             </p>
             <div className="w-full text-center mt-6">
               <Link href="/prendre-rendez-vous">

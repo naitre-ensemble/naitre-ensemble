@@ -47,54 +47,56 @@ export default function Presentation() {
         <div className="grid grid-cols-2">
           <div className="flex justify-center p-12 flex-col">
             <p>
-              Je suis Leslie, Éducatrice de Jeunes Enfants à l'origine. Je suis
-              spécialiste de la petite enfance, formée en développement du jeune
-              enfant, en périnatalité et en accompagnement à la parentalité.
+              Je suis Leslie, Éducatrice de Jeunes Enfants à l&apos;origine. Je
+              suis spécialiste de la petite enfance, formée en développement du
+              jeune enfant, en périnatalité et en accompagnement à la
+              parentalité.
             </p>
             <p className="mt-6">
-              J'ai eu la chance de me construire à travers des lieux variés
+              J&apos;ai eu la chance de me construire à travers des lieux variés
               (Pôle Ressources Handicap, Centres Sociaux, crèche, Relais
-              d'Assistant Maternel, Lieux d'Accueil Enfant Parent, domicile...).
-              J'ai ainsi pu accompagner des centaines de familles. Chaque
-              rencontre fut unique et m'aura permis de grandir humainement et
-              professionnellement.{" "}
+              d&apos;Assistant Maternel, Lieux d&apos;Accueil Enfant Parent,
+              domicile...). J&apos;ai ainsi pu accompagner des centaines de
+              familles. Chaque rencontre fut unique et m&apos;aura permis de
+              grandir humainement et professionnellement.{" "}
             </p>
             <p className="mt-6">
               Mon expertise est tournée vers le maternage proximal et
-              l'accompagnement proximal des parents et des enfants. Mes sujets
-              de prédilection sont le développement de l'enfant l'attachement,
-              les neurosciences, l'observation, l'écoute active, la
-              communication non violente, le handicap et les besoins
-              particuliers, l'approche sensorielle de l'enfant, la
-              diversification menée par l'enfant, l'hygiène naturelle infantile,
-              la motricité libre, les soins de développement de l'enfant, les
-              pédagogies alternatives, ...
+              l&apos;accompagnement proximal des parents et des enfants. Mes
+              sujets de prédilection sont le développement de l&apos;enfant
+              l&apos;attachement, les neurosciences, l&apos;observation,
+              l&apos;écoute active, la communication non violente, le handicap
+              et les besoins particuliers, l&apos;approche sensorielle de
+              l&apos;enfant, la diversification menée par l&apos;enfant,
+              l&apos;hygiène naturelle infantile, la motricité libre, les soins
+              de développement de l&apos;enfant, les pédagogies alternatives,
+              ...
             </p>
             <p className="mt-6">
               Les femmes venant à moi depuis toujours et le besoin de préparer
-              mon propre enfantement libre m'ont conduit à me former auprès
-              d'une sage femme traditionnelle, doula, naturopathe, autrice et
-              conférencière pour devenir Doula (accompagnante non médicale à la
-              naissance) et ainsi développer mes compétences autour de la
+              mon propre enfantement libre m&apos;ont conduit à me former auprès
+              d&apos;une sage femme traditionnelle, doula, naturopathe, autrice
+              et conférencière pour devenir Doula (accompagnante non médicale à
+              la naissance) et ainsi développer mes compétences autour de la
               naissance.
             </p>
             <p className="mt-6">
-              Puis j'ai entrepris plus d'une vingtaine de formations durant 3
-              ans pour devenir accompagnante périnatale et parentale et enfin
-              devenir Ambassadrice Bien Naître. Une école unique créée par Sonia
-              Krief.
+              Puis j&apos;ai entrepris plus d&apos;une vingtaine de formations
+              durant 3 ans pour devenir accompagnante périnatale et parentale et
+              enfin devenir Ambassadrice Bien Naître. Une école unique créée par
+              Sonia Krief.
             </p>
             <div className="w-full text-center mt-6">
-                <Link href="/prendre-rendez-vous">
-                  <button
-                    style={{ background: "#bd897d" }}
-                    className="shadow focus:shadow-outline focus:outline-none border-2 text-white font-bold py-2 px-4 rounded"
-                    type="button"
-                  >
-                    Prendre rendez-vous
-                  </button>
-                </Link>
-              </div>
+              <Link href="/prendre-rendez-vous">
+                <button
+                  style={{ background: "#bd897d" }}
+                  className="shadow focus:shadow-outline focus:outline-none border-2 text-white font-bold py-2 px-4 rounded"
+                  type="button"
+                >
+                  Prendre rendez-vous
+                </button>
+              </Link>
+            </div>
           </div>
           <div className="w-full flex justify-center pt-12">
             <img
@@ -219,8 +221,8 @@ export default function Presentation() {
           </h2>
           <div className="grid grid-cols-2 p-4">
             <ul className="text-white list-disc ml-4">
-              <li>Diplôme d'État d'Éducateur de Jeunes Enfants</li>
-              <li>Licence Sciences de l'éducation et de la Formation </li>
+              <li>Diplôme d&apos;État d&apos;Éducateur de Jeunes Enfants</li>
+              <li>Licence Sciences de l&apos;éducation et de la Formation </li>
               <li>
                 Certification de doula (accompagnante à la naissance) - Diane
                 Boutin{" "}
@@ -253,7 +255,7 @@ export default function Presentation() {
                 Spécialiste de la transformation du placenta - Julia Amanda
                 Doula
               </li>
-              <li>Accompagner l'allaitement - Julie toutin </li>
+              <li>Accompagner l&apos;allaitement - Julie toutin </li>
               <li>
                 Réflexologie de la femme et Massage fertilité - professionnels
                 libéraux{" "}
