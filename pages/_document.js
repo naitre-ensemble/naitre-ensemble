@@ -28,6 +28,7 @@ class MyDocument extends Document {
             property="og:description"
             content="Accompagnement pour femmes & couples pendant grossesse, accouchement & post-partum. Profitez d'une personne ressource pour vivre ces moments avec sérénité."
           />
+          <meta property="og:type" content="website" />
           <meta
             property="og:image"
             content="https://www.naitreensemble.fr/img/logo.png"
