@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import React, { useState } from "react";
+import React from "react";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import Link from "next/link";
@@ -44,7 +44,7 @@ export default function Home() {
 
       <Navbar />
 
-      <div className="relative bg-white overflow-hidden">
+      <main className="relative bg-white overflow-hidden">
         <div className="pt-40 pb-0 lg:pt-40 lg:pb-48">
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
             <div className="sm:max-w-lg">
@@ -63,15 +63,16 @@ export default function Home() {
                   alt="Naitre ensemble"
                 />
               </div>
-              <p
+              <article
                 style={{ color: "#aa8073" }}
                 className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
               >
                 J&apos;accompagne les femmes et les couples qui veulent vivre
-                une grossesse, un accouchement et un post partum entourés
-                d&apos;une personne ressource, qui leur apportera douceur et
-                confiance durant ce moment de vie totalement bouleversant.
-              </p>
+                une grossesse, un accouchement et un post partum entourés d'une
+                personne ressource. Je propose des services de bain bébé et de
+                massage bébé, afin d&apos;apporter douceur et confiance durant
+                ce moment de vie totalement bouleversant.
+              </article>
 
               <div className="flex items-center justify-center mt-9">
                 <img
@@ -160,7 +161,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </main>
 
       <h2
         id="accompagnements"
@@ -371,41 +372,6 @@ export default function Home() {
           </div>
         </Carousel>
       </div>
-
-      {/* <div
-        className="h-auto lg:h-[300px] pt-10 flex flex-col items-center"
-        style={{ background: "#cda69e" }}
-      >
-        <h4 className="text-center">
-          <span className="text-lg lg:text-2xl mb-1 block text-center italic font-normal text-gray-600">
-            Abonnez vous à
-          </span>
-          <span className="text-2xl lg:text-4xl block text-center font-normal tracking-tight text-gray-600">
-            LA NEWSLETTER Naître Ensemble
-          </span>
-          <span className="mt-2 text-lg lg:text-2xl block text-center font-normal tracking-tight text-gray-600">
-            pour recevoir des offres exclusives, des nouveautés et des astuces
-          </span>
-        </h4>
-        <div className="mt-10 mb-6 flex">
-          <input
-            className="appearance-none h-12 block w-[200px] lg:w-[500px] bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-            id="grid-first-name"
-            type="email"
-            autoComplete="email"
-            required
-            placeholder="leslie@gmail.com"
-          />
-          <button
-            style={{ background: "#bd897d" }}
-            className="shadow h-12 ml-1 focus:shadow-outline focus:outline-none text-white font-bold px-4 rounded"
-            type="button"
-          >
-            S&apos;abonner
-          </button>
-        </div>
-      </div> */}
-
       <Footer />
     </div>
   );
