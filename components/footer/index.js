@@ -92,6 +92,8 @@ export default function Footer() {
         <span>-</span>
         <span>Valenciennes</span>
         <span>-</span>
+        <span>Cambrai</span>
+        <span>-</span>
         <span>Arras</span>
         <span>-</span>
         <span>Nord</span>

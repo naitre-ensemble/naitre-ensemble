@@ -32,7 +32,10 @@ export default function Home() {
   return (
     <div className="relative">
       <Head>
-        <title>Naitre ensemble</title>
+        <title>
+          Bain bébé enveloppé Naitre ensemble Lille Douai Valenciennes Cambrai
+          Arras Nord Pas-de-calais Hauts-de-france
+        </title>
         <meta
           name="description"
           content="Accompagnement pour femmes & couples pendant grossesse, accouchement & post-partum. Profitez d'une personne ressource chez Naitre ensemble pour vivre ces moments avec sérénité."
