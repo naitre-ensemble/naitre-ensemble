@@ -7,18 +7,23 @@ class MyDocument extends Document {
         {" "}
         {/* Remplacez 'fr' par le code de langue approprié */}
         <Head>
-          {/* Ajoutez les balises meta et autres éléments du head ici */}
+          {/* Google tag (gtag.js) */}
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-QQ7J5GJ3GY"
+          />
+          <script
+            // rome-ignore lint/security/noDangerouslySetInnerHtml: <explanation>
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-QQ7J5GJ3GY');
+              `,
+            }}
+          />
         </Head>
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-QQ7J5GJ3GY"
-        />
-        <script>
-          window.dataLayer = window.dataLayer || []; function gtag()
-          {/* rome-ignore lint/style/noArguments: <explanation> */}
-          {dataLayer.push(arguments)}
-          gtag('js', new Date()); gtag('config', 'G-QQ7J5GJ3GY');
-        </script>
         <body>
           <Main />
           <NextScript />
