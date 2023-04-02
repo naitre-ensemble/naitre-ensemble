@@ -17,6 +17,7 @@ export default function Navbar() {
       <div className="w-full">
         {displayMobileMenu ? (
           <div className="absolute top-0 z-50 bg-white w-full h-screen">
+            {/* rome-ignore lint/a11y/useKeyWithClickEvents: <explanation> */}
             <div
               style={{ color: "#906c61" }}
               onClick={() => setDisplayMobileMenu(false)}
