@@ -23,6 +23,16 @@ class MyDocument extends Document {
               `,
             }}
           />
+          <meta property="og:title" content="Naitre ensemble" />
+          <meta
+            property="og:description"
+            content="Accompagnement pour femmes & couples pendant grossesse, accouchement & post-partum. Profitez d'une personne ressource pour vivre ces moments avec sérénité."
+          />
+          <meta
+            property="og:image"
+            content="https://www.naitreensemble.fr/img/logo.png"
+          />
+          <meta property="og:url" content="https://www.naitreensemble.fr" />
         </Head>
         <body>
           <Main />
