@@ -80,7 +80,7 @@ export default function Home() {
               <div className="flex items-center justify-center mt-9">
                 <img
                   src="/img/ponctuation-mark-vector.png"
-                  alt=""
+                  alt="Ponctuation mark"
                   className="h-8 pl-4 lg:pl-0"
                 />
                 <p
@@ -104,14 +104,14 @@ export default function Home() {
                         <div className="w-44 h-64 rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100">
                           <img
                             src="/img/10.jpeg"
-                            alt=""
+                            alt="Femme qui embrasse son bébé"
                             className="w-full h-full object-center object-cover"
                           />
                         </div>
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <img
                             src="/img/09.jpeg"
-                            alt=""
+                            alt="Main qui touche le pied d'un bébé"
                             className="w-full h-full object-center object-cover"
                           />
                         </div>
@@ -120,21 +120,21 @@ export default function Home() {
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <img
                             src="/img/06.jpeg"
-                            alt=""
+                            alt="Couple qui tient une photo d'écographie"
                             className="w-full h-full object-center object-cover"
                           />
                         </div>
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <img
                             src="/img/11.jpeg"
-                            alt=""
+                            alt="Femme qui allaite son bébé"
                             className="w-full h-full object-center object-cover"
                           />
                         </div>
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <img
                             src="/img/15.png"
-                            alt=""
+                            alt="Femme enceinte avec une main qui touche son ventre"
                             className="w-full h-full object-center object-cover"
                           />
                         </div>
@@ -143,14 +143,14 @@ export default function Home() {
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <img
                             src="/img/07.jpeg"
-                            alt=""
+                            alt="Femme enceinte vue de dos"
                             className="w-full h-full object-center object-cover"
                           />
                         </div>
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <img
                             src="/img/08.jpeg"
-                            alt=""
+                            alt="Père qui dors avec son bébé"
                             className="w-full h-full object-center object-cover"
                           />
                         </div>
