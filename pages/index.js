@@ -37,13 +37,6 @@ export default function Home() {
           name="description"
           content="Accompagnement pour femmes & couples pendant grossesse, accouchement & post-partum. Profitez d'une personne ressource chez Naitre ensemble pour vivre ces moments avec sérénité."
         />
-
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="canonical" href="https://www.naitreensemble.fr" />
-        <meta
-          name="google-site-verification"
-          content="OqJtjzEEWYIb7ULttXVLJ2DYMO2e_aWepXJ_xK2F0dU"
-        />
       </Head>
 
       <Navbar />

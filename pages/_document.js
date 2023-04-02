@@ -7,6 +7,12 @@ class MyDocument extends Document {
         {" "}
         {/* Remplacez 'fr' par le code de langue approprié */}
         <Head>
+          <link rel="icon" href="/favicon.ico" />
+          <link rel="canonical" href="https://naitreensemble.netlify.app" />
+          <meta
+            name="google-site-verification"
+            content="OqJtjzEEWYIb7ULttXVLJ2DYMO2e_aWepXJ_xK2F0dU"
+          />
           {/* Google tag (gtag.js) */}
           <script
             async
