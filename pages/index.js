@@ -33,7 +33,11 @@ export default function Home() {
     <div className="relative">
       <Head>
         <title>Naitre ensemble</title>
-        <meta name="description" content="Naitre ensemble" />
+        <meta
+          name="description"
+          content="Accompagnement personnalisé pour les femmes et les couples lors de la grossesse, l'accouchement et le post-partum. Bénéficiez d'une personne ressource pour vivre ces moments bouleversants avec douceur et confiance."
+        />
+
         <link rel="icon" href="/favicon.ico" />
         <link rel="canonical" href="https://www.naitreensemble.fr" />
         <meta
