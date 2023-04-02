@@ -35,7 +35,7 @@ export default function Home() {
         <title>Naitre ensemble</title>
         <meta
           name="description"
-          content="Accompagnement personnalisé pour les femmes et les couples lors de la grossesse, l'accouchement et le post-partum. Bénéficiez d'une personne ressource pour vivre ces moments bouleversants avec douceur et confiance."
+          content="Accompagnement pour femmes & couples pendant grossesse, accouchement & post-partum. Profitez d'une personne ressource pour vivre ces moments avec sérénité."
         />
 
         <link rel="icon" href="/favicon.ico" />
