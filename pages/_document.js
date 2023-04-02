@@ -29,7 +29,7 @@ class MyDocument extends Document {
               `,
             }}
           />
-          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta property="og:title" content="Naitre ensemble" />
           <meta
             property="og:description"
