@@ -168,7 +168,7 @@ export default function Home() {
         style={{ color: "#bd897d" }}
         className="mt-24 text-4xl text-center font-normal tracking-tight text-gray-900"
       >
-        Mes accompagnements
+        Autour de bébé
       </h2>
       <div className="pt-20 pb-20 grid lg:grid-flow-col gap-16 justify-center">
         <div className="max-w-sm rounded overflow-hidden shadow-lg p-6">
