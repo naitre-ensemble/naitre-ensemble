@@ -35,6 +35,7 @@ export default function Home() {
         <title>Naitre ensemble</title>
         <meta name="description" content="Naitre ensemble" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="canonical" href="https://www.naitreensemble.fr" />
         <meta
           name="google-site-verification"
           content="OqJtjzEEWYIb7ULttXVLJ2DYMO2e_aWepXJ_xK2F0dU"
