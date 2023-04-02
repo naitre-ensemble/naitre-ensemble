@@ -9,6 +9,16 @@ class MyDocument extends Document {
         <Head>
           {/* Ajoutez les balises meta et autres éléments du head ici */}
         </Head>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-QQ7J5GJ3GY"
+        />
+        <script>
+          window.dataLayer = window.dataLayer || []; function gtag()
+          {/* rome-ignore lint/style/noArguments: <explanation> */}
+          {dataLayer.push(arguments)}
+          gtag('js', new Date()); gtag('config', 'G-QQ7J5GJ3GY');
+        </script>
         <body>
           <Main />
           <NextScript />
