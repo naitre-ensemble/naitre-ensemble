@@ -33,8 +33,8 @@ export default function Home() {
     <div className="relative">
       <Head>
         <title>
-          Bain bébé enveloppé Naitre ensemble Lille Douai Valenciennes Cambrai
-          Arras Nord Pas-de-calais Hauts-de-france
+          Bain bébé - massage bébé - soins bébé - massage femme enceinte Lille
+          Douai Valenciennes Cambrai Arras Nord Pas-de-calais Hauts-de-france
         </title>
         <meta
           name="description"
