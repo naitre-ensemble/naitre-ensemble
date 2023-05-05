@@ -166,10 +166,10 @@ export default function Contact() {
             <div className="flex justify-center items-center">
               <div className="relative">
                 <img
-                  src="/img/leslie.jpeg"
+                  src="/imgs/leslie.jpg"
                   alt=""
                   style={{ borderRadius: "50%" }}
-                  className="inline object-cover w-[200px] mr-2 rounded-full"
+                  className="inline object-cover w-[200px] h-[200px] mr-2 rounded-full"
                 />
               </div>
             </div>
@@ -189,7 +189,7 @@ export default function Contact() {
               style={{ color: "#aa8073" }}
               className="text-center mt-4 text-xl p-4 lg:p-0 font-medium"
             >
-              87 rue d&apos;Arras 59500 DOUAI
+              50 rue de la cloche 59500 DOUAI
             </p>
             <p
               style={{ color: "#aa8073" }}
