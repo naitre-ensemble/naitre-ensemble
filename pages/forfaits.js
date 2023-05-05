@@ -64,7 +64,7 @@ export default function Forfaits() {
                   style={{ color: "#aa8073" }}
                   className="mt-3 text-xl p-4 lg:p-0 font-normal text-center"
                 >
-                  280 euros
+                  240 euros
                 </p>
                 <div className="w-full mx-auto flex justify-center">
                   <img
@@ -109,7 +109,7 @@ export default function Forfaits() {
                   style={{ color: "#aa8073" }}
                   className="mt-3 text-xl p-4 lg:p-0 font-normal text-center"
                 >
-                  205 euros
+                  180 euros
                 </p>
                 <div className="w-full mx-auto flex justify-center">
                   <img
@@ -197,7 +197,7 @@ export default function Forfaits() {
                   style={{ color: "#aa8073" }}
                   className="mt-3 text-xl p-4 lg:p-0 font-normal text-center"
                 >
-                  200 euros
+                  170 euros
                 </p>
                 <div className="w-full mx-auto flex justify-center">
                   <img
@@ -241,7 +241,7 @@ export default function Forfaits() {
                   style={{ color: "#aa8073" }}
                   className="mt-3 text-xl p-4 lg:p-0 font-normal text-center"
                 >
-                  265 euros
+                  210 euros
                 </p>
                 <div className="w-full mx-auto flex justify-center">
                   <img
