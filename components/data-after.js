@@ -50,7 +50,7 @@ const data = [
     ],
     prestations: ["à domicile", "en cabinet"],
     duration: "1h30",
-    price: `95 euros`,
+    price: `90 euros`,
     infos: [],
   },
   {
@@ -75,7 +75,7 @@ const data = [
     ],
     prestations: ["à domicile", "en cabinet"],
     duration: "3 heures",
-    price: `250 euros`,
+    price: `150 euros`,
     infos: [],
   },
   {
@@ -98,7 +98,7 @@ const data = [
     ],
     prestations: ["à domicile", "en cabinet"],
     duration: "1h",
-    price: `60 euros `,
+    price: `50 euros `,
     infos: [
       `Huile bio fournie`,
       `Livret de massage version papier fourni en fin de séance`,
@@ -211,7 +211,7 @@ const data = [
     ],
     prestations: ["à domicile", "en cabinet"],
     duration: " 1h ",
-    price: `60 euros`,
+    price: `50 euros`,
     infos: [
       `La réflexologie bébé émotionnelle® n'est pas thérapeutique et ne se substitue pas à un suivi médical.`,
       `Elle intervient en soutien aux différentes maux du quotidien : maux de ventre, petit virus du quotidien, les problèmes de la sphère ORL, les douleurs, les angoisses, les phobies, les émotions difficiles...`,

@@ -20,7 +20,7 @@ const data = [
     ],
     prestations: ["à domicile", "en cabinet"],
     duration: "1h30",
-    price: "95 euros",
+    price: "90 euros",
     infos: [
       `Livret de transmission remis en fin de séance`,
       `L'objectif est de vous rendre autonome pour soutenir votre fertilité et de vous offrir un soin bien être sur mesure`,
@@ -42,7 +42,7 @@ const data = [
     ],
     prestations: ["à domicile", "en cabinet"],
     duration: "1h30",
-    price: "95 euros",
+    price: "90 euros",
     infos: [
       `Contre-indications : fièvre, hypertension ou vaccin de moins de 48h. En cas de doute demandez toujours l'avis de votre professionnel de santé de référence.`,
     ],
@@ -63,7 +63,7 @@ const data = [
     ],
     prestations: ["à domicile", "en cabinet"],
     duration: "1h",
-    price: "65 euros",
+    price: "60 euros",
     infos: [],
   },
   {
