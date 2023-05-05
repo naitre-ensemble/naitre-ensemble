@@ -68,10 +68,10 @@ export default function Home() {
                 className="mt-4 text-xl p-4 text-justify lg:text-left lg:p-0 font-extralight"
               >
                 J&apos;accompagne les femmes et les couples qui veulent vivre
-                une grossesse, un accouchement et un post partum entourés d&apos;une
-                personne ressource. Je propose des services de bain bébé et de
-                massage bébé, afin d&apos;apporter douceur et confiance durant
-                ce moment de vie totalement bouleversant.
+                une grossesse, un accouchement et un post partum entourés
+                d&apos;une personne ressource. Je propose des services de bain
+                bébé et de massage bébé, afin d&apos;apporter douceur et
+                confiance durant ce moment de vie totalement bouleversant.
               </article>
 
               <div className="flex items-center justify-center mt-9">

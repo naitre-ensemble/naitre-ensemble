@@ -8,10 +8,7 @@ export default function BonCadeauSuccess() {
     <div className="relative">
       <Head>
         <title>Naitre ensemble - bon cadeau</title>
-        <meta
-          name="description"
-          content="Naitre ensemble / bon cadeau"
-        />
+        <meta name="description" content="Naitre ensemble / bon cadeau" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />

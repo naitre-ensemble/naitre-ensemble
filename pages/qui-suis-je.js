@@ -78,20 +78,9 @@ export default function WhoIam() {
               <div className="relative">
                 <img
                   src="/imgs/leslie.jpg"
-                  alt=""
-                  style={{ borderRadius: "50%" }}
-                  className="inline object-cover w-[300px] h-[300px] mr-2 rounded-full"
+                  alt="Leslie Richard - Naître Ensemble"
+                  className="inline object-cover w-[300px] h-auto"
                 />
-                <div
-                  className="absolute -bottom-12 -right-16 lg:-bottom-12 lg:-right-28 h-[200px] w-[200px] flex justify-center text-justify items-center p-4 rounded-full"
-                  style={{ background: "#bd897d" }}
-                >
-                  {/* <p className="text-white text-center">Membre Doula de France Partenaire Ohmamacare Ambassadrice du
-                  bain Sensoriel ®</p> */}
-                  <p className="text-white text-md lg:text-lg text-center">
-                    Ambassadrice du bain Sensoriel ®
-                  </p>
-                </div>
               </div>
             </div>
           </div>
